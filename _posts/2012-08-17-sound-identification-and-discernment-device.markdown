@@ -1,0 +1,77 @@
+---
+
+title: Sound identification and discernment device
+abstract: The disclosed invention provides the ability for an operator, such as a sonar watch stander, to pay attention to both ambient sounds and system audio sound simultaneously. Further, the disclosed invention allows an operator to hear information being disseminated in the immediate environment, while still maintaining full sonar audio capability. The present invention allows the operator to take advantage of the benefits of binaural processing.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09055368&OS=09055368&RS=09055368
+owner: The United States of America as represented by the Secretary of the Navy
+number: 09055368
+owner_city: Washington
+owner_country: US
+publication_date: 20120817
+---
+The invention described herein may be manufactured and used by or for the Government of the United States of America for governmental purposes without the payment of any royalties thereon or therefore.
+
+The present invention relates to an apparatus that allows an operator to hear information being disseminated in the immediate environment while maintaining a full system audio capability e.g. full sonar audio capability. More particularly the apparatus relates to sound identification and discernment that provides ability of an operator to pay attention to both ambient sounds and system audio simultaneously. The apparatus of the present invention allows the operator the ability to take advantage of the human s natural binaural listening advantage known in the art.
+
+As used herein headsets earphones microphones and other such listening devices are meant to represent transducers that convert one quantity into another quantity specifically when one of the quantities is electrical.
+
+Currently sonar operators must remove one side of their headset to hear conversations and discussions in their immediate environment. The removal of one side of the headset allows for environmental conversational awareness but eliminates the advantage of the human s natural binaural listening advantage. Accordingly the operator suffers a decrement in the ability to listen to system audio such as radio communications or SONAR. The removal of one ear cup also precludes the use of 3 D and spatially aware audio technologies made available by the proper usage of headsets.
+
+There are four basic types of headsets 1 Circumaural earphones with or without passive noise isolating properties 2 Behind the ear earpieces typically used for amplification 3 Bud earpieces commonly used for communications and music and 4 Completely in the canal self contained amplification devices. Headsets can be used binaurally both ears and monaurally one ear. The design and intended application of headsets can determine which method provides optimal use.
+
+Current state of the market circumaural headsets utilize active noise cancellation ANC processes allowing background or ambient noise to be reduced. Hearing aid and headset advances now include the use of Bluetooth and wireless connectability with televisions phones and other devices. Bluetooth is a term known in the art and represents a proprietary open wireless technology standard for exchanging data over short distances from fixed and mobile devices. In addition to Bluetooth hearing aid technology includes advances in noise cancellations miniaturization and other improvements to provide improved hearing for an operator such as a sonar operator or Air Traffic Controllers.
+
+Accordingly it is an object of the present invention to provide a sound identification and discernment apparatus that integrates hearing aid like technology into a sonar watch stander or Air Traffic Controller headset.
+
+Another object of the present invention is to allow the user to listen to non system conversation in the local environment but to give the option to the operator to toggle on off a noise cancellation filter so as to focus on system audio such as spatial 3 D auditory sonar signals.
+
+It is a further object of the present invention to allow the operator of the sound identification and discernment system to be able to vary the ratio of ambient environmental sound to system audio.
+
+Still further it is an object of the present invention to provide an active noise cancellation apparatus which essentially removes ambient environmental sound allowing full concentration on system audio.
+
+Further still it is an object of the present invention to allow the operator to utilize a pair of headsets with each headset remaining stationary on a respective ear of the operator to provide a binaural listening advantage while still having the ability to pay attention to both the ambient sound and system audio simultaneously.
+
+In accordance with the present invention a sound identification and discernment apparatus is provided for both sonar operators and Air Traffic Controllers. The apparatus provides binaural listening and all of the advantages thereof for humans having a pair of ears. The apparatus comprises a a pair of transducers each serving as a headset and each having first and second inputs with the first input thereof receiving ambient sound input signals and the second input thereof receiving system audio input signals each of the headsets remaining stationary on a respective ear of a human utilizing the apparatus. The apparatus further comprises b a processor receiving first and second signals with the first signal being representative of the ambient sound input signals and the second signal thereof being representative of the audio signals of the system. In addition the processor receives an input that serves to adjust the ratio between these two input signals. The processor provides an output signal representative of both the first and second received signals in a ratio adjusted by the operator. The processor output signal is routed to at least each of the second inputs of each of the transducers.
+
+Referring now to the drawings and more particularly to there is shown a block diagram of the sound identification and discernment apparatus in accordance with one embodiment of the present invention. The apparatus comprises a pair of transducers A and B each serving as the opposing halves of an audio headset. Each of the transducers A and B are designed for placing on the head of a human user such that transducer A covers and remains stationary on one of the ears of the user and transducer B covers and remains stationary on the other opposite ear of the user utilizing the apparatus . In a preferred embodiment the apparatus is part of a larger audio system such as a SONAR system. Working in conjunction with the SONAR system apparatus provides binaural listening and all of the advantages thereof for the user which in a preferred embodiment is a sonar operator standing watch.
+
+The pair of transducers A and B are interconnected by a headband having interaural connections that provide control signals and power to the transducers in a manner known in the art. Each of the transducers A and B comprises a microphone and an earphone speaker embedded in noise isolating material that will prevent sound surrounding the user to reach the user s ears when placed on the user s head.
+
+The microphone of the transducer A receives signal A representing ambient sound input from the environment and similarly microphone of transducer B receives signal B which also represents sound input from the environment. Further earphone speaker of each of the transducers A and B allows sound to be passed to the ear of the operator utilizing apparatus . Earphone speaker also allows SONAR system sound to be passed to the operator.
+
+The apparatus further includes a processing module which receives at least first and second signals and with the first signal being representative of the audio signals of the larger audio system and the second signal being supplied by a device being representative of a switch to adjust the ratio of ambient to system audio. The processor generates an output signal representative of both signals and and which is routed to each of the microphones in each of the transducers A and B and also preferably to one or more external listening stations . . . .
+
+The processing module receives electrical power from bus which is routed to a conventional switching device having positions A and B that are respectively routed to external power source and batteries . In one embodiment the apparatus utilization of one or more batteries allows each of the transducers A and B to be wireless.
+
+The first signal representative of the audio signals of the system is delivered to the processor by way of a conventional switching device having positions A and B that are respectively connected to wired system audio input and wireless system audio input . The wireless system audio input receives a signal developed by a Bluetooth antenna known in the art by way of signal path . Each of the wired system audio input and wireless system input preferably receive an input from microphone by way of signal path . In a preferred embodiment the microphone is a hydrophone that is part of a passive SONAR system.
+
+The processor receives a second signal which is routed from a signal representative of the ambient sound input from the environment.
+
+The processor receives a third signal from switch . The switch is an operator switch with a slider Mode Indicator to provide the option for the selection of Full Ambient An adjusted ratio of Ambient to System Input and Full System Input with Active Noise Cancellation. Further switch may be responsive to a control signal generated by an arrangement of Bluetooth enabling device . The Bluetooth enabling device as well as the generated control signal is known in the art. The processing module may be further described with reference to .
+
+The audio filtering circuit receives the selected signal on path providing an output signal on signal path that is routed to the active noise cancellation circuit . The active noise cancellation circuit cancels unwanted ambient sound from the environment A and B in a manner known in the art and provides an output to amplifier circuit by way of signal path . The active noise cancellation circuit is controlled by the position of the switch . The amplifier circuit provides amplification levels that are limited to meet the standards known in the art for SONAR operation. The amplifier circuit provides an output on signal path previously discussed with reference to that is routed to the pair of transducers A and B and the external circuits . . . .
+
+The apparatus of the present invention integrates the use of active noise cancellation element and hearing aid audio filter technologies element as part of the audio interface for in one embodiment a sonar watch stander. The sonar watch stander has the transducers A and B on or in both ears so as to be provided with the benefits of binaural listening.
+
+The apparatus of the present invention captures ambient environmental sound A and B such as conversation. The ear cups or plugs elements A and B are connected to each other and to the sonar system while allowing the operator to hear what is going on in the immediate area as well. The operator has the ability to hear surrounding conversations element mixed with filtered SONAR audio element thereby providing a spatially aware acoustic environment.
+
+The apparatus of the present invention allows audio input to be received from both the system of interest for example SONAR and as ambient sound from the immediate environmental surroundings. Needed information can therefore be extracted from both inputs system of interest and ambient sound simultaneously without having to remove an ear cup or earplug. The binaural hearing advantage is thereby maintained.
+
+The user of the apparatus may adjust a switch element to allow for audio filtering element and active noise cancellation element to emphasize the SONAR system audio input or to hear the apparatus audio input combined with the ambient acoustic input element . The processing module based on the inputs and performs the filtering element noise cancellation element and combinations of signals and so as to provide an amplified output element that is routed to earphone speakers of the transducers A and B.
+
+It should now be appreciated that the practice of the present invention provides an apparatus having the ability to pay attention to both ambient sounds and system audio simultaneously. The apparatus allows the sonar watch stander to hear information being disseminated in the immediate environment while maintaining full sonar audio capability. The apparatus also allows the operator to take advantage of their inherent binaural processing ability. The new functionality provides clearer more natural sounding audio. Because both earpieces elements A and B are always in use the apparatus allows the incorporation of 3 D spatially aware audio technology.
+
+It should be further appreciated that the practice of the present invention integrates hearing aid like technology into sonar watch stander headsets elements A and B . This integration allows the user sonar watch stander to listen to non system audio i.e. conversations in the local environment but is given the option to toggle on off element a noise cancellation filter to focus on system i.e. SONAR audio elements and such as spatial 3 D auditory sonar signals. The operator is able to vary element the ratio of ambient environmental sound to system audio. The active noise cancellation circuit element completely removes ambient environmental sound and allows full concentration on system audio.
+
+It should be further still appreciated that the practice of the present invention provides another embodiment by replacing signal and power input wiring with a Bluetooth antenna element and battery power element . If platform requirements governed by Bluetooth technology allow the wireless capability makes the headset elements A and B mobile.
+
+Further still the practice of the present invention provides an alternative embodiment that allows the audio filtering active noise cancellation switch element to be Bluetooth or similarly enabled elements and .
+
+Still further the practice of the present invention provides an alternative embodiment that allows for the binaural output to the earpieces elements A and B to be augmented by additional not shown spatial 3 D audio processing.
+
+Moreover the practice of the present invention provides an alternative embodiment that allows for the headset elements A and B to have the operator select from multiple communication channels thus allowing the Commanding Officer CO Executive Officer XO Officer of the Deck OOD or others to be connected elements . . . to the system output element as desired.
+
+In addition the practice of the present invention provides an alternative embodiment that allows for other filtering element level needs such as those desired for Air Traffic Controllers.
+
+It will be understood that many additional changes in the details materials steps and arrangement of parts which have been herein described and illustrated in order to explain the nature of the invention may be made by those skilled in the art within the principle and scope of the expressed in the appended claims.
+

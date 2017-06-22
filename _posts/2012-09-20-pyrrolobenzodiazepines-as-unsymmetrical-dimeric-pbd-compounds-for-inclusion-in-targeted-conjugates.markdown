@@ -1,0 +1,582 @@
+---
+
+title: Pyrrolobenzodiazepines as unsymmetrical dimeric PBD compounds for inclusion in targeted conjugates
+abstract: 
+
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09399641&OS=09399641&RS=09399641
+owner: MEDIMMUNE LIMITED
+number: 09399641
+owner_city: Cambridge
+owner_country: GB
+publication_date: 20120920
+---
+This application is a national stage filing under 35 U.S.C. 371 of International Application No. PCT EP2012 068506 filed Sep 20 2012 and claims the benefit of U.S. Provisional Application No. 61 536 669 filed Sep 20 2011 which is incorporated by reference herein.
+
+The present invention relates to pyrrolobenzodiazepines PBDs in particular pyrrolobenzodiazepine dimers having a C2 C3 double bond and a propargyl group at the C2 position on one monomer unit and their inclusion in targeted conjugates.
+
+Some pyrrolobenzodiazepines PBDs have the ability to recognise and bond to specific sequences of DNA the preferred sequence is PuGPu. The first PBD antitumour antibiotic anthramycin was discovered in 1965 Leimgruber et al. 87 5793 5795 1965 Leimgruber et al. 87 5791 5793 1965 . Since then a number of naturally occurring PBDs have been reported and numerous synthetic routes have been developed to a variety of analogues Thurston et al. 1994 433 465 1994 Antonow D. and Thurston D. E. . 2011 111 4 2815 2864 . Family members include abbeymycin Hochlowski et al. 40 145 148 1987 chicamycin Konishi et al. 37 200 206 1984 DC 81 Japanese Patent 58 180 487 Thurston et al. 26 767 772 1990 Bose et al. 48 751 758 1992 mazethramycin Kuminoto et al. 33 665 667 1980 neothramycins A and B Takeuchi et al. 29 93 96 1976 porothramycin Tsunakawa et al. 41 1366 1373 1988 prothracarcin Shimizu et al 29 2492 2503 1982 Langley and Thurston 52 91 97 1987 sibanomicin DC 102 Hara et al. 41 702 704 1988 Itoh et al. 41 1281 1284 1988 sibiromycin Leber et al. 110 2992 2993 1988 and tomamycin Arima et al. 25 437 444 1972 . PBDs are of the general structure 
+
+They differ in the number type and position of substituents in both their aromatic A rings and pyrrolo C rings and in the degree of saturation of the C ring. In the B ring there is either an imine N C a carbinolamine NH CH OH or a carbinolamine methyl ether NH CH OMe at the N10 C11 position which is the electrophilic centre responsible for alkylating DNA. All of the known natural products have an S configuration at the chiral C11a position which provides them with a right handed twist when viewed from the C ring towards the A ring. This gives them the appropriate three dimensional shape for isohelicity with the minor groove of B form DNA leading to a snug fit at the binding site Kohn In . Springer Verlag New York pp. 3 11 1975 Hurley and Needham VanDevanter . 19 230 237 1986 . Their ability to form an adduct in the minor groove enables them to interfere with DNA processing hence their use as antitumour agents.
+
+It has been previously disclosed that the biological activity of this molecules can be potentiated by joining two PBD units together through their C8 C hydroxyl functionalities via a flexible alkylene linker Bose D. S. et al. 114 4939 4941 1992 Thurston D. E. et al. 61 8141 8147 1996 . The PBD dimers are thought to form sequence selective DNA lesions such as the palindromic 5 Pu GATC Py 3 interstrand cross link Smellie M. et al. 42 8232 8239 2003 Martin C. et al. 44 4135 4147 which is thought to be mainly responsible for their biological activity. One example of a PBD dimmer SG2000 SJG 136 
+
+More recently the present inventors have previously disclosed in WO 2005 085251 dimeric PBD compounds bearing C2 aryl substituents such as SG2202 ZC 207 
+
+These compounds have been shown to be highly useful cytotoxic agents Howard P. W. et al. . 2009 19 22 6463 6466 doi 10.1016 j.bmcl.2009.09.012 .
+
+Due to the manner in which these highly potent compounds act in cross linking DNA these molecules have been made symmetrically. This provides for straightforward synthesis either by constructing the PBD moieties simultaneously having already formed the dimer linkage or by reacting already constructed PBD moieties with the dimer linking group.
+
+WO 2010 043880 discloses unsymmetrical dimeric PBD compound bearing aryl groups in the C2 position of each monomer where one of these groups bears a substituent designed to provide an anchor for linking the compound to another moiety. Co pending International application PCT US2011 032664 filed 15 Apr. 2011 published as WO 2011 130613 discloses the inclusion of these compounds in targeted conjugates. Co pending International application PCT US2011 032668 filed 15 Apr. 2011 published as WO 2011 130616 discloses unsymmetrical dimeric PBD compound bearing an aryl group in the C2 position of one monomer bearing a substituent designed to provide an anchor for linking the compound to another moiety the other monomer bearing a non aromatic group in the C2 position. The inclusion of these compounds in targeted conjugates is also disclosed.
+
+The present inventors have developed further unsymmetrical dimeric PBD compounds for inclusion in targeted conjugates eliminating the need for an aryl group bearing an anchor. The C2 group bearing a substituent designed to provide an anchor for linking the compound to another moiety in the present invention is a propargyl group.
+
+ ia Caryl group optionally substituted by one or more substituents selected from the group comprising halo nitro cyano ether Calkyl Cheterocyclyl and bis oxy Calkylene 
+
+where R and R are independently selected from optionally substituted Calkyl Cheterocyclyl and Caryl groups 
+
+ b Rand Rform a nitrogen carbon double bond between the nitrogen and carbon atoms to which they are bound or
+
+R is a Calkylene group which chain may be interrupted by one or more heteroatoms e.g. O S NR where Ris H or Calkyl and or aromatic rings e.g. benzene or pyridine 
+
+R R R are selected from the same groups as R Rand Rrespectively and R and Rare the same as Rand R wherein if Rand Rare SOM M may represent a divalent pharmaceutically acceptable cation.
+
+A second aspect of the present invention provides the use of a compound of the first aspect of the invention in the manufacture of a medicament for treating a proliferative disease. The second aspect also provides a compound of the first aspect of the invention for use in the treatment of a proliferative disease.
+
+One of ordinary skill in the art is readily able to determine whether or not a candidate conjugate treats a proliferative condition for any particular cell type. For example assays which may conveniently be used to assess the activity offered by a particular compound are described in the examples below.
+
+ ia Caryl group optionally substituted by one or more substituents selected from the group comprising halo nitro cyano ether Calkyl Cheterocyclyl and bis oxy Calkylene 
+
+where R and R are independently selected from optionally substituted Calkyl Cheterocyclyl and Caryl groups 
+
+R is a Calkylene group which chain may be interrupted by one or more heteroatoms e.g. O S NR where Ris H or Calkyl and or aromatic rings e.g. benzene or pyridine 
+
+A fourth aspect of the present invention comprises a method of making a compound of formula I from a compound of formula II by deprotection of the imine bond.
+
+The unsymmetrical dimeric PBD compounds of the present invention are made by different strategies to those previously employed in making symmetrical dimeric PBD compounds. In particular the present inventors have developed a method which involves adding each each C2 substituent to a symmetrical PBD dimer core in separate method steps. Accordingly a fifth aspect of the present invention provides a method of making a compound of the first or third aspect of the invention comprising at least one of the method steps set out below.
+
+In a sixth aspect the present invention relates to Conjugates comprising dimers of PBDs linked to a targeting agent wherein the PBD is a dimer of formula I supra .
+
+In some embodiments the Conjugates have the following formula III L LU D III wherein L is a Ligand unit i.e. a targeting agent LU is a Linker unit and D is a Drug unit that is a PBD dimer see below . The subscript p is an integer of from 1 to 20. Accordingly the Conjugates comprise a Ligand unit covalently linked to at least one Drug unit by a Linker unit. The Ligand unit described more fully below is a targeting agent that binds to a target moiety. The Ligand unit can for example specifically bind to a cell component a Cell Binding Agent or to other target molecules of interest. Accordingly the present invention also provides methods for the treatment of for example various cancers and autoimmune disease. These methods encompass the use of the Conjugates wherein the Ligand unit is a targeting agent that specifically binds to a target molecule. The Ligand unit can be for example a protein polypeptide or peptide such as an antibody an antigen binding fragment of an antibody or other binding agent such as an Fc fusion protein.
+
+The PBD dimer D is of formula I except that Q is selected from the group comprising O S NR wherein Ris selected from the group comprising H and Calkyl.
+
+Examples of pharmaceutically acceptable monovalent and divalent cations are discussed in Berge et al. 66 1 19 1977 which is incorporated herein by reference.
+
+Examples of pharmaceutically acceptable monovalent inorganic cations include but are not limited to alkali metal ions such as Na and K. Examples of pharmaceutically acceptable divalent inorganic cations include but are not limited to alkaline earth cations such as Ca and Mg. Examples of pharmaceutically acceptable organic cations include but are not limited to ammonium ion i.e. NH and substituted ammonium ions e.g. NHR NHR NHR NR . Examples of some suitable substituted ammonium ions are those derived from ethylamine diethylamine dicyclohexylamine triethylamine butylamine ethylenediamine ethanolamine diethanolamine piperazine benzylamine phenylbenzylamine choline meglumine and tromethamine as well as amino acids such as lysine and arginine. An example of a common quaternary ammonium ion is N CH .
+
+The phrase optionally substituted as used herein pertains to a parent group which may be unsubstituted or which may be substituted.
+
+Unless otherwise specified the term substituted as used herein pertains to a parent group which bears one or more substituents. The term substituent is used herein in the conventional sense and refers to a chemical moiety which is covalently attached to or if appropriate fused to a parent group. A wide variety of substituents are well known and methods for their formation and introduction into a variety of parent groups are also well known.
+
+Calkyl The term Calkyl as used herein pertains to a monovalent moiety obtained by removing a hydrogen atom from a carbon atom of a hydrocarbon compound having from 1 to 12 carbon atoms which may be aliphatic or alicyclic and which may be saturated or unsaturated e.g. partially unsaturated fully unsaturated . Thus the term alkyl includes the sub classes alkenyl alkynyl cycloalkyl etc. discussed below.
+
+Examples of saturated alkyl groups include but are not limited to methyl C ethyl C propyl C butyl C pentyl C hexyl C and heptyl C .
+
+Examples of saturated linear alkyl groups include but are not limited to methyl C ethyl C n propyl C n butyl C n pentyl amyl C n hexyl C and n heptyl C .
+
+Examples of saturated branched alkyl groups include iso propyl C iso butyl C sec butyl C tert butyl C iso pentyl C and neo pentyl C .
+
+CAlkenyl The term Calkenyl as used herein pertains to an alkyl group having one or more carbon carbon double bonds.
+
+Examples of unsaturated alkenyl groups include but are not limited to ethenyl vinyl CH CH 1 propenyl CH CH CH 2 propenyl allyl CH CH CH isopropenyl 1 methylvinyl C CH CH butenyl C pentenyl C and hexenyl C .
+
+Calkynyl The term Calkynyl as used herein pertains to an alkyl group having one or more carbon carbon triple bonds.
+
+Examples of unsaturated alkynyl groups include but are not limited to ethynyl C CH and 2 propynyl propargyl CH C CH .
+
+Ccycloalkyl The term Ccycloalkyl as used herein pertains to an alkyl group which is also a cyclyl group that is a monovalent moiety obtained by removing a hydrogen atom from an alicyclic ring atom of a cyclic hydrocarbon carbocyclic compound which moiety has from 3 to 7 carbon atoms including from 3 to 7 ring atoms.
+
+cyclopropane C cyclobutane C cyclopentane C cyclohexane C cycloheptane C methylcyclopropane C dimethylcyclopropane C methylcyclobutane C dimethylcyclobutane C methylcyclopentane C dimethylcyclopentane C and methylcyclohexane C 
+
+cyclopropene C cyclobutene C cyclopentene C cyclohexene C methylcyclopropene C dimethylcyclopropene C methylcyclobutene C dimethylcyclobutene C methylcyclopentene C dimethylcyclopentene C and methylcyclohexene C and
+
+Cheterocyclyl The term Cheterocyclyl as used herein pertains to a monovalent moiety obtained by removing a hydrogen atom from a ring atom of a heterocyclic compound which moiety has from 3 to 20 ring atoms of which from 1 to 10 are ring heteroatoms. Preferably each ring has from 3 to 7 ring atoms of which from 1 to 4 are ring heteroatoms.
+
+In this context the prefixes e.g. C C C etc. denote the number of ring atoms or range of number of ring atoms whether carbon atoms or heteroatoms. For example the term Cheterocyclyl as used herein pertains to a heterocyclyl group having 5 or 6 ring atoms.
+
+N aziridine C azetidine C pyrrolidine tetrahydropyrrole C pyrroline e.g. 3 pyrroline 2 5 dihydropyrrole C 2H pyrrole or 3H pyrrole isopyrrole isoazole C piperidine C dihydropyridine C tetrahydropyridine C azepine C 
+
+O oxirane C oxetane C oxolane tetrahydrofuran C oxole dihydrofuran C oxane tetrahydropyran C dihydropyran C pyran C oxepin C 
+
+N imidazolidine C pyrazolidine diazolidine C imidazoline C pyrazoline dihydropyrazole C piperazine C 
+
+NO tetrahydrooxazole C dihydrooxazole C tetrahydroisoxazole C dihydroisoxazole C morpholine C tetrahydrooxazine C dihydrooxazine C oxazine C 
+
+Examples of substituted monocyclic heterocyclyl groups include those derived from saccharides in cyclic form for example furanoses C such as arabinofuranose lyxofuranose ribofuranose and xylofuranse and pyranoses C such as allopyranose altropyranose glucopyranose mannopyranose gulopyranose idopyranose galactopyranose and talopyranose.
+
+Caryl The term Caryl as used herein pertains to a monovalent moiety obtained by removing a hydrogen atom from an aromatic ring atom of an aromatic compound which moiety has from 3 to 20 ring atoms. Preferably each ring has from 5 to 7 ring atoms.
+
+In this context the prefixes e.g. C C C etc. denote the number of ring atoms or range of number of ring atoms whether carbon atoms or heteroatoms. For example the term Caryl as used herein pertains to an aryl group having 5 or 6 ring atoms.
+
+Examples of carboaryl groups include but are not limited to those derived from benzene i.e. phenyl C naphthalene C azulene C anthracene C phenanthrene C naphthacene C and pyrene C .
+
+Examples of aryl groups which comprise fused rings at least one of which is an aromatic ring include but are not limited to groups derived from indane e.g. 2 3 dihydro 1H indene C indene C isoindene C tetraline 1 2 3 4 tetrahydronaphthalene C acenaphthene C fluorene C phenalene C acephenanthrene C and aceanthrene C .
+
+Alternatively the ring atoms may include one or more heteroatoms as in heteroaryl groups . Examples of monocyclic heteroaryl groups include but are not limited to those derived from 
+
+N imidazole 1 3 diazole C pyrazole 1 2 diazole C pyridazine 1 2 diazine C pyrimidine 1 3 diazine C e.g. cytosine thymine uracil pyrazine 1 4 diazine C 
+
+The above groups whether alone or part of another substituent may themselves optionally be substituted with one or more groups selected from themselves and the additional substituents listed below.
+
+Ether OR wherein R is an ether substituent for example a Calkyl group also referred to as a Calkoxy group discussed below a Cheterocyclyl group also referred to as a Cheterocyclyloxy group or a Caryl group also referred to as a Caryloxy group preferably a Calkyl group.
+
+Alkoxy OR wherein R is an alkyl group for example a Calkyl group. Examples of Calkoxy groups include but are not limited to OMe methoxy OEt ethoxy O nPr n propoxy O iPr isopropoxy O nBu n butoxy O sBu sec butoxy O iBu isobutoxy and O tBu tert butoxy .
+
+Acetal CH OR OR wherein Rand Rare independently acetal substituents for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group or in the case of a cyclic acetal group Rand R taken together with the two oxygen atoms to which they are attached and the carbon atoms to which they are attached form a heterocyclic ring having from 4 to 8 ring atoms. Examples of acetal groups include but are not limited to CH OMe CH OEt and CH OMe OEt .
+
+Hemiacetal CH OH OR wherein Ris a hemiacetal substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of hemiacetal groups include but are not limited to CH OH OMe and CH OH OEt .
+
+Ketal CR OR OR where Rand Rare as defined for acetals and R is a ketal substituent other than hydrogen for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples ketal groups include but are not limited to C Me OMe C Me OEt C Me OMe OEt C Et OMe C Et OEt and C Et OMe OEt .
+
+Hemiketal CR OH OR where Ris as defined for hemiacetals and R is a hemiketal substituent other than hydrogen for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of hemiacetal groups include but are not limited to C Me OH OMe C Et OH OMe C Me OH OEt and C Et OH OEt .
+
+Imino imine NR wherein R is an imino substituent for example hydrogen Calkyl group a Cheterocyclyl group or a Caryl group preferably hydrogen or a Calkyl group. Examples of ester groups include but are not limited to NH NMe NEt and NPh.
+
+Acyl keto C O R wherein R is an acyl substituent for example a Calkyl group also referred to as Calkylacyl or Calkanoyl a Cheterocyclyl group also referred to as Cheterocyclylacyl or a Caryl group also referred to as Carylacyl preferably a Calkyl group. Examples of acyl groups include but are not limited to C O CH acetyl C O CHCH propionyl C O C CH t butyryl and C O Ph benzoyl phenone .
+
+Ester carboxylate carboxylic acid ester oxycarbonyl C O OR wherein R is an ester substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of ester groups include but are not limited to C O OCH C O OCHCH C O OC CH and C O OPh.
+
+Acyloxy reverse ester OC O R wherein R is an acyloxy substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of acyloxy groups include but are not limited to OC O CH acetoxy OC O CHCH OC O C CH OC O Ph and OC O CHPh.
+
+Oxycarboyloxy OC O OR wherein R is an ester substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of ester groups include but are not limited to OC O OCH OC O OCHCH OC O OC CH and OC O OPh.
+
+Amino NRR wherein Rand Rare independently amino substituents for example hydrogen a Calkyl group also referred to as Calkylamino or di Calkylamino a Cheterocyclyl group or a Caryl group preferably H or a Calkyl group or in the case of a cyclic amino group Rand R taken together with the nitrogen atom to which they are attached form a heterocyclic ring having from 4 to 8 ring atoms. Amino groups may be primary NH secondary NHR or tertiary NHRR and in cationic form may be quaternary NRRR . Examples of amino groups include but are not limited to NH NHCH NHC CH N CH N CHCH and NHPh. Examples of cyclic amino groups include but are not limited to aziridino azetidino pyrrolidino piperidino piperazino morpholino and thiomorpholino.
+
+Amido carbamoyl carbamyl aminocarbonyl carboxamide C O NRR wherein Rand Rare independently amino substituents as defined for amino groups. Examples of amido groups include but are not limited to C O NH C O NHCH C O N CH C O NHCHCH and C O N CHCH as well as amido groups in which Rand R together with the nitrogen atom to which they are attached form a heterocyclic structure as in for example piperidinocarbonyl morpholinocarbonyl thiomorpholinocarbonyl and piperazinocarbonyl.
+
+Thioamido thiocarbamyl C S NRR wherein Rand Rare independently amino substituents as defined for amino groups. Examples of amido groups include but are not limited to C S NH C S NHCH C S N CH and C S NHCHCH.
+
+Acylamido acylamino NRC O R wherein Ris an amide substituent for example hydrogen a Calkyl group a Cheterocyclyl group or a Caryl group preferably hydrogen or a Calkyl group and Ris an acyl substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably hydrogen or a Calkyl group. Examples of acylamide groups include but are not limited to NHC O CH NHC O CHCH and NHC O Ph. Rand Rmay together form a cyclic structure as in for example succinimidyl maleimidyl and phthalimidyl 
+
+Aminocarbonyloxy OC O NRR wherein Rand Rare independently amino substituents as defined for amino groups. Examples of aminocarbonyloxy groups include but are not limited to OC O NH OC O NHMe OC O NMe and OC O NEt.
+
+Ureido N R CONRRwherein Rand Rare independently amino substituents as defined for amino groups and Ris a ureido substituent for example hydrogen a Calkyl group a Cheterocyclyl group or a Caryl group preferably hydrogen or a Calkyl group. Examples of ureido groups include but are not limited to NHCONH NHCONHMe NHCONHEt NHCONMe NHCONEt NMeCONH NMeCONHMe NMeCONHEt NMeCONMe and NMeCONEt.
+
+Imino NR wherein R is an imino substituent for example for example hydrogen a Calkyl group a Cheterocyclyl group or a Caryl group preferably H or a Calkyl group. Examples of imino groups include but are not limited to NH NMe and NEt.
+
+Amidine amidino C NR NR wherein each R is an amidine substituent for example hydrogen a Calkyl group a Cheterocyclyl group or a Caryl group preferably H or a Calkyl group. Examples of amidine groups include but are not limited to C NH NH C NH NMe and C NMe NMe.
+
+Thioether sulfide SR wherein R is a thioether substituent for example a Calkyl group also referred to as a Calkylthio group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of Calkylthio groups include but are not limited to SCHand SCHCH.
+
+Disulfide SS R wherein R is a disulfide substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group also referred to herein as Calkyl disulfide . Examples of Calkyl disulfide groups include but are not limited to SSCHand SSCHCH.
+
+Sulfine sulfinyl sulfoxide S O R wherein R is a sulfine substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfine groups include but are not limited to S O CHand S O CHCH.
+
+Sulfone sulfonyl S O R wherein R is a sulfone substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group including for example a fluorinated or perfluorinated Calkyl group. Examples of sulfone groups include but are not limited to S O CH methanesulfonyl mesyl S O CF triflyl S O CHCH esyl S O CF nonaflyl S O CHCF tresyl S O CHCHNH tauryl S O Ph phenylsulfonyl besyl 4 methylphenylsulfonyl tosyl 4 chlorophenylsulfonyl closyl 4 bromophenylsulfonyl brosyl 4 nitrophenyl nosyl 2 naphthalenesulfonate napsyl and 5 dimethylamino naphthalen 1 ylsulfonate dansyl .
+
+Sulfinate sulfinic acid ester S O OR wherein R is a sulfinate substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfinate groups include but are not limited to S O OCH methoxysulfinyl methyl sulfinate and S O OCHCH ethoxysulfinyl ethyl sulfinate .
+
+Sulfonate sulfonic acid ester S O OR wherein R is a sulfonate substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfonate groups include but are not limited to S O OCH methoxysulfonyl methyl sulfonate and S O OCHCH ethoxysulfonyl ethyl sulfonate .
+
+Sulfinyloxy OS O R wherein R is a sulfinyloxy substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfinyloxy groups include but are not limited to OS O CHand OS O CHCH.
+
+Sulfonyloxy OS O R wherein R is a sulfonyloxy substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfonyloxy groups include but are not limited to OS O CH mesylate and OS O CHCH esylate .
+
+Sulfate OS O OR wherein R is a sulfate substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfate groups include but are not limited to OS O OCHand SO O OCHCH.
+
+Sulfamyl sulfamoyl sulfinic acid amide sulfinamide S O NRR wherein Rand Rare independently amino substituents as defined for amino groups. Examples of sulfamyl groups include but are not limited to S O NH S O NH CH S O N CH S O NH CHCH S O N CHCH and S O NHPh.
+
+Sulfonamido sulfinamoyl sulfonic acid amide sulfonamide S O NRR wherein Rand Rare independently amino substituents as defined for amino groups. Examples of sulfonamido groups include but are not limited to S O NH S O NH CH S O N CH S O NH CHCH S O N CHCH and S O NHPh.
+
+Sulfamino NRS O OH wherein Ris an amino substituent as defined for amino groups. Examples of sulfamino groups include but are not limited to NHS O OH and N CH S O OH.
+
+Sulfonamino NRS O R wherein Ris an amino substituent as defined for amino groups and R is a sulfonamino substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfonamino groups include but are not limited to NHS O CHand N CH S O CH.
+
+Sulfinamino NRS O R wherein Ris an amino substituent as defined for amino groups and R is a sulfinamino substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group. Examples of sulfinamino groups include but are not limited to NHS O CHand N CH S O CH.
+
+Phosphino phosphine PR wherein R is a phosphino substituent for example H a Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphino groups include but are not limited to PH P CH P CHCH P t Bu and P Ph .
+
+Phosphinyl phosphine oxide P O R wherein R is a phosphinyl substituent for example a Calkyl group a Cheterocyclyl group or a Caryl group preferably a Calkyl group or a Caryl group. Examples of phosphinyl groups include but are not limited to P O CH P O CHCH P O t Bu and P O Ph .
+
+Phosphonate phosphono ester P O OR where R is a phosphonate substituent for example H a Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphonate groups include but are not limited to P O OCH P O OCHCH P O O t Bu and P O OPh .
+
+Phosphate phosphonooxy ester OP O OR where R is a phosphate substituent for example H a Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphate groups include but are not limited to OP O OCH OP O OCHCH OP O O t Bu and OP O OPh .
+
+Phosphite OP OR where R is a phosphite substituent for example H a Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphite groups include but are not limited to OP OCH OP OCHCH OP O t Bu and OP OPh .
+
+Phosphoramidite OP OR NR where Rand Rare phosphoramidite substituents for example H a optionally substituted Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphoramidite groups include but are not limited to OP OCHCH N CH OP OCHCH N i Pr and OP OCHCHCN N i Pr .
+
+Phosphoramidate OP O OR NR where Rand Rare phosphoramidate substituents for example H a optionally substituted Calkyl group a Cheterocyclyl group or a Caryl group preferably H a Calkyl group or a Caryl group. Examples of phosphoramidate groups include but are not limited to OP O OCHCH N CH OP O OCHCH N i Pr and OP O OCHCHCN N i Pr .
+
+Calkylene The term Calkylene as used herein pertains to a bidentate moiety obtained by removing two hydrogen atoms either both from the same carbon atom or one from each of two different carbon atoms of a hydrocarbon compound having from 3 to 12 carbon atoms unless otherwise specified which may be aliphatic or alicyclic and which may be saturated partially unsaturated or fully unsaturated. Thus the term alkylene includes the sub classes alkenylene alkynylene cycloalkylene etc. discussed below.
+
+Examples of linear saturated Calkylene groups include but are not limited to CH where n is an integer from 3 to 12 for example CHCHCH propylene CHCHCHCH butylene CHCHCHCHCH pentylene and CHCHCHCH CHCHCH heptylene .
+
+Examples of branched saturated Calkylene groups include but are not limited to CH CH CH CH CH CHCH CH CH CHCHCH CHCH CH CH CHCH CH CHCH CH CHCH CH CHCH CH and CHCH CHCH CH .
+
+Examples of linear partially unsaturated Calkylene groups Calkenylene and alkynylene groups include but are not limited to CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH CH and CH C C CH .
+
+Examples of branched partially unsaturated Calkylene groups Calkenylene and alkynylene groups include but are not limited to C CH CH C CH CH CH CH CH CH CH and C C CH CH .
+
+Examples of alicyclic saturated Calkylene groups Ccycloalkylenes include but are not limited to cyclopentylene e.g. cyclopent 1 3 ylene and cyclohexylene e.g. cyclohex 1 4 ylene .
+
+Examples of alicyclic partially unsaturated Calkylene groups Ccycloalkylenes include but are not limited to cyclopentenylene e.g. 4 cyclopenten 1 3 ylene cyclohexenylene e.g. 2 cyclohexen 1 4 ylene 3 cyclohexen 1 2 ylene 2 5 cyclohexadien 1 4 ylene .
+
+Oxygen protecting group the term oxygen protecting group refers to a moiety which masks a hydroxy group and these are well known in the art. A large number of suitable groups are described on pages 23 to 200 of Greene T. W. and Wuts G. M. Protective Groups in Organic Synthesis 3Edition John Wiley Sons Inc. 1999 which is incorporated herein by reference. Classes of particular interest include silyl ethers e.g. TMS TBDMS substituted methyl ethers e.g. THP and esters e.g. acetate .
+
+Carbamate nitrogen protecting group the term carbamate nitrogen protecting group pertains to a moiety which masks the nitrogen in the imine bond and these are well known in the art. These groups have the following structure 
+
+Hemi aminal nitrogen protecting group the term hemi aminal nitrogen protecting group pertains to a group having the following structure 
+
+The present invention provides Conjugates comprising a PBD dimer connected to a Ligand unit via a Linker Unit. In one embodiment the Linker unit includes a Stretcher unit A a Specificity unit L and a Spacer unit L . The Linker unit is connected at one end to the Ligand unit and at the other end to the PBD dimer compound.
+
+The following preferences may apply to all aspects of the invention as described above or may relate to a single aspect. The preferences may be combined together in any combination.
+
+In one embodiment the Ligand unit L is a Cell Binding Agent CBA that specifically binds to a target molecule on the surface of a target cell. An exemplary formula is illustrated below 
+
+In another embodiment the Ligand unit L is a Cell Binding Agent CBA that specifically binds to a target molecule on the surface of a target cell. An exemplary formula is illustrated below CBA A L L 
+
+In the embodiments illustrated above Lcan be a cleavable Specificity unit and may be referred to as a trigger that when cleaved activates a self immolative group or self immolative groups L when a self immolative group s is present. When the Specificity unit Lis cleaved or the linkage i.e. the covalent bond between Land Lis cleaved the self immolative group releases the Drug unit D .
+
+In another embodiment the Ligand unit L is a Cell Binding Agent CBA that specifically binds to a target molecule on the surface of a target cell. An exemplary formula is illustrated below 
+
+In the various embodiments discussed herein the nature of Land Lcan vary widely. These groups are chosen on the basis of their characteristics which may be dictated in part by the conditions at the site to which the conjugate is delivered. Where the Specificity unit Lis cleavable the structure and or sequence of Lis selected such that it is cleaved by the action of enzymes present at the target site e.g. the target cell . Lunits that are cleavable by changes in pH e.g. acid or base labile temperature or upon irradiation e.g. photolabile may also be used. Lunits that are cleavable under reducing or oxidising conditions may also find use in the Conjugates.
+
+In some embodiments Lmay comprise one amino acid or a contiguous sequence of amino acids. The amino acid sequence may be the target substrate for an enzyme.
+
+In one embodiment Lis cleavable by the action of an enzyme. In one embodiment the enzyme is an esterase or a peptidase. For example Lmay be cleaved by a lysosomal protease such as a cathepsin.
+
+In one embodiment Lis present and together with C O O forms a self immolative group or self immolative groups. In some embodiments C O O also is a self immolative group.
+
+In one embodiment where Lis cleavable by the action of an enzyme and Lis present the enzyme cleaves the bond between Land L whereby the self immolative group s release the Drug unit.
+
+An amino group of Lthat connects to Lmay be the N terminus of an amino acid or may be derived from an amino group of an amino acid side chain for example a lysine amino acid side chain.
+
+A carboxyl group of Lthat connects to Lmay be the C terminus of an amino acid or may be derived from a carboxyl group of an amino acid side chain for example a glutamic acid amino acid side chain.
+
+A hydroxy group of Lthat connects to Lmay be derived from a hydroxy group of an amino acid side chain for example a serine amino acid side chain.
+
+Where Y is NH and n is 0 the self immolative group may be referred to as a p aminobenzylcarbonyl linker PABC .
+
+The self immolative group will allow for release of the Drug unit i.e. the asymmetric PBD when a remote site in the linker is activated proceeding along the lines shown below for n 0 
+
+In one embodiment Lcomprises a dipeptide. The amino acids in the dipeptide may be any combination of natural amino acids and non natural amino acids. In some embodiments the dipeptide comprises natural amino acids. Where the linker is a cathepsin labile linker the dipeptide is the site of action for cathepsin mediated cleavage. The dipeptide then is a recognition site for cathepsin.
+
+Other dipeptide combinations may be used including those described by Dubowchik et al. which is incorporated herein by reference.
+
+In one embodiment the amino acid side chain is chemically protected where appropriate. The side chain protecting group may be a group as discussed below. Protected amino acid sequences are cleavable by enzymes. For example a dipeptide sequence comprising a Boc side chain protected Lys residue is cleavable by cathepsin.
+
+Protecting groups for the side chains of amino acids are well known in the art and are described in the Novabiochem Catalog. Additional protecting group strategies are set out in Protective groups in Organic Synthesis Greene and Wuts.
+
+Possible side chain protecting groups are shown below for those amino acids having reactive side chain functionality 
+
+In one embodiment X is connected indirectly to the Drug unit. In such an embodiment the Spacer unit Lis present.
+
+In one embodiment the dipeptide is used in combination with a self immolative group s the Spacer unit . The self immolative group s may be connected to X .
+
+Where a self immolative group is present X is connected directly to the self immolative group. In one embodiment X is connected to the group Y of the self immolative group. Preferably the group X CO is connected to Y where Y is NH.
+
+ X is connected directly to A. In one embodiment X is connected directly to A. Preferably the group NH X the amino terminus of X is connected to A. Amay comprise the functionality CO thereby to form an amide link with X .
+
+In one embodiment Land Ltogether with OC O comprise the group X X PABC . The PABC group is connected directly to the Drug unit. In one example the self immolative group and the dipeptide together form the group Phe Lys PABC which is illustrated below 
+
+Alternatively the self immolative group and the dipeptide together form the group Val Ala PABC which is illustrated below 
+
+E is selected such that the group is susceptible to cleavage e.g. by light or by the action of an enzyme. E may be NOor glucuronic acid e.g. glucuronic acid . The former may be susceptible to the action of a nitroreductase the latter to the action of a glucuronidase.
+
+In some further embodiments Y is a functional group as set forth above the functional group is linked to an amino acid and the amino acid is linked to the Stretcher unit A. In some embodiments amino acid is alanine. In such an embodiment the amino acid is equivalently considered part of the Stretcher unit.
+
+where the asterisk indicates the point of attachment to L the wavy line indicates the point of attachment to the Ligand unit n is 0 or 1 and m is 0 to 30. In a preferred embodiment n is 1 and m is 0 to 10 1 to 8 preferably 4 to 8 most preferably 4 or 8.
+
+In one embodiment the connection between the Ligand unit and Ais through a thiol residue of the Ligand unit and a maleimide group of A.
+
+In each of the embodiments above an alternative functionality may be used in place of the malemide derived group shown below 
+
+In one embodiment the maleimide derived group is replaced with a group which optionally together with a Ligand unit e.g. a Cell Binding Agent is selected from 
+
+In one embodiment the maleimide derived group is replaced with a group which optionally together with the Ligand unit is selected from 
+
+In one embodiment the Stretcher unit Ais present the Specificity unit Lis present and Spacer unit Lis absent. Thus Land the Drug unit are directly connected via a bond. Equivalently in this embodiment Lis a bond.
+
+In one embodiment Lcomprises a dipeptide and one end of the dipeptide is linked to D. As described above the amino acids in the dipeptide may be any combination of natural amino acids and non natural amino acids. In some embodiments the dipeptide comprises natural amino acids. Where the linker is a cathepsin labile linker the dipeptide is the site of action for cathepsin mediated cleavage. The dipeptide then is a recognition site for cathepsin.
+
+In other embodiments Linker Drug compounds are provided for conjugation to a Ligand unit. In one embodiment the Linker Drug compounds are designed for connection to a Cell Binding Agent.
+
+Land Lare as defined above. References to connection to Acan be construed here as referring to a connection to G.
+
+In one embodiment where Lcomprises an amino acid the side chain of that amino acid may be protected. Any suitable protecting group may be used. In one embodiment the side chain protecting groups are removable with other protecting groups in the compound where present. In other embodiments the protecting groups may be orthogonal to other protecting groups in the molecule where present.
+
+Suitable protecting groups for amino acid side chains include those groups described in the Novabiochem Catalog 2006 2007. Protecting groups for use in a cathepsin labile linker are also discussed in Dubowchik et al.
+
+In certain embodiments of the invention the group Lincludes a Lys amino acid residue. The side chain of this amino acid may be protected with a Boc or Alloc protected group. A Boc protecting group is most preferred.
+
+The functional group Gforms a connecting group upon reaction with a Ligand unit e.g. a cell binding agent.
+
+In one embodiment the functional group Gis or comprises an amino carboxylic acid hydroxy thiol or maleimide group for reaction with an appropriate group on the Ligand unit. In a preferred embodiment Gcomprises a maleimide group.
+
+In one embodiment the group Gis an alkyl maleimide group. This group is suitable for reaction with thiol groups particularly cysteine thiol groups present in the cell binding agent for example present in an antibody.
+
+In each of the embodiments above an alternative functionality may be used in place of the malemide group shown below 
+
+In one embodiment where Lis present Gis NHor NHMe. Either group may be the N terminal of an Lamino acid sequence.
+
+In one embodiment Lis present and Gis COOH. This group may be the C terminal of an Lamino acid sequence.
+
+The group Gmay be convertable from one functional group to another. In one embodiment Lis present and Gis NH. This group is convertable to another group Gcomprising a maleimide group. For example the group NHmay be reacted with an acids or an activated acid e.g. N succinimide forms of those Ggroups comprising maleimide shown above.
+
+The group Gmay therefore be converted to a functional group that is more appropriate for reaction with a Ligand unit.
+
+As noted above in one embodiment Lis present and Gis NH NHMe COOH OH or SH. In a further embodiment these groups are provided in a chemically protected form. The chemically protected form is therefore a precursor to the linker that is provided with a functional group.
+
+In one embodiment Gis NHin a chemically protected form. The group may be protected with a carbamate protecting group. The carbamate protecting group may be selected from the group consisting of 
+
+In one embodiment the protecting group is the same as the carbamate protecting group of the capping group.
+
+In one embodiment the protecting group is not the same as the carbamate protecting group of the capping group. In this embodiment it is preferred that the protecting group is removable under conditions that do not remove the carbamate protecting group of the capping group.
+
+The chemical protecting group may be removed to provide a functional group to form a connection to a Ligand unit. Optionally this functional group may then be converted to another functional group as described above.
+
+In one embodiment the active group is an amine. This amine is preferably the N terminal amine of a peptide and may be the N terminal amine of the preferred dipeptides of the invention.
+
+The active group may be reacted to yield the functional group that is intended to form a connection to a Ligand unit.
+
+In other embodiments the Linker unit is a precursor to the Linker uit having an active group. In this embodiment the Linker unit comprises the active group which is protected by way of a protecting group. The protecting group may be removed to provide the Linker unit having an active group.
+
+Where the active group is an amine the protecting group may be an amine protecting group such as those described in Green and Wuts.
+
+The protecting group is preferably orthogonal to other protecting groups where present in the Linker unit.
+
+In one embodiment the protecting group is orthogonal to the capping group. Thus the active group protecting group is removable whilst retaining the capping group. In other embodiments the protecting group and the capping group is removable under the same conditions as those used to remove the capping group.
+
+Other functional groups suitable for use in forming a connection between Land the Cell Binding Agent are described in WO 2005 082023.
+
+The Ligand Unit may be of any kind and include a protein polypeptide peptide and a non peptidic agent that specifically binds to a target molecule. In some embodiments the Ligand unit may be a protein polypeptide or peptide. In some embodiments the Ligand unit may be a cyclic polypeptide. These Ligand units can include antibodies or a fragment of an antibody that contains at least one target molecule binding site lymphokines hormones growth factors or any other cell binding molecule or substance that can specifically bind to a target.
+
+The terms specifically binds and specific binding refer to the binding of an antibody or other protein polypeptide or peptide to a predetermined molecule e.g. an antigen . Typically the antibody or other molecule binds with an affinity of at least about 1 10M and binds to the predetermined molecule with an affinity that is at least two fold greater than its affinity for binding to a non specific molecule e.g. BSA casein other than the predetermined molecule or a closely related molecule.
+
+Examples of Ligand units include those agents described for use in WO 2007 085930 which is incorporated herein.
+
+In some embodiments the Ligand unit is a Cell Binding Agent that binds to an extracellular target on a cell. Such a Cell Binding Agent can be a protein polypeptide peptide or a non peptidic agent. In some embodiments the Cell Binding Agent may be a protein polypeptide or peptide. In some embodiments the Cell Binding Agent may be a cyclic polypeptide. The Cell Binding Agent also may be antibody or an antigen binding fragment of an antibody. Thus in one embodiment the present invention provides an antibody drug conjugate ADC .
+
+In one embodiment the antibody is a monoclonal antibody chimeric antibody humanized antibody fully human antibody or a single chain antibody. One embodiment the antibody is a fragment of one of these antibodies having biological activity. Examples of such fragments include Fab Fab F ab and Fv fragments.
+
+Antibodies for use in the present invention include those antibodies described in WO 2005 082023 which is incorporated herein. Particularly preferred are those antibodies for tumour associated antigens. Examples of those antigens known in the art include but are not limited to those tumour associated antigens set out in WO 2005 082023. See for instance pages 41 55.
+
+In some embodiments the conjugates are designed to target tumour cells via their cell surface antigens. The antigens may be cell surface antigens which are either over expressed or expressed at abnormal times or cell types. Preferably the target antigen is expressed only on proliferative cells preferably tumour cells however this is rarely observed in practice. As a result target antigens are usually selected on the basis of differential expression between proliferative and healthy tissue.
+
+The Ligand unit is connected to the Linker unit. In one embodiment the Ligand unit is connected to A where present of the Linker unit.
+
+In one embodiment the connection between the Ligand unit and the Linker unit is through a thioether bond.
+
+In one embodiment the connection between the Ligand unit and the Linker unit is through a disulfide bond.
+
+In one embodiment the connection between the Ligand unit and the Linker unit is through an amide bond.
+
+In one embodiment the connection between the Ligand unit and the Linker unit is through an ester bond.
+
+In one embodiment the connection between the Ligand unit and the Linker is formed between a thiol group of a cysteine residue of the Ligand unit and a maleimide group of the Linker unit.
+
+The cysteine residues of the Ligand unit may be available for reaction with the functional group of the Linker unit to form a connection. In other embodiments for example where the Ligand unit is an antibody the thiol groups of the antibody may participate in interchain disulfide bonds. These interchain bonds may be converted to free thiol groups by e.g. treatment of the antibody with DTT prior to reaction with the functional group of the Linker unit.
+
+In some embodiments the cysteine residue is an introduced into the heavy or light chain of an antibody. Positions for cysteine insertion by substitution in antibody heavy or light chains include those described in Published U.S. Application No. 2007 0092940 and International Patent Publication WO2008070593 which are incorporated herein.
+
+The compounds of the present invention may be used in a method of therapy. Also provided is a method of treatment comprising administering to a subject in need of treatment a therapeutically effective amount of a compound of formula I. The term therapeutically effective amount is an amount sufficient to show benefit to a patient. Such benefit may be at least amelioration of at least one symptom. The actual amount administered and rate and time course of administration will depend on the nature and severity of what is being treated. Prescription of treatment e.g. decisions on dosage is within the responsibility of general practitioners and other medical doctors.
+
+A compound may be administered alone or in combination with other treatments either simultaneously or sequentially dependent upon the condition to be treated. Examples of treatments and therapies include but are not limited to chemotherapy the administration of active agents including e.g. drugs surgery and radiation therapy.
+
+Pharmaceutical compositions according to the present invention and for use in accordance with the present invention may comprise in addition to the active ingredient i.e. a compound of formula I a pharmaceutically acceptable excipient carrier buffer stabiliser or other materials well known to those skilled in the art. Such materials should be non toxic and should not interfere with the efficacy of the active ingredient. The precise nature of the carrier or other material will depend on the route of administration which may be oral or by injection e.g. cutaneous subcutaneous or intravenous.
+
+Pharmaceutical compositions for oral administration may be in tablet capsule powder or liquid form. A tablet may comprise a solid carrier or an adjuvant. Liquid pharmaceutical compositions generally comprise a liquid carrier such as water petroleum animal or vegetable oils mineral oil or synthetic oil. Physiological saline solution dextrose or other saccharide solution or glycols such as ethylene glycol propylene glycol or polyethylene glycol may be included. A capsule may comprise a solid carrier such a gelatin.
+
+For intravenous cutaneous or subcutaneous injection or injection at the site of affliction the active ingredient will be in the form of a parenterally acceptable aqueous solution which is pyrogen free and has suitable pH isotonicity and stability. Those of relevant skill in the art are well able to prepare suitable solutions using for example isotonic vehicles such as Sodium Chloride Injection Ringer s Injection Lactated Ringer s Injection. Preservatives stabilisers buffers antioxidants and or other additives may be included as required.
+
+The Compounds and Conjugates can be used to treat proliferative disease and autoimmune disease. The term proliferative disease pertains to an unwanted or uncontrolled cellular proliferation of excessive or abnormal cells which is undesired such as neoplastic or hyperplastic growth whether in vitro or in vivo.
+
+Examples of proliferative conditions include but are not limited to benign pre malignant and malignant cellular proliferation including but not limited to neoplasms and tumours e.g. histocytoma glioma astrocyoma osteoma cancers e.g. lung cancer small cell lung cancer gastrointestinal cancer bowel cancer colon cancer breast carinoma ovarian carcinoma prostate cancer testicular cancer liver cancer kidney cancer bladder cancer pancreatic cancer brain cancer sarcoma osteosarcoma Kaposi s sarcoma melanoma leukemias psoriasis bone diseases fibroproliferative disorders e.g. of connective tissues and atherosclerosis. Other cancers of interest include but are not limited to haematological malignancies such as leukemias and lymphomas such as non Hodgkin lymphoma and subtypes such as DLBCL marginal zone mantle zone and follicular Hodgkin lymphoma AML and other cancers of B or T cell origin.
+
+Examples of autoimmune disease include the following rheumatoid arthritis autoimmune demyelinative diseases e.g. multiple sclerosis allergic encephalomyelitis psoriatic arthritis endocrine ophthalmopathy uveoretinitis systemic lupus erythematosus myasthenia gravis Graves disease glomerulonephritis autoimmune hepatological disorder inflammatory bowel disease e.g. Crohn s disease anaphylaxis allergic reaction Sj gren s syndrome type I diabetes mellitus primary biliary cirrhosis Wegener s granulomatosis fibromyalgia polymyositis dermatomyositis multiple endocrine failure Schmidt s syndrome autoimmune uveitis Addison s disease adrenalitis thyroiditis Hashimoto s thyroiditis autoimmune thyroid disease pernicious anemia gastric atrophy chronic hepatitis lupoid hepatitis atherosclerosis subacute cutaneous lupus erythematosus hypoparathyroidism Dressler s syndrome autoimmune thrombocytopenia idiopathic thrombocytopenic purpura hemolytic anemia pemphigus vulgaris pemphigus dermatitis herpetiformis alopecia arcata pemphigoid scleroderma progressive systemic sclerosis CREST syndrome calcinosis Raynaud s phenomenon esophageal dysmotility sclerodactyly and telangiectasia male and female autoimmune infertility ankylosing spondolytis ulcerative colitis mixed connective tissue disease polyarteritis nedosa systemic necrotizing vasculitis atopic dermatitis atopic rhinitis Goodpasture s syndrome Chagas disease sarcoidosis rheumatic fever asthma recurrent abortion anti phospholipid syndrome farmer s lung erythema multiforme post cardiotomy syndrome Cushing s syndrome autoimmune chronic active hepatitis bird fancier s lung toxic epidermal necrolysis Alport s syndrome alveolitis allergic alveolitis fibrosing alveolitis interstitial lung disease erythema nodosum pyoderma gangrenosum transfusion reaction Takayasu s arteritis polymyalgia rheumatica temporal arteritis schistosomiasis giant cell arteritis ascariasis aspergillosis Sampter s syndrome eczema lymphomatoid granulomatosis Behcet s disease Caplan s syndrome Kawasaki s disease dengue encephalomyelitis endocarditis endomyocardial fibrosis endophthalmitis erythema elevatum et diutinum psoriasis erythroblastosis fetalis eosinophilic faciitis Shulman s syndrome Felty s syndrome filariasis cyclitis chronic cyclitis heterochronic cyclitis Fuch s cyclitis IgA nephropathy Henoch Schonlein purpura graft versus host disease transplantation rejection cardiomyopathy Eaton Lambert syndrome relapsing polychondritis cryoglobulinemia Waldenstrom s macroglobulemia Evan s syndrome and autoimmune gonadal failure.
+
+In some embodiments the autoimmune disease is a disorder of B lymphocytes e.g. systemic lupus erythematosus Goodpasture s syndrome rheumatoid arthritis and type I diabetes Th1 lymphocytes e.g. rheumatoid arthritis multiple sclerosis psoriasis Sj gren s syndrome Hashimoto s thyroiditis Graves disease primary biliary cirrhosis Wegener s granulomatosis tuberculosis or graft versus host disease or Th2 lymphocytes e.g. atopic dermatitis systemic lupus erythematosus atopic asthma rhinoconjunctivitis allergic rhinitis Omenn s syndrome systemic sclerosis or chronic graft versus host disease . Generally disorders involving dendritic cells involve disorders of Th1 lymphocytes or Th2 lymphocytes. In some embodiments the autoimmune disorder is a T cell mediated immunological disorder.
+
+In some embodiments the amount of the Conjugate administered ranges from about 0.01 to about 10 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.01 to about 5 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.05 to about 5 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.1 to about 5 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.1 to about 4 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.05 to about 3 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.1 to about 3 mg kg per dose. In some embodiments the amount of the Conjugate administered ranges from about 0.1 to about 2 mg kg per dose.
+
+Unless otherwise specified included in the above are the well known ionic salt solvate and protected forms of these substituents. For example a reference to carboxylic acid COOH also includes the anionic carboxylate form COO a salt or solvate thereof as well as conventional protected forms. Similarly a reference to an amino group includes the protonated form NHRR a salt or solvate of the amino group for example a hydrochloride salt as well as conventional protected forms of an amino group. Similarly a reference to a hydroxyl group also includes the anionic form O a salt or solvate thereof as well as conventional protected forms.
+
+It may be convenient or desirable to prepare purify and or handle a corresponding salt of the active compound for example a pharmaceutically acceptable salt. Examples of pharmaceutically acceptable salts are discussed in Berge et al. 66 1 19 1977 .
+
+For example if the compound is anionic or has a functional group which may be anionic e.g. COOH may be COO then a salt may be formed with a suitable cation. Examples of suitable inorganic cations include but are not limited to alkali metal ions such as Na and K alkaline earth cations such as Ca and Mg and other cations such as Al. Examples of suitable organic cations include but are not limited to ammonium ion i.e. NH and substituted ammonium ions e.g. NHR NHR NHR NR . Examples of some suitable substituted ammonium ions are those derived from ethylamine diethylamine dicyclohexylamine triethylamine butylamine ethylenediamine ethanolamine diethanolamine piperazine benzylamine phenylbenzylamine choline meglumine and tromethamine as well as amino acids such as lysine and arginine. An example of a common quaternary ammonium ion is N CH .
+
+If the compound is cationic or has a functional group which may be cationic e.g. NHmay be NH then a salt may be formed with a suitable anion. Examples of suitable inorganic anions include but are not limited to those derived from the following inorganic acids hydrochloric hydrobromic hydroiodic sulfuric sulfurous nitric nitrous phosphoric and phosphorous.
+
+Examples of suitable organic anions include but are not limited to those derived from the following organic acids 2 acetyoxybenzoic acetic ascorbic aspartic benzoic camphorsulfonic cinnamic citric edetic ethanedisulfonic ethanesulfonic fumaric glucheptonic gluconic glutamic glycolic hydroxymaleic hydroxynaphthalene carboxylic isethionic lactic lactobionic lauric maleic malic methanesulfonic mucic oleic oxalic palmitic pamoic pantothenic phenylacetic phenylsulfonic propionic pyruvic salicylic stearic succinic sulfanilic tartaric toluenesulfonic and valeric. Examples of suitable polymeric organic anions include but are not limited to those derived from the following polymeric acids tannic acid carboxymethyl cellulose.
+
+It may be convenient or desirable to prepare purify and or handle a corresponding solvate of the active compound. The term solvate is used herein in the conventional sense to refer to a complex of solute e.g. active compound salt of active compound and solvent. If the solvent is water the solvate may be conveniently referred to as a hydrate for example a mono hydrate a di hydrate a tri hydrate etc.
+
+The invention includes compounds where a solvent adds across the imine bond of the PBD moiety which is illustrated below where the solvent is water or an alcohol ROH where Ris Calkyl 
+
+These forms can be called the carbinolamine and carbinolamine ether forms of the PBD. The balance of these equilibria depend on the conditions in which the compounds are found as well as the nature of the moiety itself.
+
+Without wishing to be bound by theory it has been found that compounds of formula I where Rand Rform a nitrogen carbon double bond between the nitrogen and carbon atoms to which they are bound have a tendency to reversibly dimerise on isolation. This reversible dimerisation is thought to occur due to reversible addition of Q on one molecule with the imine bond of another compound. Treatment with methanol e.g. for 1 hour can assist with isolation of the monomeric form of compounds of formula I.
+
+Certain compounds may exist in one or more particular geometric optical enantiomeric diasteriomeric epimeric atropic stereoisomeric tautomeric conformational or anomeric forms including but not limited to cis and trans forms E and Z forms c t and r forms endo and exo forms R S and meso forms D and L forms d and I forms and forms keto enol and enolate forms syn and anti forms synclinal and anticlinal forms and forms axial and equatorial forms boat chair twist envelope and halfchair forms and combinations thereof hereinafter collectively referred to as isomers or isomeric forms .
+
+Note that except as discussed below for tautomeric forms specifically excluded from the term isomers as used herein are structural or constitutional isomers i.e. isomers which differ in the connections between atoms rather than merely by the position of atoms in space . For example a reference to a methoxy group OCH is not to be construed as a reference to its structural isomer a hydroxymethyl group CHOH. Similarly a reference to ortho chlorophenyl is not to be construed as a reference to its structural isomer meta chlorophenyl. However a reference to a class of structures may well include structurally isomeric forms falling within that class e.g. Calkyl includes n propyl and iso propyl butyl includes n iso sec and tert butyl methoxyphenyl includes ortho meta and para methoxyphenyl .
+
+The above exclusion does not pertain to tautomeric forms for example keto enol and enolate forms as in for example the following tautomeric pairs keto enol illustrated below imine enamine amide imino alcohol amidine amidine nitroso oxime thioketone enethiol N nitroso hyroxyazo and nitro aci nitro.
+
+Note that specifically included in the term isomer are compounds with one or more isotopic substitutions. For example H may be in any isotopic form including H H D and H T C may be in any isotopic form including C C and C O may be in any isotopic form including O and O and the like.
+
+Unless otherwise specified a reference to a particular compound includes all such isomeric forms including wholly or partially racemic and other mixtures thereof. Methods for the preparation e.g. asymmetric synthesis and separation e.g. fractional crystallisation and chromatographic means of such isomeric forms are either known in the art or are readily obtained by adapting the methods taught herein or known methods in a known manner.
+
+The synthesis of PBD compounds is extensively discussed in the following references which discussions are incorporated herein by reference 
+
+The compounds of the present invention where Rand Rform a nitrogen carbon double bond between the nitrogen and carbon atoms to which they are bound can be synthesised from a compound of Formula 2 
+
+The compound produced may be in its carbinolamine or carbinolamine ether form depending on the solvents used. For example if Protis Troc and Protis an oxygen protecting group for synthesis then the deprotection is carried out using a Cd Pb couple to yield the compound of formula I . If Protis SEM or an analogous group and Protis an an oxo group then the oxo group can be removed by reduction which leads to a protected carbinolamine intermediate which can then be treated to remove the SEM protecting group followed by the elimination of water. The reduction of the compound of Formula 2 can be accomplished by for example superhydride or lithium tetraborohydride whilst a suitable means for removing the SEM protecting group is treatment with silica gel.
+
+Compounds of formula 2 where there is double bond between C2 and C3 can be synthesised from a compound of formula 3a 
+
+Compounds of formulae 3a and 3b where there is double bond between C2 and C3 can be synthesised from a compound of formula 4 
+
+The couplings of an organometallic derivative such as an organoboron derivative described above are usually carried out in the presence of a palladium catalyst for example Pd PPh Pd OCOCH PdCl Pd dba . The coupling may be carried out under standard conditions or may also be carried out under microwave conditions.
+
+The Sonogashira coupling is carried out using two catalysts a zerovalent palladium complex and a halide salt of copper I . Phosphine palladium complexes such as tetrakis triphenylphosphine palladium 0 are used for this reaction but palladium II complexes can also be used because they are reduced to the palladium 0 species by the consumption of the terminal alkynes in the reaction medium. The oxidation of triphenylphosphine to triphenylphosphine oxide can also lead to the formation of Pd 0 in situ when catalysts such as bis triphenylphosphine palladium II chloride are used. In contrast copper I halides react with the terminal alkyne and produce copper I acetylide which acts as an activated species for the coupling reactions.
+
+The reaction medium must be basic to neutralize the hydrogen halide produced as the byproduct of this coupling reaction so alkylamine compounds such as triethylamine diethylamine or piperidine are sometimes used as solvents but also DMF or ether can be used as solvent. Other bases such as potassium carbonate or cesium carbonate are occasionally used.
+
+The two coupling steps are usually carried out sequentially. They may be carried out with or without purification between the two steps. If no purification is carried out then the two steps may be carried out in the same reaction vessel. Purification is usually required after the second coupling step. Purification of the compound from the undesired by products may be carried out by column chromatography or ion exchange separation.
+
+The synthesis of compounds of formula 4 where Protis an oxo group and Protis SEM are described in detail in WO 00 12508 which is incorporated herein by reference. In particular reference is made to scheme 7 on page 24 where the above compound is designated as intermediate P. This method of synthesis is also described in WO 2004 043963.
+
+The synthesis of compounds of formula 4 where Protis a protected oxygen group for synthesis are described in WO 2005 085251 which synthesis is herein incorporated by reference.
+
+Compounds of Formula 3b where there is single bond between C2 and C3 can be synthesised from a compound of Formula 5a 
+
+Compounds of Formula 3b where there is single bond between C2 and C3 can also be synthesised from a compound of Formula 5b 
+
+Compounds of Formula 5b can be synthesised from compounds of formula 6 by a selective triflation using a single equivalent e.g. 0.9 or 1 to 1.1 or 1.2 of the triflating agent.
+
+Compounds of formula I where Rand R are H and Rand R are SON can be synthesised from compounds of formula I where Rand Rform a nitrogen carbon double bond between the nitrogen and carbon atoms to which they are bound by the addition of the appropriate bisulphite salt or sulphinate salt followed by an appropriate purification step. Further methods are described in GB 2 053 894 which is herein incorporated by reference.
+
+Nitrogen protecting groups for synthesis are well known in the art. In the present invention the protecting groups of particular interest are carbamate nitrogen protecting groups and hemi aminal nitrogen protecting groups.
+
+Other possible groups are nitrobenzyloxycarbonyl e.g. 4 nitrobenzyloxycarbonyl and 2 phenylsulphonyl ethoxycarbonyl.
+
+Protected oxygen group for synthesis are well known in the art. A large number of suitable oxygen protecting groups are described on pages 23 to 200 of Greene T. W. and Wuts G. M. Protective Groups in Organic Synthesis 3Edition John Wiley Sons Inc. 1999 which is incorporated herein by reference.
+
+Classes of particular interest include silyl ethers methyl ethers alkyl ethers benzyl ethers esters acetates benzoates carbonates and sulfonates.
+
+Conjugates can be prepared as previously described. Linkers having a maleimidyl group A a peptide group L and self immolative group L can be prepared as described in U.S. Pat. No. 6 214 345 which is incorporated herein by reference. Linkers having a maleimidyl group A and a peptide group L can be prepared as described in WO 2009 0117531 which is incorporated herein by reference. Other linkers can be prepared according to the references cited herein or as known to the skilled artisan.
+
+Linker Drug compounds can be prepared according to methods known in the art. Linkage of amine based X substituents of the PDB dimer Drug unit to active groups of the Linker units can be performed according to methods generally described in U.S. Pat. Nos. 6 214 345 and 7 498 298 and WO 2009 0117531 or as otherwise known to the skilled artisan.
+
+Antibodies can be conjugated to Linker Drug compounds as described in Doronina et al. 2003 21 778 784 . Briefly antibodies 4 5 mg mL in PBS containing 50 mM sodium borate at pH 7.4 are reduced with tris carboxyethyl phosphine hydrochloride TCEP at 37 C. The progress of the reaction which reduces interchain disulfides is monitored by reaction with 5 5 dithiobis 2 nitrobenzoic acid and allowed to proceed until the desired level of thiols mAb is achieved. The reduced antibody is then cooled to 0 C. and alkylated with 1.5 equivalents of maleimide drug linker per antibody thiol. After 1 hour the reaction is quenched by the addition of 5 equivalents of N acetyl cysteine. Quenched drug linker is removed by gel filtration over a PD 10 column. The ADC is then sterile filtered through a 0.22 m syringe filter. Protein concentration can be determined by spectral analysis at 280 nm and 329 nm respectively with correction for the contribution of drug absorbance at 280 nm. Size exclusion chromatography can be used to determine the extent of antibody aggregation and RP HPLC can be used to determine the levels of remaining NAC quenched drug linker.
+
+The following preferences may apply to all aspects of the invention as described above or may relate to a single aspect. The preferences may be combined together in any combination.
+
+R is preferably a Calkylene group with no substituents. More preferably R is a C Cor Calkylene. Most preferably R is a Cor Calkylene.
+
+Ris preferably selected from H OH OR SH NH nitro and halo and is more preferably H or halo and most preferably is H.
+
+Ris preferably selected from H OH OR SH SR NH NHR NRR and halo and more preferably independently selected from H OH and OR where R is preferably selected from optionally substituted Calkyl Cheterocyclyl and Caryl groups. R may be more preferably a Calkyl group which may or may not be substituted. A substituent of interest is a Caryl group e.g. phenyl . Particularly preferred substituents at the 7 positions are OMe and OCHPh. Other substituents of particular interest are dimethylamino i.e. NMe OCH OMe where q is from 0 to 2 nitrogen containing Cheterocyclyls including morpholino piperidinyl and N methyl piperazinyl.
+
+In some embodiments it is preferred that Q is NR. In other embodiments Q is OH. In further embodiments R is SH.
+
+Ris preferably selected from H and methyl. In some embodiment Ris H. In other embodiments Ris methyl.
+
+ a Caryl group optionally substituted by one or more substituents selected from the group comprising halo nitro cyano ether Calkyl Cheterocyclyl and bis oxy Calkylene 
+
+When Ris a Caryl group it may be a Caryl group. A Caryl group may be a phenyl group or a Cheteroaryl group for example furanyl thiophenyl and pyridyl. In some embodiments Ris preferably phenyl. In other embodiments Ris preferably thiophenyl for example thiophen 2 yl and thiophen 3 yl.
+
+When Ris a Caryl group it may be a Caryl for example a quinolinyl or isoquinolinyl group. The quinolinyl or isoquinolinyl group may be bound to the PBD core through any available ring position. For example the quinolinyl may be quinolin 2 yl quinolin 3 yl quinolin 4yl quinolin 5 yl quinolin 6 yl quinolin 7 yl and quinolin 8 yl. Of these quinolin 3 yl and quinolin 6 yl may be preferred. The isoquinolinyl may be isoquinolin 1 yl isoquinolin 3 yl isoquinolin 4yl isoquinolin 5 yl isoquinolin 6 yl isoquinolin 7 yl and isoquinolin 8 yl. Of these isoquinolin 3 yl and isoquinolin 6 yl may be preferred.
+
+When Ris a Caryl group it may bear any number of substituent groups. It preferably bears from 1 to 3 substituent groups with 1 and 2 being more preferred and singly substituted groups being most preferred. The substituents may be any position.
+
+Where Ris Caryl group a single substituent is preferably on a ring atom that is not adjacent the bond to the remainder of the compound i.e. it is preferably or to the bond to the remainder of the compound. Therefore where the Caryl group is phenyl the substituent is preferably in the meta or para positions and more preferably is in the para position.
+
+Where Ris a Caryl group for example quinolinyl or isoquinolinyl it may bear any number of substituents at any position of the quinoline or isoquinoline rings. In some embodiments it bears one two or three substituents and these may be on either the proximal and distal rings or both if more than one substituent .
+
+If a substituent on Rwhen Ris a Caryl group is ether it may in some embodiments be an alkoxy group for example a Calkoxy group e.g. methoxy ethoxy or it may in some embodiments be a Caryloxy group e.g phenoxy pyridyloxy furanyloxy . The alkoxy group may itself be further substituted for example by an amino group e.g. dimethylamino .
+
+If a substituent on Rwhen Ris a Caryl group is Calkyl it may preferably be a Calkyl group e.g. methyl ethyl propryl butyl .
+
+If a substituent on Rwhen Ris a Caryl group is Cheterocyclyl it may in some embodiments be Cnitrogen containing heterocyclyl group e.g. morpholino thiomorpholino piperidinyl piperazinyl. These groups may be bound to the rest of the PBD moiety via the nitrogen atom. These groups may be further substituted for example by Calkyl groups. If the Cnitrogen containing heterocyclyl group is piperazinyl the said further substituent may be on the second nitrogen ring atom.
+
+If a substituent on Rwhen Ris a Caryl group is bis oxy Calkylene this is preferably bis oxy methylene or bis oxy ethylene.
+
+Particularly preferred substituents when Ris a Caryl group include methoxy ethoxy fluoro chloro cyano bis oxy methylene methyl piperazinyl morpholino and methylthiophenyl. Another particularly preferred substituent for Ris dimethylaminopropyloxy.
+
+Particularly preferred substituted Rgroups when Ris a Caryl group include but are not limited to 4 methoxy phenyl 3 methoxyphenyl 4 ethoxy phenyl 3 ethoxy phenyl 4 fluoro phenyl 4 chloro phenyl 3 4 bisoxymethylene phenyl 4 methylthiophenyl 4 cyanophenyl 4 phenoxyphenyl quinolin 3 yl and quinolin 6 yl isoquinolin 3 yl and isoquinolin 6 yl 2 thienyl 2 furanyl methoxynaphthyl and naphthyl. Another possible substituted Rgroup is 4 nitrophenyl. Rgroups of particular interest include 4 4 methylpiperazin 1 yl phenyl and 3 4 bisoxymethylene phenyl.
+
+When Ris Csaturated aliphatic alkyl it may be methyl ethyl propyl butyl or pentyl. In some embodiments it may be methyl ethyl or propyl n pentyl or isopropyl . In some of these embodiments it may be methyl. In other embodiments it may be butyl or pentyl which may be linear or branched.
+
+When Ris Csaturated cycloalkyl it may be cyclopropyl cyclobutyl cyclopentyl or cyclohexyl. In some embodiments it may be cyclopropyl.
+
+In some embodiments one of R Rand Ris H with the other two groups being selected from H Csaturated alkyl Calkenyl Calkynyl and cyclopropyl.
+
+In other embodiments two of R Rand Rare H with the other group being selected from H Csaturated alkyl Calkenyl Calkynyl and cyclopropyl.
+
+In some embodiments the groups that are not H are selected from methyl and ethyl. In some of these embodiments the groups that re not H are methyl.
+
+In some embodiments Ris selected from H methyl ethyl ethenyl and ethynyl. In some of these embodiments Ris selected from H and methyl.
+
+In further embodiments it is preferred that one of Rand Ris H and the other is selected from Csaturated alkyl Calkenyl which alkyl and alkenyl groups are optionally substituted. In these further embodiment it may be further preferred that the group which is not H is selected from methyl and ethyl.
+
+It is preferred that M and M are monovalent pharmaceutically acceptable cations and are more preferably Na.
+
+The preferences expressed above for the first aspect may apply to the compounds of this aspect where appropriate.
+
+When Ris carbamate nitrogen protecting group it may preferably be Teoc Fmoc and Troc and may more preferably be Troc.
+
+When Ris O Prot wherein Protis an oxygen protecting group Protmay preferably be TBS or THP and may more preferably be TBS.
+
+When Ris a hemi aminal nitrogen protecting group it may preferably be MOM BOM or SEM and may more preferably be SEM.
+
+The preferences for compounds of formula I apply as appropriate to D in the sixth aspect of the invention.
+
+Optical rotations were measured on an ADP 220 polarimeter Bellingham Stanley Ltd. and concentrations c are given in g 100 mL. Melting points were measured using a digital melting point apparatus Electrothermal . IR spectra were recorded on a Perkin Elmer Spectrum 1000 FT IR Spectrometer. H and C NMR spectra were acquired at 300 K using a Bruker Avance NMR spectrometer at 400 and 100 MHz respectively. Chemical shifts are reported relative to TMS 0.0 ppm and signals are designated as s singlet d doublet t triplet dt double triplet dd doublet of doublets ddd double doublet of doublets or m multiplet with coupling constants given in Hertz Hz . Mass spectroscopy MS data were collected using a Waters Micromass ZQ instrument coupled to a Waters 2695 HPLC with a Waters 2996 PDA. Waters Micromass ZQ parameters used were Capillary kV 3.38 Cone V 35 Extractor V 3.0 Source temperature C. 100 Desolvation Temperature C. 200 Cone flow rate L h 50 De solvation flow rate L h 250. High resolution mass spectroscopy HRMS data were recorded on a Waters Micromass QTOF Global in positive W mode using metal coated borosilicate glass tips to introduce the samples into the instrument. Thin Layer Chromatography TLC was performed on silica gel aluminium plates Merck 60 F and flash chromatography utilised silica gel Merck 60 230 400 mesh ASTM . Except for the HOBt NovaBiochem and solid supported reagents Argonaut all other chemicals and solvents were purchased from Sigma Aldrich and were used as supplied without further purification. Anhydrous solvents were prepared by distillation under a dry nitrogen atmosphere in the presence of an appropriate drying agent and were stored over 4 molecular sieves or sodium wire. Petroleum ether refers to the fraction boiling at 40 60 C.
+
+Compound 1 was synthesised as described in WO 2010 043880 Compound 17 which is herein incorporated by reference.
+
+General LC MS conditions The HPLC Waters Alliance 2695 was run using a mobile phase of water A formic acid 0.1 and acetonitrile B formic acid 0.1 . Gradient initial composition 5 B over 1.0 min then 5 B to 95 B within 3 min. The composition was held for 0.5 min at 95 B and then returned to 5 B in 0.3 minutes. Total gradient run time equals 5 min. Flow rate 3.0 mL min 400 L was split via a zero dead volume tee piece which passes into the mass spectrometer. Wavelength detection range 220 to 400 nm. Function type diode array 535 scans . Column Phenomenex Onyx Monolithic C18 50 4.60 mm
+
+A mixture of 1 0.433 g 0.40 mmol CuI 0.008 g 0.04 mmol 0.1 eq N methyl N 2 propynyl amine 0.10 ml 1.20 mmol 3 eq and PPh 0.021 g 0.08 mmol 0.2 eq was dissolved in anhydrous piperidine 5 mL in the presence of molecular sieves under an argon atmosphere. Pd PPh 0.046 g 0.04 mmol 0.1 eq was added to the mixture and the reaction was warmed to 60 C. and stirred overnight. The solvent was removed by rotary evaporation under reduced pressure and the resulting brown solid purified by flash column chromatography silica gel gradient 96 DCM 4 methanol . Compound 2 was obtained as a brown solid 0.213 g 53 Rf 0.32 10 methanol in DCM LC MS 5 min 3.35 min ES995.35.
+
+Compound 2 0.041 g 0.04 mmol was dissolved in anhydrous THF 3.8 mL under an argon atmosphere and cooled to 78 C. in an acetone dry ice bath. LiEtBH 0.25 mL of a 1M solution in THF 0.35 mmol 6 eq was added to the mixture and the reaction was stirred at 78 C. for 40 minutes. The reaction was quenched with HO 3 mL and after addition of brine 3 mL the aqueous phase was extracted DCM 9 mL methanol 1 mL dried MgSO and the solvent was removed by rotary evaporation under reduced pressure. The crude was dissolved in a mixture of ethanol 3 mL DCM 1.5 mL and HO 1.5 mL and silica gel was added to the mixture. The reaction was stirred for four days at room temperature under an atmosphere of Argon. The mixture was filtered over a sinter funnel washing with a mixture of DMC 140 mL and methanol 15 mL . The organic phase was washed with brine 200 mL dried MgSO and the solvent was removed by rotary evaporation under reduced pressure. The resulting brown solid was purified by flash column chromatography silica gel gradient 90 DCM 10 methanol . Compound 3 was obtained as a brown solid 0.029 g 59 Rf 0.11 8 methanol in DCM LC MS 5 min 2.47 min ES702.28.
+
+LCMS data were obtained using an Agilent 1200 series LC MS with an Agilent 6110 quadrupole MS with Electrospray ionisation. Mobile phase A 0.1 Acetic acid in water. Mobile Phase B 0.1 in acetonitrile. Flow rate of 1.00 ml min. Gradient from 5 B rising up to 95 B over 3 minutes remaining at 95 B for 1 minute and then back down to 5 B over 6 seconds. The total run time is 5 minutes. Column Phenomenex Gemini NX 3 m C18 30 2.00 mm. Chromatograms based on UV detection at 254 nm. Mass Spectra were achieved using the MS in positive mode. Proton NMR chemical shift values were measured on the delta scale at 400 MHz using a Bruker AV400. The following abbreviations have been used s singlet d doublet t triplet q quartet m multiplet br broad. Coupling constants are reported in Hz. Unless otherwise stated column chromatography by the flash procedure were performed on Merck Kieselgel silica Art. 9385 . Mass spectroscopy MS data were collected using a Waters Micromass LCT instrument coupled to a Waters 2795 HPLC separations module. Thin Layer Chromatography TLC was performed on silica gel aluminium plates Merck 60 F . All other chemicals and solvents were purchased from Sigma Aldrich or Fisher Scientific and were used as supplied without further purification.
+
+Optical rotations were measured on an ADP 220 polarimeter Bellingham Stanley Ltd. and concentrations c are given in g 100 mL. Melting points were measured using a digital melting point apparatus Electrothermal . IR spectra were recorded on a Perkin Elmer Spectrum 1000 FT IR Spectrometer. H and C NMR spectra were acquired at 300 K using a Bruker Avance NMR spectrometer at 400 and 100 MHz respectively. Chemical shifts are reported relative to TMS 0.0 ppm and signals are designated as s singlet d doublet t triplet dt double triplet dd doublet of doublets ddd double doublet of doublets or m multiplet with coupling constants given in Hertz Hz . Mass spectroscopy MS data were collected using a Waters Micromass ZQ instrument coupled to a Waters 2695 HPLC with a Waters 2996 PDA. Waters Micromass ZQ parameters used were Capillary kV 3.38 Cone V 35 Extractor V 3.0 Source temperature C. 100 Desolvation Temperature C. 200 Cone flow rate L h 50 De solvation flow rate L h 250. High resolution mass spectroscopy HRMS data were recorded on a Waters Micromass QTOF Global in positive W mode using metal coated borosilicate glass tips to introduce the samples into the instrument. Thin Layer Chromatography TLC was performed on silica gel aluminium plates Merck 60 F and flash chromatography utilised silica gel Merck 60 230 400 mesh ASTM . Except for the HOBt NovaBiochem and solid supported reagents Argonaut all other chemicals and solvents were purchased from Sigma Aldrich and were used as supplied without further purification. Anhydrous solvents were prepared by distillation under a dry nitrogen atmosphere in the presence of an appropriate drying agent and were stored over 4 molecular sieves or sodium wire. Petroleum ether refers to the fraction boiling at 40 60 C.
+
+General LC MS conditions The HPLC Waters Alliance 2695 was run using a mobile phase of water A formic acid 0.1 and acetonitrile B formic acid 0.1 . Gradient initial composition 5 B over 1.0 min then 5 B to 95 B within 3 min. The composition was held for 0.5 min at 95 B and then returned to 5 B in 0.3 minutes. Total gradient run time equals 5 min. Flow rate 3.0 mL min 400 L was split via a zero dead volume tee piece which passes into the mass spectrometer. Wavelength detection range 220 to 400 nm. Function type diode array 535 scans . Column Phenomenex Onyx Monolithic C18 50 4.60 mm
+
+Compound 4 was synthesised as described in WO 2010 043880 Compound 6a which is herein incorporated by reference.
+
+Diol 4 25.60 g 29.9 mmol 1.0 eq. NaOAc 6.90 g 84.1 mmol 2.8 eq. and TEMPO 188 mg 1.2 mmol 0.04 eq. were dissolved in DCM 326 mL under nitrogen. This was cooled to 8 C. and TCCA 9.70 g 41.7 mmol 1.40 eq. was added portionwise over 20 min during which the solution turned dark brown which lightened as reaction proceeded. After 30 mins cold DCM 200 mL was added and mixture was filtered through celite and then washed with a solution of saturated sodium hydrogencarbonate sodium thiosulphate 1 1 v v 200 mL 2 . The organic layer was dried over magnesium sulphate filtered and concentrated under reduced pressure to yield the bis ketone 5 as a yellow orange sponge 25.5 g 100 . LC MS 3.173 min ES . m z 854.20 M . H NMR 400 MHz CDCl 7.32 s 2H 7.25 s 2H 5.50 d 2H J 10.1 Hz 4.75 d 2H J 10.1 Hz 4.60 dd 2H J 9.9 3.1 Hz 4.31 4.18 m 6H 3.89 3.84 m 8H 3.78 3.62 m 4H 3.55 dd 2H J 19.3 3.0 Hz 2.76 dd 2H J 18.6 10.2 Hz 2.42 p 2H J 5.8 Hz 0.98 0.91 m 4H 0.00 s 18H .
+
+Anhydrous 2 6 lutidine 1.984 g 17.864 mmol 6.22 eq. was injected in one portion to a vigorously stirred solution of bis ketone 5 2.45 g 2.977 mmol 1.00 eq. in dry DCM 90 mL at 45 C. dry ice acetonitrile under a nitrogen atmosphere. Anhydrous triflic anhydride 5.040 g 17.864 mmol 6.0 eq. taken from a freshly opened ampule was injected rapidly dropwise while maintaining the temperature no higher than 40 C. The reaction mixture was allowed to stir at 45 C. for 1 h at which point TLC 50 50 v v n hexane EtOAc and LCMS revealed complete consumption of the starting material. The cold reaction mixture was immediately diluted with DCM 100 mL and with vigorous shaking washed with water 1 50 mL 5 citric acid solution 1 100 mL saturated NaHCO 100 mL brine 50 mL and dried over magnesium sulphate filtered and concentrated under reduced pressure to give the crude product which was purified by flash chromatography silica gel gradient elution 90 10 n hexane EtOAc v v to 60 40 n hexane EtOAc v v to afford the bis enol triflate 6 as a yellow foam 2.097 g 63 . LC MS 3.916 min ES . m z 1117.24 M . H NMR 400 MHz CDCl 7.33 s 2H 7.26 s 2H 7.14 t 2H J 2.0 Hz 5.51 d 2H J 10.1 Hz 4.76 d 2H J 10.1 Hz 4.62 dd 2H J 11.0 3.6 Hz 4.32 4.23 m 4H 3.94 3.90 m 8H 3.81 3.64 m 4H 3.16 ddd 2H J 16.4 11.1 2.3 Hz 2.43 p 2H J 5.9 Hz 1.23 0.92 m 4H 0.02 s 18H .
+
+Boronic acid 1.0 eq triethylamine 4.0 eq and 11aS 11a S 8 8 propane 1 3 diylbis oxy bis 7 methoxy 5 11 dioxo 10 2 trimethylsilyl ethoxy methyl 5 10 11 11a tetrahydro 1H benzo e pyrrolo 1 2 a 1 4 diazepine 8 2 diyl bis trifluoromethanesulfonate 6 1.0 eq were dissolved in a mixture of ethanol toluene and water 3 6 1 0.01 M under a nitrogen atmosphere. The reaction mixture was degassed under nitrogen for 5 mins when tetrakis triphenylphosphine palladium 0 0.04 eq was added. The reaction mixture stirred at between 60 C. and 70 C. for 1 hour. Dichloromethane was added and washed with water. The organic layer was dried with MgSO filtered and concentrated under reduced pressure. The residue was adsorbed onto silica and purified by flash chromatography silica gel gradient elution 80 20 to 20 80 v v hexane ethyl acetate to yield a mixture of recovered starting material product and bis substituted impurity.
+
+ 11aS 11a S 8 8 propane 1 3 diylbis oxy bis 7 methoxy 5 11 dioxo 10 2 trimethylsilyl ethoxy methyl 5 10 11 11a tetrahydro 1H benzo e pyrrolo 1 2 a 1 4 diazepine 8 2 diyl bis trifluoromethanesulfonate 6 2.00 g 1.790 mmol 1.0 eq 4 methylpiperazin 1 yl phenylboronic acid 0.394 g 1.790 mmol 1.0 eq and triethylamine 0.574 mL 4.117 mmol 2.3 eq were solubilised in a mixture of Toluene Ethanol HO 6 3 1 100 mL under a nitrogen atmosphere. The reaction was flushed with nitrogen and palladium tetrakistriphenylphosphine 20.7 mg 0.0179 mmol 0.01 eq was added. The reaction was flushed with nitrogen and stirred at 30 C. for 16 hours. All the volatiles were subsequently removed under reduced pressure and the solid residue was partitioned between HO 200 mL and ethyl acetate 200 mL . The aqueous layer was extracted two more times with ethyl acetate 2 200 mL before the combined organics were washed with brine 200 mL dried with MgSO filtered and the volatiles removed under reduced pressure. The crude product was purified by silica gel column chromatography CHCl100 to 95 5 v v CHCl MeOH to yield a mixture of recovered starting material product and bis substituted impurity.
+
+0.669 g 33 of 7e as a brown solid. LC MS 2.751 min ES m z 1144.2 M H . H NMR 400 MHz CDCl 7.37 s 1H 7.33 7.28 m 4H 7.12 m 1H 6.88 d J 8.8 Hz 2H 5.51 5.49 d J 10.0 Hz 2H 4.76 4.73 dd J 10.0 4.0 Hz 2H 4.62 4.56 m 2H 4.30 4.22 m 4H 3.94 3.86 m 9H 3.81 3.71 m 3H 3.70 3.62 m 2H 3.26 3.22 m 4H 3.17 3.07 m 2H 2.66 2.55 m 4H 2.46 2.38 m 2H 2.35 s 3H 0.99 0.93 m 4H 0.00 s 18H .
+
+A mixture of the appropriate mono triflate from step a 1.0 eq and triphenylphosphine 0.2 eq was dissolved in anhydrous piperidine 0.05 M in the presence of 4 molecular sieves under a nitrogen atmosphere. Propargylamine 6.0 eq copper Iodide 0.1 eq and tetrakis triphenylphosphine palladium 0 0.1 eq was then added to the mixture and the reaction was warmed to between 50 C. and 60 C. for 0.5 hour to 1 hour. The mixture was cooled to room temperature and the solvent was removed by rotary evaporation under reduced pressure. The resulting brown oil was purified by silica gel column chromatography DCM 100 to 90 10 v v DCM MeOH to 85 15 v v DCM MeOH .
+
+0.418 g 0.414 mmol of 7c yielded 0.150 g 40 of product as a brown solid. LC MS 2.576 min ES . m z 914.42 M . H NMR 400 MHz CDCl 7.35 7.32 m 3H 6.84 s 1H 6.25 6.21 d J 14.9 Hz 1H 5.72 5.65 m 1H 5.50 5.48 d J 9.9 Hz 2H 4.73 4.71 m 2H 4.51 4.48 m 2H 4.31 4.23 m 4H 3.93 3.86 m 7H 3.81 3.72 m 3H 3.70 3.60 m 5H 3.49 3.42 m 1H 2.95 2.83 m 2H 2.46 2.38 m 2H 1.83 d J 6.7 Hz 3H 1.76 1.69 m 2H 1.00 0.92 m 4H 0.00 s 18H .
+
+1.120 g 1.03 mmol of 7d yielded 0.507 g 50 of product as a brown solid. LC MS 2.596 min ES . m z 944.2 M . H NMR 400 MHz CDCl 7.38 s 1H 7.34 s 1H 7.30 m 1H 7.09 m 1H 6.94 d J 1.6 Hz 1H 6.89 dd J 8.1 1.6 Hz 1H 6.78 d J 8.1 Hz 1H 5.97 s 2H 5.52 5.49 dd J 10.0 4.3 Hz 2H 4.77 4.73 dd J 10.1 6.1 Hz 2H 4.61 4.58 dd J 10.6 3.4 Hz 1H 4.53 4.49 dd J 10.6 3.4 Hz 1H 4.31 4.24 m 4H 3.91 3.86 m 9H 3.81 3.74 m 2H 3.73 3.57 m 5H 3.14 3.07 m 1H 2.94 2.87 m 1H 2.46 2.39 m 2H 1.85 1.68 m 2H 1.02 0.93 m 4H 0.00 s 18H .
+
+0.812 g 0.710 mmol of 7e yielded 0.227 g 30 of product as a brown solid. LC MS 2.109 min ES . m z 1049.48 M H .
+
+The appropriate SEM dilactam from step b 1.0 eq. was solubilised in THF 0.02 M and cooled to 78 C. under a nitrogen atmosphere. Super hydride solution 1M in THF 2.04 eq. was added dropwise over 5 minutes. After 20 minutes an aliquot was washed with water for LCMS and TLC analysis. After 30 minutes water was added and the cold bath removed. The organic layer was extracted with EtOAc 2 and the combined organic extracts washed with brine dried with MgSO filtered and the solvent removed under reduced pressure. The crude product was dissolved in MeOH DCM water 6 3 1 0.01 M and enough silica gel to form a thick stirring suspension.
+
+After 5 days the suspension was filtered through a sintered funnel and washed with DCM MeOH 9 1 until complete elution of product. The organic layer was washed with brine 2 dried with MgSO filtered and the solvent removed under reduced pressure. Purification by silica gel column chromatography CHCl100 to 90 10 v v CHCl MeOH afforded the product.
+
+0.150 g 0.164 mmol of 8c yielded 0.29 g 28 of product as a brown solid. LC MS 2.759 min ES . m z 1243.50 2M .
+
+0.250 g 0.251 mmol of 8d yielded 0.026 g 15 of product as a dark brown solid. LC MS 2.758 min ES . m z 1402.79 2M .
+
+These compounds were generally found to be in dimeric form when isolated see discussion above . Treatment in methanol by stirring for 1 hour enabled detection of the monomeric form of the compounds. 9c LC MS 1.52 min ES . m z 622.4 M H 9d LC MS 1.51 min ES . m z 702.5 M H .
+
+1 ethyl 3 3 dimethylaminopropyl carbodiimide hydrochloride 0.0193 g 0.101 mmol 1.0 eq was added to a solution of 8d 0.100 g 0.101 mmol 1.0 eq and HO Ala Val Fmoc 0.0415 g 0.101 mmol 1.0 eq in dry dichloromethane 6 mL at room temperature. After 30 minutes the reaction was diluted with dichloromethane 20 mL and washed sequentially with water 10 mL and brine 10 mL . The organic phase was dried over magnesium sulphate filtered and excess dichloromethane removed by rotary evaporation under reduced pressure. The resulting residue was subjected to flash column chromatography silica gel 70 1 v v DCM MeOH to 50 1 v v DCM MeOH . Pure fractions were collected and combined and excess eluent was removed by rotary evaporation under reduced pressure to give product as a yellow solid 0.043 g 31 .
+
+The SEM dilactam 10d 0.063 g 0.0455 mmol 1.0 eq. was solubilised in THF 2.7 and cooled to 78 C. under a nitrogen atmosphere. Super hydride solution 1M in THF 0.093 mL 2.04 eq. was added dropwise over 5 minutes. After 20 minutes an aliquot was washed with water for LCMS and TLC analysis. After 30 minutes water was added and the cold bath removed. The organic layer was extracted with EtOAc 2 10 mL and the combined organic extracts washed with brine 10 mL dried with MgSO filtered and the solvent removed under reduced pressure. The crude product was dissolved in MeOH DCM water 6 3 1 0.01 M and enough silica gel to form a thick stirring suspension.
+
+After 5 days the suspension was filtered through a sintered funnel and washed with DCM MeOH 9 1 until complete elution of product. The organic layer was washed with brine 2 dried with MgSO filtered and the solvent removed under reduced pressure. Purification by silica gel column chromatography CHCl100 to 90 10 v v CHCl MeOH afforded the product.
+
+Excess piperidine was added 0.01 mL 0.1 mmol to a solution of SEM dilactam 11d 1 mg 0.0009 mmol in DMF 0.1 mL . The mixture was allowed to stir at room temperature for 20 min at which point the reaction had gone to completion monitored by LC MS . The reaction mixture was diluted with CHCl 1 mL and the organic phase was washed with HO 3 1 mL until complete piperidine removal. The organic phase was dried over MgSO filtered and excess solvent removed by rotary evaporation under reduced pressure to afford crude material 12d. LC MS 1.917 min ES . m z 872.2 M H 
+
+K562 human chronic myeloid leukaemia cells were maintained in RPM1 1640 medium supplemented with 10 fetal calf serum and 2 mM glutamine at 37 C. in a humidified atmosphere containing 5 COand were incubated with a specified dose of drug for 96 hours at 37 C. in the dark. The incubation was terminated by centrifugation 5 min 300 g and the cells were washed once with drug free medium. Following the appropriate drug treatment the cells were transferred to 96 well microtiter plates 10cells per well 8 wells per sample . Plates were then kept in the dark at 37 C. in a humidified atmosphere containing 5 CO. The assay is based on the ability of viable cells to reduce a yellow soluble tetrazolium salt 3 4 5 dimethylthiazol 2 yl 2 5 diphenyl 2H tetrazolium bromide MTT Aldrich Sigma to an insoluble purple formazan precipitate. Following incubation of the plates for 4 days to allow control cells to increase in number by approximately 10 fold 20 L of MTT solution 5 mg mL in phosphate buffered saline was added to each well and the plates further incubated for 5 hours. The plates were then centrifuged for 5 minutes at 300 g and the bulk of the medium pipetted from the cell pellet leaving 10 20 L per well. DMSO 200 L was added to each well and the samples agitated to ensure complete mixing. The optical density was then read at a wavelength of 550 nm on a Titertek Multiscan ELISA plate reader and a dose response curve was constructed. For each curve an ICvalue was read as the dose required to reduce the final optical density to 50 of the control value.
+

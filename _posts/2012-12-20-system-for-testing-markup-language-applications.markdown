@@ -1,0 +1,275 @@
+---
+
+title: System for testing markup language applications
+abstract: A system is described for remotely testing markup language and script language based applications executing on a computing device. A development device such as a desktop computer executes one or more development tool modules. A communication module and an unpack module are deployed to a computing device which executes the application under test. These modules serve to connect the development tool module executing on the development device to an embedded test tool executing on the computing device. Using this connection, the development tool module is able to interactively test and interact with the application executing on the computing device.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09268668&OS=09268668&RS=09268668
+owner: Google Inc.
+number: 09268668
+owner_city: Mountain View
+owner_country: US
+publication_date: 20121220
+---
+With the growing popularity of computing devices there is an increasing demand for applications or apps to run on such devices. These devices may include smartphones tablet computers televisions set top boxes in vehicle computer systems home entertainment systems and so forth. To satisfy this demand programmers are constantly building testing and maintaining applications. Testing of these applications is useful for quality assurance to find and correct errors.
+
+Certain implementations and embodiments will now be described more fully below with reference to the accompanying figures in which various aspects are shown. However various aspects may be implemented in many different forms and should not be construed as limited to the implementations set forth herein. Like numbers refer to like elements throughout.
+
+A wide variety of applications or apps are developed for execution on computing devices including smartphones tablet computers televisions set top boxes in vehicle computer systems home entertainment systems and so forth.
+
+There is an increasing demand for software developers to build applications or apps to run on such devices. Software developers build test and maintain applications using a variety of development tools. Testing provides many benefits including finding and correcting errors improving performance and so forth. Testing may include observing processor usage observing memory allocation programmatic debugging determining usability validating functionality and so forth.
+
+Different types of applications may be available for use on the computing devices. These include native applications markup language applications hybrid applications and browser based applications. Native applications are those which are written and compiled for execution on the particular device. For example native applications may be written in a programming language such as C or Objective C and compiled into native code such as a binary executable for use on the device. Markup language applications include one or more instructions in a markup language which is may be rendered by a layout engine and one or more instructions in a scripting language which may be interpreted by a scripting language engine during execution. For example a hypertext markup language HTML version 5 or greater markup language application may include HTML cascading style sheets CSS and JavaScript. In some implementations the markup language application may have multiple instances of the UlWebView class references. Hybrid applications include native code and markup language application portions. Browser based applications are processed within a web browser application and are limited in execution. The browser based applications may have only a single UlWebView instance.
+
+Markup language applications confer several advantages including in particular ease of deployment across different devices with no adjustment or minimal adjustment. For example a markup language application for a smartphone from one manufacturer may also be executed on an in vehicle system. In comparison a native application may need to be re coded recompiled and so forth to operate on different platforms. The platforms may be distinguished by different processors operating systems or combinations thereof.
+
+Traditional testing systems have lacked the ability to provide development tools for testing for markup language applications executing on computing devices. Software developers have had to rely on cumbersome methods for testing including insertion of debug code use of simulators and so forth. The insertion of debug code such as found in a software development kit SDK or manual breakpoints requires ongoing editing and adjustment of the code and may result in incorrect or missed information. Likewise the simulators lack the full fidelity provided by execution on the actual computing device.
+
+This disclosure describes embodiments of systems and methods for testing markup language applications using an actual computing device. A development device such as a desktop computer may execute one or more development tools such as debuggers memory debuggers and so forth. These development tools may be used to test markup language applications which are either local to the development device or which are remote such as those executing on the computing device. In one implementation the development tools may include the Safari Inspector as developed by Apple Corp. of Cupertino Calif.
+
+The computing device includes a communication module and an unpack module. These modules are configured to allow communication between the development tools of the development device and embedded test tools which are present on the computing device. These embedded test tools may be incorporated into other modules such as a layout engine module. In one implementation the layout engine module may comprise WebKit as promulgated by Apple Corp. and others through an open source development model.
+
+In one implementation the communication module may comprise a lightweight hypertext transport protocol HTTP server which receives commands from the development tool of the development device. These commands are passed to the unpack module which unpacks the commands from their transport packets and provides unpacked command data to the layout engine module for processing. Output from the embedded test tool may then be provided to the communication module for transfer to the development tool module of the development device.
+
+By using the communication module and unpack module the development tool module is able to access and test applications which use markup language on the actual client device. Because additional debugging code is not required and the actual computing device is used the results of the test are of high fidelity to actual operations of the application as experienced by an end user.
+
+The communication module and unpack modules may be readily adapted for use on different computing device platforms while providing functionality to the development tool of the development device. As a result the same development tool may be used to test the markup language applications across several different platforms. This may expedite the development process by allowing the software developer to use a familiar tool across many platforms. By eliminating the need for insertion of debugging code and the associated effort involved overall productivity and effectiveness of the software development effort is improved. Finally the use of the actual computing device during testing provides the highest fidelity testing available which is representative of the end user experience which may improve quality of the application as released to the end user.
+
+The development device may be used to test one or more local applications under test . This local application under test includes a markup language application . The development tool module may be configured to provide testing of the local application under test . This testing may include the development tool module providing one or more commands to a local layout engine module not depicted here . The local layout engine module is configured to execute or interpret the markup language application and return output data . The output data may include crash dumps register values memory information timing data hardware resource usage data and so forth.
+
+In one implementation the layout engine module may comprise WebKit as promulgated by Apple Corp. and others. In this implementation the commands may be debugging commands compatible with the WebKit layout engine and internal components such as the WebCore JSCore and so forth.
+
+In this illustration the development tool module is providing commands to the markup language application which is local to the development device . The development tool module may receive the output data resulting from the execution of the markup language application by the local layout engine module.
+
+The development tool module may provide session data . The session data may include data based at least in part on the commands the output data and so forth. This session data may be saved for later analysis sent to another device and so forth. In some implementations the development tool module may be configured to replay previously stored session data . The development device is described in more detail below with regard to .
+
+As described above testing using a particular computing device platform provides valuable information which is useful to the software developer and others. One or more computing devices may be coupled to the development device . This coupling enables the development tool module of the development device to test a markup language application on the computing device . Because of the coupling and testing facilities made available through the development tool module debug code or other testing instructions may be omitted from a remote application under test .
+
+The computing device may include a native application the markup language application a hybrid application a browser based application or a combination thereof.
+
+The native application is written and compiled for execution on the particular computing device platform. For example native applications may be written in a programming language such as C or Objective C and compiled into native code such as a binary executable for use on the device having a particular processor and operating system.
+
+In comparison markup language applications include one or more instructions in a markup language which is rendered and a scripting language which is interpreted by a scripting language engine during execution. For example a hypertext markup language HTML version 5 or greater markup language application may include HTML and cascading style sheets CSS as the markup language and JavaScript as the scripting language. In some implementations the markup language application may have multiple instances of the UlWebView class references.
+
+The hybrid applications include native code as well as markup language application portions. For example portions of native code may be used to interact with platform specific hardware such as a graphics processing unit while portions of markup language provide business logic and user interface elements.
+
+The browser based applications are processed within a web browser application and are limited in their execution by the constraints of the web browser. The browser based application is executed within a particular sandbox and executes within the web browser. The browser based applications may have only a single UlWebView instance. Browser based applications are further constrained in that they may share caches and other resources with the web browser and also occupy the same sandbox as the web browser. Sandboxing and distinctions between the different applications are discussed below with regard to .
+
+The computing device may include one or more of the remote applications under test . These applications are remote in that they are executing on a different device from the development device and the development tool module . The remote applications under test may include the markup language application the hybrid application or both.
+
+The remote applications under test may use a layout engine module during execution. In one implementation the layout engine module may comprise WebKit as promulgated by Apple Corp. and others. In this implementation the commands may comprise WebKit commands.
+
+The layout engine module may include one or more libraries scripting language engines embedded test tools and so forth. The libraries may comprise previously stored program instructions which may be called by applications during execution. These libraries may include those involved in layout rendering document object model DOM creation graphics libraries and so forth. In one implementation the graphics libraries may include WebGL as promulgated by the Khronos Group of Beaverton Oreg.
+
+The scripting language engines are configured to interpret and execute the scripting language portion of the markup language application or the hybrid application . In the WebKit implementation the scripting language engine may comprise the JavaScript Core. Other scripting language engines may also be present. For example the Nitro JS engine provided by Apple Corp. the Carakan JavaScript engine provided by Opera Software of Oslo Norway and so forth may be available on the computing device for use. These may be regularly available on the computing device or may be specifically loaded onto the computing device for testing purposes.
+
+The layout engine module includes one or more of the embedded test tools . The embedded test tools are functionalities in the layout engine module which may be used for testing. The embedded test tools may include facilities for runtime editing providing memory allocation information platform resource usage information and so forth. The embedded test tools are configured to interact with the scripting language engine or other portions of the layout engine module . The embedded test tools may generate the output data . The embedded test tools may be used in conjunction with the development tool module executing on the development device to provide various testing capabilities to the software developer.
+
+Communication between the development tool module on the development device and the layout engine module is provided by a communication module and an unpack module . The communication module is configured to send and receive information to a device external to the computing device such as the development device . The communication module may use various physical transports to exchange information includeing universal serial bus USB Institute of Electrical and Electronics Engineers IEEE Firewire wired Ethernet wireless such as Wi Fi or Bluetooth and so forth. Transmission control protocol TCP user datagram protocol UDP or other transport layer protocols may be used in conjunction with the physical transports to exchange information between the development device and the computing device . In one implementation the physical transport may comprise USB and data may be sent using hypertext transport protocol HTTP over TCP HTTP TCP .
+
+In one implementation the communication module may comprise a lightweight HTTP server. This server is configured to send and receive data and is considered lightweight in that it executes with relatively small resource overhead and has a more limited feature set than that provided by a typical web server application such as Apache HTTP server. For example the communication module may omit functions such as support for HTTP Secure HTTPS .
+
+The communication module receives packed commands from the development tool of the development device . The commands may be packetized or otherwise manipulated for transport between the development tool module on the development device and the computing device forming the packed commands . The communication module passes the received packed commands to the unpack module .
+
+The unpack module is configured to process the packed commands and provide unpacked commands to the layout engine module . The processing may include removing transport associated information such as headers routing information and so forth. For example the unpack module may remove TCP headers and reassemble payloads across multiple packets to form the commands . In some implementations the unpacked commands may be in extensible markup language procedure call XPC format.
+
+The unpack module provides the unpacked commands to the layout engine module for processing. The unpacked commands are compatible with the embedded test tools and other aspects of the layout engine module and an associated framework. Just as the development tool module may send commands associated with the local application under test the development tool module may send commands associated with the remote application under test . The layout engine module may be configured to operate such that commands are provided and responses such as the output data are generated.
+
+The communication module and the unpack module are described in this disclosure as separate modules. In some implementations at least a portion of the functionality of these modules may be combined into a single module or incorporated into another module. The computing device is described in more detail below with regard to .
+
+Some operating systems executing on the computing devices may provide for sandboxes or sandboxing. The sandbox comprises an environment with access controls applied to executing processes. These access controls may be provided to limit or control interactions between the executing applications and with other devices or applications. Sandboxing may be used to mitigate the effects of malicious or improperly coded applications. In some implementations the sandboxes may be implemented as separate virtual machines within which the application may execute. Some operating systems such as the iOS operating system by Apple Corp. provide for sandboxing applications.
+
+In this illustration four sandboxes are depicted with a different application in each. However it is understood that in some implementations sandboxing may be omitted and the various applications may execute in a common environment.
+
+The sandbox contains the native application . As described above the native application is written and compiled for execution on the particular computing device platform. The native application comprises native code and may also include one or more data files . The native code comprises a binary executable for use on a particular platform. For example the native application may be written in a programming language such as Objective C and compiled into native code . The data files may include application cache user preferences user data and so forth.
+
+The sandbox contains the markup language application . The markup language application includes one or more instructions expressed in a markup language . The markup language may use one or more tags to specify particular rendering of content. For example the markup language may comprise instructions compliant with hypertext markup language HTML version 5. The markup language may also include cascading style sheets CSS . While the examples in this disclosure use HTML5 or later the systems and methods described may also be applied to other markup languages.
+
+The markup language application may also include instructions expressed in a scripting language . The scripting language is configured for processing by an interpreter during execution. For example the scripting language may comprise JavaScript and the interpreter may comprise the JavaScript Core in WebKit . While the examples in this disclosure use JavaScript the systems and methods described may also be applied to other scripting languages.
+
+In some implementations the markup language application may have multiple instances of the UlWebView class references. These UlWebView instances enable presentation of content expressed using a markup language such as HTML5 with CSS and a scripting language such as JavaScript. For example as depicted here the markup language application may have UlWebView instances .
+
+The markup language application may also have one or more data files . As described above the data files may include property list PLIST files caches user preferences user data icons cookies databases temporary files temporary directories and so forth. In some implementations a portion or all of the data files may be stored on a remote device such as a backend server accessible via the Internet. Software developers may thus minimize or eliminate the data which is stored locally on the computing device . This may be done to reduce local storage requirements improve security of the data and so forth. For example upon loss or compromise of the computing device the backend server may terminate access safeguarding the data. Use of the backend server may also minimize or eliminate the complexity associated with encrypting contents in the data files to further safeguard data. The implementation of the markup language application as a front end and the use of the backend server allows for easier purging of data associated with the application when the application is exited or terminated.
+
+The development tool module may be configured to access information about the data files and present that information to the developer for testing debugging inspection and so forth of the local store associated with the remote application under test .
+
+For example consider an example markup language application executing in the sandbox of the computing device which is executing the iOS operating system. In this example the data files such as which are associated with remote applications under test may be stored on the computing device at a directory location var mobile Applications device specific where device specific indicates a value which may vary from one computing device to another. A command to elicit a listing of the contents in the directory and the corresponding results may be as follows 
+
+The files may be analyzed debugged or tested using various tools of the development tool module as appropriate to the file types. For example where the .db files indicated above such as EAsyncstore.db use SQLite as developed by D. Richard Hipp and others the sqlite3 utility be used to execute commands against the database.
+
+As described above the data files may also include session cookies. For example a command may be used to retrieve these session cookies 
+
+The development tool module may also include the plutil to interact with session PLIST files user data PLIST files and so forth. For example the following commands may be used against the data files to elicit information 
+
+By using the development tool module the developer may assess the data files which are locally stored on the computing device by the remote application under test . For example the above information about the data files may be presented within the Safari Inspector.
+
+The sandbox depicts the hybrid application . As described above the hybrid application includes native code as well as markup language scripting language or both. For example portions of native code may be used to interact with platform specific hardware such as a graphics processing unit or global positioning system GPS receiver while portions of markup language provide business logic and user interface elements such as controlling display of mapping information. Similar to the markup language application multiple instances of the UlWebView and class references may be present. The hybrid application may also have one or more associated data files .
+
+The sandbox depicts the browser based applications . Browser based applications are processed within a web browser application and are limited in their execution by this constraint. In one implementation the web browser application may be the Safari browser by Apple Corp. and executing in the iOS operating system. The web browser application may access one or more of the markup language or scripting language for rendering and execution. The browser based application may have only a single UlWebView instance.
+
+The web browser application s native code the rendered markup language the executed scripting language the corresponding single UlWebView instance and the data files share the same sandbox . As a result there is a potential for unwanted or undesired interactions. For example the scripting language may improperly invoke a function in the native code and generate an error or malicious condition.
+
+Among the types of applications the markup language application provides a useful blend of benefits. Cross platform development and maintenance is less than that of native applications . Hybrid applications leverage platform specific native code with the cross platform capabilities of the markup language and the scripting language . The markup language application readily supports multiple UlWebView instances allowing for rich application experiences compared to browser based applications . Compared to the browser based applications the markup language application and the hybrid application may experience improved security by operating in a separate sandbox omitting the web browser application and so forth.
+
+The development device may include one or more input output I O interface s to allow the development device to communicate with other devices. For example the I O interface s may be configured to provide a universal serial bus USB connection compliant with the standards promulgated by the USB Implementers Forum Inc. of Beaverton Oreg. to couple to the computing device .
+
+The I O interface s may couple to one or more I O devices . The I O device s may include user input devices such as one or more of a keyboard a mouse a pen a game controller a voice input device a touch input device a gestural input device and so forth. The I O device s may include output devices such as one or more of a display a printer audio speakers haptic output devices and so forth. In some embodiments the I O device s may be physically incorporated with the development device or be externally placed.
+
+The development device may also include one or more network interfaces to enable communications between the development device and other networked devices. Such network interface s may include one or more network interface controllers NICs or other types of transceiver devices configured to send and receive communications over the network s . For example the network interface s may be configured to provide a Wi Fi connection compliant with one or more IEEE 802.11 standards such as 802.11g or 802.11n. The development device may also include one or more busses or other internal communications hardware or software that allow for the transfer of data between the various modules and components of the development device .
+
+The development device includes one or more memories . The memory comprises one or more computer readable storage media CRSM . The CRSM may be any one or more of an electronic storage medium a magnetic storage medium an optical storage medium a quantum storage medium a mechanical computer storage medium and so forth. The memory provides storage of computer readable instructions data structures program modules and other data for the operation of the development device .
+
+The memory may include at least one operating system OS module . The OS module is configured to manage hardware resources such as the I O interface s and network interface s and to provide various services to applications or modules executing on the processor s . In some implementations the OS module may comprise one or more operating systems configured for execution on the development device . For example the OS module may implement one or more of Mac OS from Apple Corp. of Cupertino Calif. Windows from Microsoft Corp. of Redmond Wash. Linux and its derivatives from various sources other operating systems.
+
+The memory may include a user interface module the development tool module any local applications under test or other module s . For example the memory may store at least a portion of the development tool module comprising the Safari Inspector from Apple Corp.
+
+The memory also includes a datastore to store information for operations of the development device . The datastore may comprise a database array structured list tree or other data structure. In some implementations the datastore may store remote application under test connection data . For example the connection data such as USB port device identifier address and so forth may be stored. Test script data may be stored which defines particular tests or functions be executed by the development tool module against an application under test. The session data may be stored in the datastore . Other data may also be stored such as software developer preferences configuration settings for the development tool module and so forth.
+
+The computing device may include one or more input output I O interface s to allow the computing device to communicate with other devices. For example the I O interface s may be configured to provide a universal serial bus USB connection to couple to the development device .
+
+The I O interface s may couple to one or more I O devices . The I O device s may include user input devices such as one or more of a keyboard a mouse a pen a game controller a voice input device a touch input device a gestural input device the other devices. The I O device s may include output devices such as one or more of a display a printer audio speakers haptic output devices and so forth. In some embodiments the I O device s may be physically incorporated with the computing device or be externally placed.
+
+The computing device may also include one or more network interfaces to enable communications between the computing device and other networked devices such as those depicted in . Such network interface s may include one or more network interface controllers NICs or other types of transceiver devices configured to send and receive communications over the network s . For example the network interface s may be configured to provide a Wi Fi connection compliant with one or more IEEE 802.11 standards such as 802.11g or 802.11n. The computing device may also include one or more busses or other internal communications hardware or software that allow for the transfer of data between the various modules and components of the computing device .
+
+The computing device includes one or more memories . The memory comprises one or more CRSM as described above. The memory provides storage of computer readable instructions data structures program modules and other data for the operation of the computing device .
+
+The memory may include at least one operating system OS module . The OS module is configured to manage hardware resources such as the I O interface s and network interface s and to provide various services to applications or modules executing on the processor s . In some implementations the OS module may comprise one or more mobile operating systems configured for execution on mobile computing devices. For example the OS module may implement one or more of iOS from Apple Corp. of Cupertino Calif. Windows Mobile from Microsoft Corp. of Redmond Wash. Android from Google Corp. of Mountain View Calif. and its derivatives from various sources Palm OS from Palm Computing Inc. of Sunnyvale Calif. and its derivatives from various sources BlackBerry OS from Research In Motion Ltd. of Waterloo Ontario Canada or other operating systems such as VxWorks from Wind River Systems of Alameda Calif. In cases where the OS module implements a version of iOS any version of iOS may be supported including iOS 1.x 2.x 3.x 4.x 4.x 6.x or higher versions including any version of iOS for the iPhone iPad iPod Touch or any other compatible device. In cases where the OS module implements a version of Android any version of Android may be supported including but not limited to versions 2.3.x Gingerbread 4.0.x Ice Cream Sandwich 4.1.x Jelly Bean and so forth. As described above with regard to in some implementations the OS module may be configured to sandbox applications.
+
+The memory may include a browser application module . This browser application module may be implemented as a native application compiled for execution on the particular platform of the computing device . For example where the platform comprises an Apple Corp. device running the iOS operating system the browser application module may comprise the Safari mobile browser.
+
+The memory may also include the layout engine module as described above. In some implementations the layout engine module may comprise the WebKit framework and associate libraries scripting language engine and embedded test tools . The browser application module or other applications on the computing device may utilize at least a portion of the layout engine module during operation. For example the Safari mobile browser may use the JavaScript core in WebKit for execution of the scripting language which comprises JavaScript.
+
+The layout engine module may be initialized prior to testing. The initialization may be configured to activate the embedded test tools . For example where the layout engine module comprises WebKit the WebKit listener may be placed into an inspection mode configured to receive commands from the Safari Inspector.
+
+In some implementations where information about how to initialize or otherwise activate the embedded test tools is not readily available the layout engine module or other applications may be analyzed as described in U.S. patent application Ser. No. 13 631 919 filed on Sep. 29 2012 titled Application Validation Through Object Level Hierarchy Analysis and in U.S. patent application Ser. No. 13 655 667 filed on Oct. 19 2012 titled Application Auditing Through Object Level Code Inspection both of which are incorporated by reference into this disclosure.
+
+The testing described herein may further be facilitated using the systems and methods described in U.S. patent application Ser. No. 13 619 867 filed on Sep. 14 2012 titled Remote Control of a Mobile Device which is incorporated by reference into this disclosure.
+
+The communication module and the unpack module are also stored in the memory . As described above the communication module is configured to send and receive information to a device external to the computing device such as the development device . In one implementation the communication module may comprise a lightweight HTTP server.
+
+As also described above the unpack module is configured to process the packed commands and provide unpacked commands to the layout engine module . The unpacked commands are compatible with the embedded test tools and other aspects of the layout engine module and an associated framework.
+
+The memory may include native applications markup language applications hybrid applications browser based applications and so forth. As described above the remote applications under test may include the markup language application and the portion of the hybrid application which is non native code.
+
+Other modules may also be stored in the memory such as digital rights management modules speech recognition modules and so forth.
+
+The memory also includes a datastore to store information for operations of the computing device . The datastore may comprise a database array structured list tree or other data structure. The datastore may store the packed command data unpacked command data the output data or both. Other data may also be stored such as user preferences configuration settings and so forth.
+
+In some cases one or more modifications may be made to the computing device for example to root or to jailbreak the computing device prior to installation of the communication module the unpack module and so forth.
+
+The option to enable graphics library may be used to set the application under test to use the graphics library such as WebGL. These graphics libraries may be configured to use the native hardware on the computing device such as a graphics processing unit. By enabling or disabling this option data regarding graphics operations may be acquired and compared.
+
+Selection of the option to enable FPS measurements may result in the development tool module or another module inserting breakpoints into the remote application under test . The FPS measurements may be made with or without the use of a graphics processing unit GPU . These breakpoints may be configured to provide data indicative of the number of frames per second which are presented by the computing device .
+
+In one implementation where the GPU is in use the breakpoint may be associated with the remote application under test s use of the requestanimationframe application programming interface API . In another implementation where the graphics processing is handled by a central processing unit CPU the breakpoint may be associated with the setTimeout API.
+
+In the implementation of the development tool module which comprises the gbd the output data for use in determining the FPS may be provided using the following instructions 
+
+These commands set the gdb to dump data and backtrace information when the requestanimationframe is called from the remote application under test as executing as a frontmost application in the test environment. This information may then be analyzed to determine the FPS.
+
+Selection of the enable HTTP pipelining configures the remote application under test to use HTTP pipelining. HTTP pipelining sends multiple HTTP requests on a single transmission control protocol TCP connection without waiting for corresponding responses.
+
+Selection of an alternate scripting language engine may set the computing device to use a different scripting language engine on the device. In some implementations the alternate scripting language engine may be selected from a list of possible engines. For example the developer may wish to test the remote application under test using one or more of the standard JS Core Nitro JS Carakan and so forth. Execution using different scripting language engines may be used to provide diagnostic or development data which may aid the developer in improving the execution of the remote application under test .
+
+In one implementation the development tool module may make changes to the remote application under test to select the alternate scripting language engine . In another implementation the development tool module may modify the remote application under test to execute using the UlWebView class reference which may then be passed to an alternate scripting language engine . For example on an iOS device this technique may be used to execute the remote application under test using the Nitro JS scripting language engine .
+
+Other options may be provided as well. For example the user may specify use of particular audio libraries for use in audio processing.
+
+The output data is depicted in a graphical user interface however in other implementations the information may be presented as a character user interface or may be stored for processing by another application. For example the output data may be stored for processing by an analytical application such as Splunk by Splunk Inc. of San Francisco Calif. Nagios as promulgated by Nagios Enterprises LLC of Saint Paul Minn.
+
+The user interface may include one or more indications of options which have been selected. For example these may include the options discussed above with respect to .
+
+A runtime editing code view is presented. In this view the software developer may see a portion of the code such as the markup language the scripting language or both at a particular point in execution. For example the runtime editing code view may present a portion of the code where an error has occurred. The runtime editing code view may also allow the software developer to make changes to the code for subsequent testing.
+
+Memory allocation and leak detection data may be depicted. This information may include information such as memory allocated to particular processes. For example the software developer may use this information to determine that the markup language application has a particular process which has been allocated memory for use but is not released after use or is inaccessible.
+
+Timeline data may be presented. The timeline data may present information about which elements have been accessed the duration of that access and so forth. Network bandwidth data may also be presented. The network bandwidth data provides information about a quantity of data transferred with respect to a particular element and the duration of that transfer.
+
+Graphics performance data such as FPS may be presented. For example where the option to enable graphics library has been selected resulting information may be presented.
+
+CPU usage data or other information about hardware resource usage on the computing device may also be presented. In this illustration various threads of the remote application under test and their associated usage of processor resources may be presented to the software developer.
+
+Performance recommendations may be provided to the software developer. These recommendations may call attention to programming or design errors and suggest remedies. For example a recommendation is shown that the gzip data compression be enabled.
+
+The test results and functions depicted are provided for illustration and not by way of limitation. In some implementations additional tests may be added some tests may be omitted and so forth.
+
+In this illustration a portion of a recursive hierarchy view of an illustrative remote application under test is depicted. For ease of illustration and not as a limitation some portions of the hierarchy have been removed. These portions are indicated with the string removed .
+
+Block accesses the markup language in the markup language application or the hybrid application . This markup language includes one or more UlWebView class references.
+
+Block accesses the UlWebBrowserView class reference or a UlWebDocumentView class reference which is associated with the UlWebView class reference. Block accesses a WebView class reference.
+
+Block determines when the graphic library is enabled. In one implementation this determination may include inspection of tag setWebGLEnabled to determine whether WebGL is enabled with a value of 1 or disabled with a value of 0.
+
+When the block determines the graphics library is enabled the process may proceed to block . Block continues with execution of the remote application under test using one or more of the graphics libraries.
+
+When the block determines the graphics library is disabled the development tool module may modify the remote application under test to enable the graphics library. For example the value of the setWebGLEnabled may be changed from 0 to 1. The process may then continue to execute using the one or more graphics libraries.
+
+As described above with regard to the output data may be acquired to allow for comparison between execution which uses the graphics library and execution which does not. This information may then be used by the developer to modify the remote application under test such as by enabling the use of the graphics libraries.
+
+Block executes the remote application under test . For example the layout engine module may begin processing the markup language application . As described above the remote application under test may not include debug code. For example using the techniques described herein the remote application under test may not be modified to include SDK debugging code breakpoints and such.
+
+The application under test may comprise one or more instructions expressed in the markup language the scripting language or a combination thereof. In some implementations the scripting language comprises JavaScript. The layout engine module may comprise an implementation of WebKit .
+
+Block initializes in the layout engine module a debugging session or other test session for the remote application under test . The debugging session or other test session may be configured to generate the output data associated with the remote application under test . In implementations where the layout engine module comprises WebKit initialization may comprise placing the WebKit listener into an inspection mode configured to receive commands from the Safari Inspector executing on the development device .
+
+In implementations which are associated with the Safari Inspector as developed by Apple Corp. the following functions and commands may be implicated either directly or indirectly during initialization of the Safari Inspector and the corresponding WebKit .
+
+In some implementations these functions and the commands associated with them may be processed by the Safari Inspector daemon usr libexec webinspectord .
+
+Block determines when the remote application under test comprises a markup language application or a hybrid application which includes instructions expressed as the markup language the scripting language or both. In one implementation this determination may include examining the code in the remote application under test to determine when one or more UlWebView runtime instances are referenced.
+
+When the determination of the block is that the remote application under test is not a markup language application the process proceeds to block . For example absence of at least one UlWebView runtime instance may result in the determination that the remote application under test is not a markup language application or hybrid application . Block discontinues the debugging session as the embedded test tools would be ineffective for non markup language applications .
+
+When the determination of the block is that the remote application under test comprises a markup language application or a hybrid application the process proceeds to . For example the application under test may comprise a plurality of runtime instances of UlWebView.
+
+Block executes the communication module configured to establish a connection with an external device such as the development device . As described above in some implementations the communication module may comprise a HTTP server.
+
+Block executes the unpack module . As described above the unpack module is configured to establish communication between the communication module and the layout engine module .
+
+Block establishes a connection with the external device such as the development device using the communication module . For example a connection may be established using HTTP TCP over a USB connection between the computing device and the development device .
+
+Block receives packed command data from the external device such as the development device using the communication module . For example the development device may send packed commands using HTTP TCP over a USB connection between the devices.
+
+Block processes the packed command data to generate unpacked command data . In some implementations this processing may use the unpack module . As described above the processing may include extracting payload data from one or more packets. In one implementation this processing may include removing TCP headers and generating one or more strings. These strings are configured for processing by the layout engine module .
+
+Block sends the unpacked command data to the layout engine module . The command data may be generated by the development tool module executing at least in part on the external device such as the development device .
+
+The command data may be processed by the layout engine module . The layout engine module may then generate output which is responsive at least in part to the command data . For example the command data may instruct the embedded test tools to provide information regarding the usage of the processor usage by the executing threads of the executing application under test.
+
+Block sends the output data received from the layout engine module to the external device using the connection. Continuing the example above the output data produced by the embedded test tools of the layout engine module may be passed to the communication module which may use HTTP to transfer the output data to the development device .
+
+Block establishes a connection with the communication module executing on the computing device . In one implementation the connection may use TCP sent over USB. However other transports and protocols may be used in other implementations. For example TCP over a wired Ethernet connection may be used.
+
+As described above the connection is configured to provide communication with the layout engine module processing the remote application under test on the computing device . As described above the remote application under test may comprise a plurality of UlWebView class references. These class references may when executed by the layout engine module result in a plurality of UlWebView runtime instances.
+
+Block executes a development tool module . In one implementation the development tools may include the Safari Inspector as developed by Apple Corp. For example this implementation with the Safari Inspector may be used when the OS module of the computing device comprises one or more of the iOS operating systems.
+
+Block sends one or more packed commands from the development tool module to the remote application under test executing on the computing device using the connection. In some implementations the development tool module may send non packed commands but these may be processed to form packed commands during the transmission process.
+
+In some implementations the one or more commands either packed or non packed may be based at least in part on the options selected as described above with regard to .
+
+The one or more commands may be configured to affect execution. In one implementation the one or more commands are configured to enable use one or more graphics libraries by the application under test executing on the computing device . For example use of the WebGL library may be enabled.
+
+The one or more commands may also be configured to cause processing of the scripting language of the remote application under test with a particular scripting language engine executing on the computing device . For example commands may enable the usage of the Nitro JS scripting language engine rather than the JS Core on the computing device using the iOS operating system.
+
+In another implementation the one or more commands may be configured to enable HTTP pipelining by the application under test executing on the computing device.
+
+The one or more commands may also be used to add testing or diagnostic breakpoints to the remote application under test . In one implementation the one or more commands are configured to add one or more breakpoints associated with graphics processing to the remote application under test . Based on information gathered from the breakpoints such as their time of execution a count of frames per second processed by the computing device may be generated.
+
+Block receives output data from the computing device using the connection. For example the communication module executing on the computing device may send the output data provided by the embedded test tools using HTTP.
+
+Block stores the one or more commands sent to the application under test on the computing device . This information may be used for analysis to replay a test session and so forth.
+
+Block stores the output data received from the computing device . As described above this information may then be processed by the development tool module or analytical applications.
+
+This process may be implemented by a desktop computer server or other device. The following process may use one or more systems or techniques as disclosed in U.S. patent application Ser. No. 13 619 867 filed on Sep. 14 2012 titled Remote Control of a Mobile Device U.S. patent application Ser. No. 13 631 919 filed on Sep. 29 2012 titled Application Validation Through Object Level Hierarchy Analysis and in U.S. patent application Ser. No. 13 655 667 filed on Oct. 19 2012 titled Application Auditing Through Object Level Code Inspection all of which are incorporated by reference into this disclosure.
+
+Block executes the layout engine module . Block analyzes assembly code during execution of the layout engine module to determine a presence of one or more embedded test tools or application interfaces associated with the one or more embedded test tools . For example particular code constructs associated with debugging may be sought and identified in the code. This analysis may include the object level code inspection or other techniques described in the above referenced U.S. Patent Applications.
+
+Block based at least in part on an analysis of the assembly code data generates initialization data configured to enable the embedded test tools . This initialization data may then be used by the development tool module to set the layout engine module on the computing device into a test or debugging mode which may provide output data about the remote application under test .
+
+Those having ordinary skill in the art will readily recognize that certain steps or operations illustrated in in the figures above can be eliminated combined subdivided executed in parallel or taken in an alternate order. Moreover the methods described above may be implemented as one or more software programs for a computer system and are encoded in a computer readable storage medium as instructions executable on one or more processors.
+
+Separate instances of these programs can be executed on or distributed across separate computer systems. Thus although certain steps have been described as being performed by certain devices software programs processes or entities this need not be the case and a variety of alternative implementations will be understood by those having ordinary skill in the art.
+
+Additionally those having ordinary skill in the art readily recognize that the techniques described above can be utilized in a variety of devices environments and situations. Although the present disclosure is written with respect to specific embodiments and implementations various changes and modifications may be suggested to one skilled in the art and it is intended that the present disclosure encompass such changes and modifications that fall within the scope of the appended claims.
+

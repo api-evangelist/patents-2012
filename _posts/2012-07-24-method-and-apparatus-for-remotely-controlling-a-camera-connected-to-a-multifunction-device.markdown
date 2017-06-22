@@ -1,0 +1,85 @@
+---
+
+title: Method and apparatus for remotely controlling a camera connected to a multi-function device
+abstract: A method, non-transitory computer readable medium, and apparatus for remotely controlling a camera connected to a multi-function device are disclosed. For example, the method receives a request from a third party server to instruct the camera to take a photograph, sends a call to the camera to take the photograph, wherein the call is sent to the camera over a universal serial bus (USB) connection between the multi-function device and the camera, receives the photograph and transmits the photograph to the third party server.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09185245&OS=09185245&RS=09185245
+owner: Xerox Corporation
+number: 09185245
+owner_city: Norwalk
+owner_country: US
+publication_date: 20120724
+---
+The present disclosure relates generally to providing remote control of devices connected to a multi function device and more particularly to a method and apparatus for remotely controlling a camera connected to a multi function device via a universal serial bus connection.
+
+Currently to remotely control off the shelf external devices connected to a multi function device requires a high level of customization and associated costs. For example application programming interfaces APIs may be specifically written for specific types of external devices that work with specific multi function devices that provided limited functionality. However the APIs still do not provide complete remote control of the off the shelf external device connected to the multi function device. In addition the customer would be required to purchase the specific brand or type of external device that is programmed with the API to work with the specific multi function device. As a result the customers would be extremely limited to their choices of an external device and a multi function device.
+
+According to aspects illustrated herein there are provided a method a non transitory computer readable medium and an apparatus for remotely controlling a camera connected to a multi function device. One disclosed feature of the embodiments is a method that receives a request from a third party server to instruct the camera to take a photograph sends a call to the camera to take the photograph wherein the call is sent to the camera over a universal serial bus USB connection between the multi function device and the camera receives the photograph and transmits the photograph to the third party server.
+
+Another disclosed feature of the embodiments is a non transitory computer readable medium having stored thereon a plurality of instructions the plurality of instructions including instructions which when executed by a processor cause the processor to perform a method that receives a request from a third party server to instruct the camera to take a photograph sends a call to the camera to take the photograph wherein the call is sent to the camera over a universal serial bus USB connection between the multi function device and the camera receives the photograph and transmits the photograph to the third party server.
+
+Another disclosed feature of the embodiments is an apparatus comprising a processor that is configured to receive a request from a third party server to instruct the camera to take a photograph to send a call to the camera to take the photograph wherein the call is sent to the camera over a universal serial bus USB connection between the multi function device and the camera to receive the photograph and to transmit the photograph to the third party server.
+
+To facilitate understanding identical reference numerals have been used where possible to designate identical elements that are common to the figures.
+
+The present disclosure broadly discloses a method and non transitory computer readable medium for remotely controlling a camera connected to a multi function device. As discussed above to remotely control an off the shelf external device such as a camera connected to a multi function device requires a customized API that severely limits users choices for the external device.
+
+One embodiment of the present disclosure utilizes web service based calls between a third party server and a multi function device to allow the third party server to control a camera connected to the multi function device. As a result the third party server may control when the camera takes photographs and when the photographs are sent back to the third party server for further processing.
+
+To better understand the present disclosure illustrates an example of a communication network . In one embodiment the communication network includes a packet network such as an Internet Protocol IP network . The IP network may be for example the Internet a service provider network an access network a core network a local area network and the like.
+
+In one embodiment a multi function device MFD may be in communication with the IP network . In one embodiment the MFD may include general purpose computing capabilities similar to the general computing device described below and illustrated in . In one embodiment the MFD may include at least two different functions including but not limited to for example digital image processing capability electronic communication capability e.g. email transmission electronic file transmission and the like scanning capability faxing capability copying capability printing capability interfacing capability with a user via a graphical user interface with or without a touch screen one or more input and output devices and the like.
+
+In one embodiment the MFD may include an operating system OS a processor a camera web service interface and an extensible interface platform EIP . In one embodiment the camera web service interface may be a client that is executed on the MFD . In another embodiment the camera web service interface may be executed by another computer or processor external to the MFD .
+
+In one embodiment an external device may be in communication with the MFD . In one embodiment the external device may be a camera that is connected to the MFD via a universal serial bus USB connection.
+
+In one embodiment the external device may be an off the shelf device. In other words the external device is not necessarily manufactured with any specific application programming interfaces or made to only be compatible with a specific MFD. Rather the external device may be any external device that is available and sold at local retailers for example.
+
+In one embodiment a third party server may be in communication with the IP network . The third party server may be operated by a third party that is remotely located from the MFD and is attempting to remotely control the external device . For example if the external device is a camera control may be defined as determining when to take a photograph with the camera determining which object to take a photograph of determining where to focus the camera determining when and where to send a photograph configuring the camera and the like. Notably logging into a server to use the camera e.g. accessing a storage device of the camera to see pictures stored on the camera etc. would not be equivalent to controlling the operation of the camera to capture images.
+
+In one embodiment the third party server may be configured to communicate with the MFD via the EIP . The EIP may be a type of web client that allows the third party server to communicate with the MFD using web service based calls. The web service based calls may include any type of web service based calls such as for example Web Service Description Language WDSL Simple Object Access Protocol SOAP and the like.
+
+In one embodiment the third party server may configure the MFD to communicate over an IP address and a port number specified by the third party server . This may help to ensure that communication between the third party server and the camera web service interface and or the MFD is secure.
+
+In one embodiment the configuration of the communication network as illustrated in may allow a user at the third party server to remotely control the external device connected to the MFD via a USB connection. As will be discussed in further detail below the user may then control the external device for example in the case of a camera determine when and how to take a photograph when and how to send a photograph how to configure the camera and the like.
+
+It should be noted that the communication network has been simplified for clarity. For example the communication network may include other network elements such as border elements routers switches policy servers security devices firewalls a content distribution network CDN and the like. In addition the communication network may include additional networks between the endpoint devices and the IP network such as different access networks e.g. a wired access network a cable network a wireless network a cellular network a Wi Fi network and the like to reach the IP network .
+
+The method begins at step . At step a USB connection is made between the MFD and the camera . As noted above the camera may be any off the shelf camera. At step the camera web service interface detects that the camera is connected to the MFD and is activated e.g. powered on.
+
+At step the third party server is notified that the camera is activated and connected to the MFD . In one embodiment communication between the third party server and the camera web service interface may be implemented via an IP address and a port number specified by the third party server to enable secure communications.
+
+In addition information about the camera may be sent. In one embodiment the information may include a manufacturer of the camera a type of camera all of the capabilities of the camera as well as any other pertinent information related to the camera.
+
+At step the third party server may send a web service call to take a photograph. As noted above the web service call may be based upon any protocol suitable for web service calls such as for example WDSL SOAP and the like.
+
+At step the camera web service interface may receive the web service call from the third party server and send a USB call to the camera . In one embodiment the camera web service interface may send a call to the operating system e.g. OS in via the processor of the MFD which in turns sends the USB call to the camera .
+
+At step the camera may take a photograph. At step the camera web service interface may receive the photograph. For example the third party server may instruct the camera to transmit the photograph back immediately after the photograph is taken. In another embodiment the EIP may instruct the camera to store the photograph on a computer readable storage medium e.g. internal memory of the camera or an external memory . In another embodiment the EIP may instruct the camera to send the photograph to the MFD to have it printed or copied by the MFD .
+
+Notably the camera is controlled by the third party server located remotely from the camera and the MFD . In other words the third party server is not simply accessing the camera to look at files. Rather the third party server is controlling the timing and execution of the camera s image capturing functionality e.g. when and how to take a photograph when and where to send the photograph that is taken and the like.
+
+At step the camera web service interface may transmit the photograph to the third party server . In one embodiment the photograph may be sent using a message transmission optimization mechanism MTOM .
+
+At this point the third party server may perform one of a plurality of optional processing steps depending on the application. In one embodiment the third party server may modify the photograph at step . For example the third party server may modify the photograph to change the color of the photograph change a size of the photograph or add the photograph to a document such as for example a passport application security identification card and the like.
+
+In one embodiment the third party server may use the photograph for authentication at step . For example the third party server may compare the photograph to pre existing photographs stored in a database. Each one of the pre existing photographs may be associated with a security clearance or other authentication credentials. The photograph may be taken to determine if a user is authenticated to use the MFD access another device access a particular area and the like. If the photograph matches one of the pre existing photographs the user may be granted the associated security clearance or authentication credentials.
+
+At step the third party server may send the modified photograph and or the authentication credentials to the camera web service interface . At step the MFD may display the modified photograph and or authentication credentials to a user for example via a graphical user interface of the MFD .
+
+At step the MFD may provide options to the user. For example the options may include to print the modified photograph and or authentication credentials to make copies of the modified photograph and or authentication credentials to fax or to email the modified photograph and or authentication credentials to store the modified photograph and or authentication credentials to another device and the like.
+
+The method begins at step . At step the method receives a request from a third party server to instruct a camera to take a photograph. For example the request may be from the third party server over a secure communications IP address and port number. In one embodiment the request may be in the form of a web service based call.
+
+At step the method sends a call to the camera to take the photograph wherein the call is sent to the camera over a USB connection between a multi function device and the camera. In one embodiment a camera web service interface may send a call to the multi function device s operating system to send the call over the USB connection to the camera in response to receiving the request from the third party server.
+
+At step the method receives the photograph. For example after the camera takes a photograph as instructed the camera may send the photograph back to the multi function device via the USB connection.
+
+At step the method transmits the photograph to the third party server. In one embodiment the photograph may be transmitted using a message transmission optimization mechanism MTOM . Once the third party server receives the photograph the third party server uses the photograph for various applications such as for authentication or modifying the photograph as discussed above. The method ends at step .
+
+It should be noted that although not explicitly specified one or more steps of the methods and described above may include a storing displaying and or outputting step as required for a particular application. In other words any data records fields and or intermediate results discussed in the methods can be stored displayed and or outputted to another device as required for a particular application. Furthermore steps or blocks in that recite a determining operation or involve a decision do not necessarily require that both branches of the determining operation be practiced. In other words one of the branches of the determining operation can be deemed as an optional step.
+
+It should be noted that the present disclosure can be implemented in software and or in a combination of software and hardware e.g. using application specific integrated circuits ASIC a general purpose computer or any other hardware equivalents e.g. computer readable instructions pertaining to the method s discussed above can be used to configure a hardware processor to perform the steps of the above disclosed methods. In one embodiment the present module or process for remotely controlling a camera connected to a multi function device can be loaded into memory and executed by processor to implement the functions as discussed above. As such the present method for remotely controlling a camera connected to a multi function device including associated data structures of the present disclosure can be stored on a non transitory e.g. tangible or physical computer readable storage medium e.g. RAM memory magnetic or optical drive or diskette and the like. For example the hardware processor can be programmed or configured with instructions e.g. computer readable instructions to perform the steps of methods and .
+
+It will be appreciated that variants of the above disclosed and other features and functions or alternatives thereof may be combined into many other different systems or applications. Various presently unforeseen or unanticipated alternatives modifications variations or improvements therein may be subsequently made by those skilled in the art which are also intended to be encompassed by the following claims.
+

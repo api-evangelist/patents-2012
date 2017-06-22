@@ -1,0 +1,107 @@
+---
+
+title: Techniques for dynamic disk personalization
+abstract: Techniques for dynamic disk personalization are provided. A virtual image that is used to create an instance of a virtual machine (VM) is altered so that disk access operations are intercepted within the VM and redirected to a service that is external to the VM. The external service manages a personalized storage for a principal, the personalized storage used to personalize the virtual image without altering the virtual image.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=08539136&OS=08539136&RS=08539136
+owner: Novell, Inc.
+number: 08539136
+owner_city: Provo
+owner_country: US
+publication_date: 20120220
+---
+This application is a continuation of U.S. patent application Ser. No. 12 706 813 filed on Feb. 17 2010 now issued as U.S. Pat. No. 8 140 735 which is incorporated herein by reference in its entirety.
+
+Increasingly services and communication are achieved over the Internet and the World Wide Web WWW . Geographical location is becoming irrelevant with respect to network connectivity. Furthermore the physical devices used by individuals to communicate and conduct business are increasingly becoming transparent through machine virtualization techniques and miniaturized.
+
+As the industry uses more and more virtualization there exists a problem on how the changes made by the end user are saved and restored. The end user may start out with a standard virtual machine VM image but as soon as a new program is added some programs are run or files are saved the image must be saved as an entirely new image or the changes will be lost if the user ends and restarts the user s VM. A user can map a personal disk to the running VM image and use it for all changes and installs but this does not solve the problem. The reason for this is that when software is installed or runs it is common for the software to write to the root boot drive. Writing to the root drive changes the base image such that the base image must now be saved as a new image. This entire process can consume large amounts of storage disk and add a required step to the end user. The described situation also adds new ways to lose data time and disk space.
+
+An example of this would be if the user installs a new application such as Word to a mapped drive such as N on a running instance of a VM such as Standard Win32 image. Drive N is mapped to a personal storage drive for the user it could be a local drive a network drive or a cloud drive such as S3 via Amazon . As Word is installed the code is copied to drive N which does not change the base image but as part of the install several files are also added or modified on the default ROOT. One of these files is the Window s Registry. The Window s Registry is a part of the Standard Win32 image and is now changed by the user. After the install of Word and as the user runs the Word application the registry continues to change as the user does any thing that Word is configured to remember. 
+
+This example of using and installing Word is just one simple case of how the VM image can be changed by the user and need to be saved as a new image. As the industry moves into a Virtual Desktop Infrastructure VDI the problem of having many personal images will become a major storage and management problem.
+
+In various embodiments techniques for dynamic disk personalization are presented. More specifically and in an embodiment a method for dynamically personalizing a disk within a Virtual Machine VM is provided. A request is intercepted from a principal to access storage the request is received within a VM. The VM is defined as an instance of a virtual image. The request is then redirected to an external data store that is external to the virtual image. Finally instructions are received from the external data store identifying a location for data that satisfies the request.
+
+A resource includes a user service system device directory data store groups of users combinations of these things etc. A principal is a specific type of resource such as an automated service or user that acquires an identity. A designation as to what is a resource and what is a principal can change depending upon the context of any given network transaction. Thus if one resource attempts to access another resource the actor of the transaction may be viewed as a principal.
+
+An identity is something that is formulated from one or more identifiers and secrets that provide a statement of roles and or permissions that the identity has in relation to resources. An identifier is information which may be private and permits an identity to be formed and some portions of an identifier may be public information such as a user identifier name etc. Some examples of identifiers include social security number SSN user identifier and password pair account number retina scan fingerprint face scan etc.
+
+A virtual machine VM may be viewed as a logical processing environment overlaid or superimposed on a physical device. The VM is a logical machine that is independent of its physical process environment or physical machine. It may include its own operating system OS its own file system FS its own directory services etc. which may each be different from the physical processing environment.
+
+A virtual image is a specific instance of a VM. That is the virtual image is the configuration data that when processed becomes an executing instance of a VM. The virtual image creates or instantiates a specific VM.
+
+Various embodiments of this invention can be implemented in existing network architectures. For example in some embodiments the techniques presented herein are implemented in whole or in part in the Novell operating system products directory based products and other products distributed by Novell Inc. of Waltham Mass.
+
+Also the techniques presented herein are implemented in machines such as processor or processor enabled devices. These machines are configured to specifically perform the processing of the methods and systems presented herein. Moreover the methods and systems are implemented and reside within computer readable storage media and processed on the machines configured to perform the methods.
+
+Of course the embodiments of the invention can be implemented in a variety of architectural platforms devices operating and server systems and or applications. Any particular architectural layout or implementation presented herein is provided for purposes of illustration and comprehension only and is not intended to limit aspects of the invention.
+
+It is within this context that embodiments of the invention are now discussed within the context of .
+
+According to an embodiment the VM disk personalization service is provided from the perspective of a dynamic storage filter service that is implemented within a virtual image and carried as a service that initiates when a VM for the virtual image is started. So the processing of the VM disk personalization service is embedded within a VM and a virtual image that defines the VM.
+
+At the VM disk personalization service intercepts a request from a principal user or automated service executing within the VM to access storage. The request is received from within an executing VM and that VM is defined as an instance of a virtual image.
+
+According to an embodiment at the VM disk personalization service identifies the request as one or more of a read operation for a file a created operation for the file a write operation for the file a delete operation for the file an execute operation for an application an install operation for an application and or an uninstall operation for the application. It is noted that a single request such as an execute operation can generate multiple different types of disk access operations such as read write delete and the like. So it is noted that a single request can include or cause to initiate multiple disk operations within the VM.
+
+At the VM disk personalization service redirects the request to an external data store that is external to the virtual image defining the VM. So the request is not immediately satisfied by accessing the virtual disk or storage of the VM rather the request is redirected to an external data store and an external service for novel processing as described herein and below . Thus the VM disk personalization service acts as a type of transparent proxy within the VM where all VM disk access operations are intercepted and redirected to an external service for handling .
+
+In an embodiment at the VM disk personalization service provides a principal identity with the request along with principal credentials for the external data store or external service to authenticate the request and locate a personalized data store for the virtual image and the principal. That is the external data store or external service may handle requests from multiple different principals and instances of VM s such that the principal identity provides a mechanism for enforcing and ensuring authentication and security.
+
+At the VM disk personalization service receives instructions from the external data store or external service hereinafter external data store with respect to a location where data resides to satisfy the request. It is noted that the location may be all that is needed when a write request is occurring with the request and in such a case the request will actually carry the write data to store at the location.
+
+In an embodiment at the VM disk personalization service processes the instructions to acquire the data from an external personalized data store which is external to the virtual image and which is loaded from the location into the VM.
+
+In another situation at the VM disk personalization service processes the instructions to acquire the data from a location within the virtual image that defines the VM. Here the actual request could have been satisfied originally from the VM via the existing virtual image for that VM but the instructions for acquiring the data had to come from the external data store that handles all disk access operations within the VM.
+
+In yet another case at the VM disk personalization service enforces a policy received with the instructions with respect to the data. So security such as access rights and other limitations can be enforced against the data via a configured policy.
+
+In still more scenarios at the VM disk personalization service logs the request a virtual image identifier and or VM identifier a principal identifier and or the location for the data in an audit data store that is external to the virtual image. So an audit mechanism can be integrated into the processing of the VM. Audits and reports can subsequently be generated to ensure usage of the VM comports with enterprise policy and or to identify performance bottlenecks of the VM.
+
+The disk personalization service represents another aspect of the VM disk personalization service represented by the method of the . Specifically the VM disk personalization service of the method provides processing that occurs within a virtual image that defines an instance of a VM whereas the disk personalization service represents processing of the external data store or external service discussed above with respect to the method . That is the disk personalization service processes external to a VM and its image. So the processing of disk personalization service is independent of any particular virtual image defining any particular VM. The method and the method cooperate and interact with one another.
+
+At the disk personalization service receives a disk access request. The disk access request originates from a VM and is defined by a virtual image. Also the disk access request includes a principal identifier that identifies a principal who originated the disk access request within the VM and the disk access request includes a resource identifier for a resource associated with the disk access request such as a file an application a disk drive and the like.
+
+According to an embodiment at the disk personalization service acquires the disk access request from a dynamic storage filter configured within the virtual image and initiated with the VM. The dynamic storage filter intercepts the disk access request in a manner that is transparent to the principal and externally redirects the disk access request to the disk personalization service. In a particular case the dynamic storage filter is the method discussed above with respect to the .
+
+At the disk personalization service searches an index for the principal identifier and the resource identifier for purposes of identifying a location for handling the disk access request. In an embodiment the index is a database table that provides a database Application Programming Interface API for querying and managing the database table.
+
+In an embodiment at the disk personalization service queries a global index with the principal identifier. The results of this query provide the disk personalization service with the index which is personal to the principal. Once the index is acquired the disk personalization service searches the index with the resource identifier to obtain the location that is to be used for handling the disk access request.
+
+According to an embodiment at the disk personalization service enforces a policy to resolve the index that is to be searched. The policy is based on the principal identifier.
+
+Continuing with the embodiment of and at the disk personalization service assigns a role for the principal based on the principal identifier. The assigned role is then used to locate the index within a hierarchy of available indexes. In this manner there can be multiple levels of indexes that are hierarchically organized and policy and or role or group assignments combined with identity can resolve the actual index that is used to perform the search. Each index is specific to a storage area where the disk access request is to be processed. Thus in an enterprise environment a development group can include multiple specific users and those users are to have access to programs not available to managers. This can be achieved via a hierarchy of indexes each index identifying a specific storage that is used to dynamically alter the virtual image at run time to provide the development users with access to their programs but the base virtual image for the developers and the managers remains the same. Because a hierarchy is achieved personalization can also occur within the development group based on the user level principal identity .
+
+At the disk personalization service returns to the virtual image a reference to the location for the disk access request to proceed from within the virtual image or VM. So the data or a handle to the storage area for processing the disk access request is dynamically and in real time altered and passed to the VM via the disk personalization service.
+
+In an embodiment at the disk personalization service provides the virtual image with the reference to the location where that location is defined within an external personalized storage that is personal or specific to the principal. So the external personalized storage is external to the virtual image and is used for customizing and personalizing the virtual image for the principal. In other words alterations and customizations that a user makes to their virtual image for their VM is recorded and noted in the external personalized storage and the disk personalization service ensures that these alterations and customizations are dynamically rendered and overlaid on the VM each time the user initiates the baseline virtual image.
+
+It may also be the case at that the disk personalization service provides the virtual image with the reference to the location where that location is defined and available within the virtual image. So the disk access operation is processed from a location that was originally present within the virtual image or VM but it was the disk personalization service that made the decision to permit that processing to continue from within the VM and not from an external storage location.
+
+The disk personalization service provides novel processing opportunities. An enterprise can maintain a single virtual image or sets of virtual images where each image is a baseline approved by the enterprise for support. Each user can then customize and add and remove programs as policy permits but the baseline virtual images remain unchanged what changes is the personalized storage for each user that is dynamically rendered each for a user to personalize each user s VM.
+
+The dynamic VM disk personalization system includes a dynamic virtual image storage filter DVISF and a virtual image customization service VICS . In some embodiments the dynamic VM disk personalization system also includes one or more of an identity service one or more personal storages and or one or more indexes . Each of these and their interactions with one another will now be discussed in turn.
+
+The DVISF is implemented in a computer readable storage medium and is to execute on a processor within a VM . That is the DVISF is part of a virtual image that defines instances of the VM . Example processing associated with the DVISF was provided in detail above with respect to the method of the .
+
+The DVISF is configured to intercept disk access operations made within the VM . The DVISF is also configured to redirect those disk access operations to the VICS . A principal that originates the disk access operations believes that the operations are being directed to the VM disk of the VM but this may not always be the situation since in some cases the operations are external to the VM as discussed herein above and below .
+
+According to an embodiment the DVISF is configured as part of the virtual image for the VM . The DVISF is configured to initiate and execute when the VM is executed.
+
+The VICS is implemented in a computer readable storage medium and is to execute on another processor that is external to the VM . Example processing associated with the VICS was presented in detail above with reference to the method of the .
+
+The VICS is configured to locate storage resources and data that satisfy the disk access operations. Moreover the VICS is configured to define for the DVISF the mechanisms needed for processing the disk access operations within the VM based on resolved locations for the storage the resources and the data.
+
+In an embodiment the VICS is also configured to handle and process the disk access operations for the VM and other disk access operations for multiple other VM s of a network. So the VICS can handle an entire suite of VM s of a network. In such a scenario the VICS may be implemented and processed on a server of the network.
+
+In an embodiment the dynamic VM disk personalization system also includes an identity service . The identity service is implemented in a computer readable storage medium and is to execute on yet another processor of the network. Moreover the identity service is configured to interact with the VICS and or the DVISF for purposes of providing authentication and security services when the VICS attempts to locate the storage the resources and the data to satisfy the disk access operations.
+
+In another scenario the dynamic VM disk personalization system includes a personalized storage implemented in a computer readable storage medium. The personalized storage customized for a particular identity of a particular principal and the VICS configured to access the personalized storage when processing the disk access operations to personalize the VM for the particular principal.
+
+In another case the dynamic VM disk personalization system includes an index can be one or more indexes hierarchy of indexes . The index implemented in a computer readable storage medium. The VICS configured to search the index to identify and to access specific areas of the personalized storage .
+
+The above description is illustrative and not restrictive. Many other embodiments will be apparent to those of skill in the art upon reviewing the above description. The scope of embodiments should therefore be determined with reference to the appended claims along with the full scope of equivalents to which such claims are entitled.
+
+The Abstract is provided to comply with 37 C.F.R. 1.72 b and will allow the reader to quickly ascertain the nature and gist of the technical disclosure. It is submitted with the understanding that it will not be used to interpret or limit the scope or meaning of the claims.
+
+In the foregoing description of the embodiments various features are grouped together in a single embodiment for the purpose of streamlining the disclosure. This method of disclosure is not to be interpreted as reflecting that the claimed embodiments have more features than are expressly recited in each claim. Rather as the following claims reflect inventive subject matter lies in less than all features of a single disclosed embodiment. Thus the following claims are hereby incorporated into the Description of the Embodiments with each claim standing on its own as a separate exemplary embodiment.
+

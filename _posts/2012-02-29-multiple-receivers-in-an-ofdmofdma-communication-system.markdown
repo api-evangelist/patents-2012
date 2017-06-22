@@ -1,0 +1,133 @@
+---
+
+title: Multiple receivers in an OFDM/OFDMA communication system
+abstract: A signal receiver is configured to receive multiple time-domain input signals. A plurality of the input signals among the multiple time-domain input signals is selected and transformed into frequency-domain signals. The frequency-domain signals is shifted in phase by a negative value of a respective reference phase, and the phase-shifted signals is combined into one signal. The combined signal is then multiplied with a stored signal to generate a signal product and transformed into a time-domain signal.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=08548086&OS=08548086&RS=08548086
+owner: Neocific, Inc.
+number: 08548086
+owner_city: Bellevue
+owner_country: US
+publication_date: 20120229
+---
+This application claims benefit under 35 U.S.C. 119 e of Provisional U.S. Patent Application No. 61 595 565 filed Feb. 6 2012 the contents of which is incorporated herein by reference in its entirety.
+
+The disclosed embodiments relate in general to Orthogonal Frequency Division Multiplexing OFDM Orthogonal Frequency Division Multiple Access OFDMA communication system and to time domain and frequency domain processing with multiple receivers in an OFDM OFDMA communication system.
+
+In a wireless network in order to enter the network a mobile station normally has first to acquire signals search for a suitable base station and then perform a random access to establish communication with that base station. The process of acquiring signals involves signal detection and time and frequency synchronization. The search process called cell search is based on the special signals transmitted by the base stations such as preambles. Once a suitable base station is found the random access takes place which typically includes two steps 1 ranging and 2 resource request and allocation. During ranging the mobile station sends a special signal to the base station so that the base station can identify the mobile station with certain associated parameters. During resource request and allocation the uplink UL and downlink DL resources for communication are requested and allocated.
+
+In a multi carrier communication system such as an Orthogonal Frequency Division Multiplex OFDM system the signal in the time domain is generally organized into frames and each frame may consist of multiple OFDM symbols that carry the information. In order to acquire the multi carrier signals correctly the receiver is normally required to find the beginning of a frame. In an Orthogonal Frequency Division Multiple Access OFDMA network both cell search and ranging processes are critical parts of the protocol. In the cell search process a mobile station has to detect the special signal e.g. the preamble broadcast by a particular base station whereas in the ranging process a base station has to detect the ranging signal sent by a mobile station.
+
+In the case of multiple antennas receivers the appropriate use of the multiple received signals can significantly benefit receiver functions such as frame synchronization cell search ranging processes and frequency offset estimation.
+
+In accordance with various embodiments of the present invention a signal receiver may be configured to receive multiple time domain input signals. A plurality of the input signals among the multiple time domain input signals may be selected and transformed into frequency domain signals. The frequency domain signals may be shifted in phase by a negative value of a respective reference phase and the phase shifted signals may be combined into one signal. The combined signal may be multiplied with a stored signal to generate a signal product and transformed into a time domain signal.
+
+The foregoing is a summary and thus contains by necessity simplifications generalizations and omissions of detail. Those skilled in the art will appreciate that the summary is illustrative only and is not intended to be in any way limiting.
+
+Methods and apparatus for multiple receivers in an OFDMA communication system are disclosed. Certain specific details are set forth in the following description and figures to provide a thorough understanding of various embodiments of the disclosure. Certain well known details often associated with computing and software technology are not set forth in the following disclosure to avoid unnecessarily obscuring the various embodiments of the disclosure. Further those of ordinary skill in the relevant art will understand that they can practice other embodiments of the disclosure without one or more of the details described below. Finally while various methods are described with reference to steps and sequences in the following disclosure the description as such is for providing a clear implementation of embodiments of the disclosure and the steps and sequences of steps should not be taken as required to practice this disclosure.
+
+The terminology used in the description presented below is intended to be interpreted in its broadest reasonable manner even though it is being used in conjunction with a detailed description of certain specific embodiments of the invention. Certain terms may even be emphasized below however any terminology intended to be interpreted in any restricted manner will be overtly and specifically defined as such in this Detailed Description section.
+
+It should be understood that the various techniques described herein may be implemented in connection with hardware or software or where appropriate with a combination of both. Thus the methods and apparatus of the disclosure or certain aspects or portions thereof may take the form of program code i.e. instructions embodied in tangible media such as floppy diskettes CD ROMs hard drives or any other machine readable storage medium wherein when the program code is loaded into and executed by a machine such as a computer the machine becomes an apparatus for practicing the disclosure. In the case of program code execution on programmable computers the computing device generally includes a processor a storage medium readable by the processor including volatile and non volatile memory and or storage elements at least one input device and at least one output device. One or more programs that may implement or utilize the processes described in connection with the disclosure e.g. through the use of an application programming interface API reusable controls or the like. Such programs are preferably implemented in a high level procedural or object oriented programming language to communicate with a computer system. However the program s can be implemented in assembly or machine language if desired. In any case the language may be a compiled or interpreted language and combined with hardware implementations.
+
+In some embodiments frame synchronization may be carried out by recognizing that the specific envelope pattern of the downlink subframe transmitted by a base station exhibits certain characteristics associated with the preamble and the subframe length. The frame detection processor may consist of an envelope detector and differentiator and a frame detection algorithm. The detection algorithm may be configured to determine the frame starting time by searching for the distinct characteristics in the pattern. In the joint detection method the detection algorithm takes into account the detection cost functions to determine the frame starting time.
+
+In some embodiments frame detection with multiple receivers can be carried out using methods of selection combining or joint detection. In the selection method the selection can be based on certain signal measures such as RSSI average power correlation coefficient and or SNR which are input to the selector as side information. In the combining method the available envelopes are combined with or without weighting for detection. The weights are related to certain signal measures such as RSSI average power correlation coefficient and or SNR which are input to the combiner as side information.
+
+In some embodiments the code detection is carried out in the frequency domain where the signal is transformed to the frequency domain before being input to the code detection processor. The processor may include a set of code detectors and a comparator. Each code detector may include a sequence multiplier inverse FFT IFFT and a peak detector. A code detector with circular shifters may be used to deal with signal with relatively large frequency errors.
+
+In some embodiments code detection with multiple receivers can be carried out based on selection or combining. The selection of a signal is based on certain signal measures such as RSSI average power correlation coefficient and or SNR. Signal combining can be carried out in a number of ways. For example the subcarriers from different receivers may be combined in amplitude and the phase of the combined signal may be assigned to the phase value of the signal with the strongest signal measure. The subcarriers can also be combined after their phases are adjusted with respect to the corresponding reference phases. Weighted combining can also be applied and the weights are associated with certain signal measures such as SNR.
+
+The following discussion contemplates the application of the disclosed technology to a multi carrier system such as Orthogonal Frequency Division Multiplexing OFDM Orthogonal Frequency Division Multiple Access OFDMA or Multi Carrier Code Division Multiple Access MC CDMA . The invention can be applied to either Time Division Duplexing TDD or Frequency Division Duplexing FDD . Without loss of generality OFDMA is therefore only used as an example to illustrate the present technology.
+
+The following description provides specific details for a thorough understanding of and enabling description for various embodiments of the technology. One skilled in the art will understand that the technology may be practiced without these details. In some instances well known structures and functions have not been shown or described in detail to avoid unnecessarily obscuring the description of the embodiments of the technology. It is intended that the terminology used in the description presented below be interpreted in its broadest reasonable manner even though it is being used in conjunction with a detailed description of certain embodiments of the technology. Although certain terms may be emphasized below any terminology intended to be interpreted in any restricted manner will be overtly and specifically defined as such in this Detailed Description section.
+
+In a wireless communication system with base stations and mobile devices the transmission from a base station to a mobile device is called a downlink DL and the transmission from a mobile device to a base station is called an uplink UL . is a block diagram of a representative transmitter and receiver that may be used in base stations and mobile devices to implement a wireless communication link. The transmitter comprises a channel encoding and modulation component which applies data bit randomization forward error correction FEC encoding interleaving and modulation to an input data signal. The channel encoding and modulation component is coupled to a subchannel and symbol construction component an inverse fast Fourier transform IFFT component a radio transmitter component and an antenna . Those skilled in the art will appreciate that these components construct and transmit a communication signal containing the data that is input to the transmitter. Other forms of transmitters may of course be used depending on the requirements of the communication network.
+
+The receiver comprises an antenna a reception component a frame and symbol synchronization component a fast Fourier transform component a frequency timing and channel estimation component a subchannel demodulation component and a channel decoding component . The channel decoding component de interleaves decodes and derandomizes a signal that is received by the receiver. The receiver recovers data from the signal and outputs the data for use by the mobile device or base station. Other forms of receivers may of course be used depending on the requirements of the communication network.
+
+The preamble is transmitted by the base station during DL subframe and the ranging signal is transmitted by a mobile station during UL subframe. In both cases the signal consists of L subcarriers e.g. shown in that can are modulated by a code sequence in the frequency domain. The code sequence can be either binary or non binary. In some cases the preamble may consist of multiple identical segments to facilitate functions such as frequency offset estimation.
+
+The first symbol of the DL subframe is often designated to the preamble which may be used to facilitate performance of frequency synchronization cell search and other radio functions by the MS. A frame may possess a set of distinctive characteristics such as the preamble the subframe lengths and the guard period durations which can be exploited for frame synchronization. For example in the IEEE802.16e standard the DL subframe transmitted by the BS exhibits a certain energy envelope pattern that can be used for frame synchronization as shown in . The average power of the preamble is higher than the maximum power of the rest of the DL OFDM symbols by p. These DL OFDM symbols have a minimum power level because a set of pilot subcarriers are transmitted in each symbol whether this symbol carries data or not. The duration of the preamble is Land the duration of the DL subframe is L.
+
+A simple way to find the beginning of the frame is to detect the power surge due to the preamble. However the receiver may sometimes detect a power surge in the UL period thereby resulting in false detection. A more sophisticated method is to detect the power plunge both at the end of the preamble and at the end of the DL subframe in addition to the power surge at the beginning of the preamble.
+
+To detect the surge or plunge of power in the envelope a differential operation may be applied to the envelope resulting in peaks and dips corresponding surges and plunges respectively as illustrated in . If the envelope is represented by A n the differential function of the envelope called the differential envelope is given by 1 
+
+where M is the window length for the integration. It should be noted that A n can be in linear or logarithmic scale. In one embodiment the integration window length is set to equal to the length of the receive transition gap RTG or transmit transition gap TTG .
+
+Frame synchronization may be carried out by a frame detection processor which comprises an envelope detector differentiator and frame detection algorithm as shown in . The detection algorithm is configured to determine the frame starting time tby searching for the peaks and dips at the right time location in the differential envelope. The detection probability for tis a function of the thresholds T T T and the confidence intervals L L see that is 
+
+One example for the algorithm is provided in where three criteria have to be met before tis declared 
+
+Additional detection logic can be added to increase the probability of detection and reduce the probabilities of missing and false alarms. For example in the detection algorithm shown in another set of criteria is added to increase the detection probability.
+
+With multiple receivers there are multiple signals available for frame synchronization as shown in . The frame detection can be based on selection combining selection combining or joint detection.
+
+In the selection approach a frame detection processor or may select one among a plurality of envelopes for detection as depicted in . The selection can be based on certain signal measures such as RSSI average power correlation coefficient and or SNR which are input to a selector as side information . Selection can also be based on magnitudes of the peaks of the differential envelopes .
+
+In the combining approach a frame detection processor may combine the available envelopes for detection as depicted in . The combining can be carried out simply by adding the available envelopes A n together that is 
+
+where wis the weight for the k th envelope. The weights are related to certain signal measures such as RSSI average power temporal correlation coefficient spatial correlation coefficient and or SNR which are input to the combiner as side information.
+
+In the selection combining approach P signals are selected out of the K received signals based on certain criteria. The selected P signals are then combined using the above combining methods for frame synchronization.
+
+In the joint detection approach the frame detection processor may use the available envelopes for joint detection as depicted in . In this case a frame detection algorithm takes into account all of the detection cost functions to determine the frame starting time. One example for a joint detection algorithm is provided in where joint criteria are applied to test both of the differential envelopes.
+
+At the receiver the detection of a code sequence embedded in a preamble signal or a ranging signal can be carried out in either the time domain or frequency domain. In the time domain method the method may require one or more correlators to process the time domain signals depending on the processing configuration e.g. time multiplexing or parallel . In the frequency domain method the signal is transformed to the frequency domain before being input to the code detection processor which comprises an array of code detectors and a comparator as shown in . Each code detector may include a sequence multiplier and inverse FFT IFFT and a peak detector as depicted in . The code modulated subcarriers S n in the received signal are multiplied by the code sequence of interest c n which is normally stored in the memory and the resulting product is given by for 1
+
+If the clock frequency at the receiver misaligns with the transmitter the resulting frequency difference will degrade the detection ability at the receiver. If the misalignment is more than one half of the subcarrier spacing the detection may fail. To mitigate this problem the code detector may anticipate the frequency offset in searching for the code sequence. This may be accomplished by circularly shifting the received subcarriers S n by one or more subcarrier spacing that is the shifted signal is given by
+
+where m 1 2 . . . denotes the number of spacing units to be shifted. depicts a block diagram showing an example for the realization of a code detector with shifting. Alternatively instead of shifting S n one may choose to shift c n in the same fashion which will achieve the same objective. Thus the resulting product is given by for 1and 0 1 2 . . .
+
+With K receivers there are K signals available for code detection. The code detection can be based on selection combining or the combination of the two.
+
+In the selection based method one of the K received signals sin the time domain may be chosen for code detection. The selection can be based on certain signal measures such as RSSI average power correlation coefficient and or signal to noise ratio SNR which are input to a selector as side information .
+
+In the combining based method the K signals may be combined in the frequency domain for code detection as shown in . Let S n A n ebe the n th subcarrier of the k th signal.
+
+In some embodiments the subcarriers from different receivers may be combined in amplitude and the phase of the combined signal takes on the phase value associated with the signal of the strongest signal measure that is the combined signal is expressed as
+
+where 1 p K is the index of the received signal with the highest signal measure. The signal measure can be the average SNR or other signal characteristics.
+
+In other embodiments the subcarriers from different receivers may be combined in such a way that the combined signal is given by
+
+where denotes the reference phase for the k th signal. The reference phase can be set to be the phase of a particular subcarrier say the n th subcarrier that is 
+
+Alternatively the reference phase can be set to take on the value of the first order n approximation at a particular subcarrier say the n th subcarrier that is 
+
+In some embodiments the subcarriers from different receivers may be weighted first and then combined that is 
+
+where w n is the weight for the n th subcarrier of the k th signal. The weights may be related to certain signal measures such as RSSI average power temporal correlation coefficient spatial correlation coefficient and or SNR which are input to the combiner as side information.
+
+In the selection combining approach P signals may be selected out of the K received signals based on certain criteria. The selected P signals are then combined using the above combining methods for code detection.
+
+In some systems a preamble may consists of multiple identical segments as shown in to facilitate functions such as frequency offset estimation. Frequency offset estimation may be carried out by first calculating the dot products of the identical segments in the preamble in the time domain. Let s n be the n th time sample of preamble and N be the length for the identical segments. The dot product of the p th segment and the q th segment is given by
+
+The multiple identical segments in the preamble can all be used for the estimation to improve the estimation accuracy. For M segments in the preamble the frequency offset is given by
+
+In the case of K receivers which normally share one common frequency reference source frequency offset estimation may be carried out by weighted averaging the dot products of the preamble for each receiving path. Therefore the frequency offset is given by
+
+where wis the weight for the dot product at the k th receiving path. The weights are related to certain signal measures such as RSSI average power temporal correlation coefficient spatial correlation coefficient and or SNR which are input as side information. In an embodiment the weight can be set equal to the amplitude of its corresponding dot product that is 
+
+The multiple identical segments in the preamble can all be used for the estimation to further improve the estimation accuracy. For M segments in the preamble the frequency offset is given by
+
+Referring to operation begins the operational procedure and in operation a plurality of the received signals from the multiple receivers is selected. In operation the selected signals are transformed into frequency domain signals. In operation each of the frequency domain signals are shifted in phase by a negative value of a respective reference phase. In one embodiment the respective reference phase is represented by and is set to a phase value at an n th frequency subcarrier n of the signal to be phase shifted. In another embodiment the respective reference phase is represented by and is set to the value of a first order phase approximation at an n th frequency subcarrier n of the signal to be phase shifted wherein the first order phase approximation is given by n a bn where nrepresents the subcarrier index and coefficients a and b are determined by solving normal equations
+
+where n represents the phase at the n th frequency subcarrier of the signal to be phase shifted and L is the length of the signal to be phase shifted.
+
+In some embodiments each of the frequency domain signals is weighted with a corresponding weight before being phase shifted. In one embodiment the corresponding weight is associated with a measure of the signal to be weighted wherein the measure being a received signal strength indication RSSI a signal to noise ratio SNR an average power level a temporal correlation coefficient a spatial correlation coefficient or a combination thereof.
+
+In operation the phase shifted signals are combined into one signal. In one embodiment the phase shifted signals may be combined into one signal using averaging. In operation the combined signal is multiplied with a signal stored in a storage in the device to generate a signal product. In one embodiment the combined signal is represented by S n and circularly shifted by one or more subcarrier spacings in accordance with
+
+In operation the signal product is transformed into a time domain signal. In operation peak detection is performed on the time domain signal.
+
+Referring to operation begins the operational procedure and in operation a plurality of the received signals from the multiple receivers is selected. In operation the selected signals are transformed into frequency domain signals. In operation each of the frequency domain signals are shifted in phase by a negative value of a respective reference phase.
+
+In some embodiments each of the frequency domain signals is weighted with a corresponding weight before being phase shifted. In one embodiment the corresponding weight is associated with a measure of the signal to be weighted wherein the measure being a received signal strength indication RSSI a signal to noise ratio SNR an average power level a temporal correlation coefficient a spatial correlation coefficient or a combination thereof.
+
+In operation the phase shifted signals are combined into one signal. In one embodiment the phase shifted signals may be combined into one signal using averaging. In operation the combined signal is multiplied with a signal. In operation the signal product is transformed into a time domain signal.
+
+Any of the above mentioned aspects can be implemented in methods systems computer readable media or any type of manufacture. For example a computer readable medium can store thereon computer executable instructions for signal detection and signal processing.
+
+Lastly while the present disclosure has been described in connection with the preferred aspects as illustrated in the various figures it is understood that other similar aspects may be used or modifications and additions may be made to the described aspects for performing the same function of the present disclosure without deviating there from. For example in various aspects of the disclosure methods and systems for communicating in a wireless communications system were disclosed. However other equivalent mechanisms to these described aspects are also contemplated by the teachings herein. Therefore the present disclosure should not be limited to any single aspect but rather construed in breadth and scope in accordance with the appended claims.
+

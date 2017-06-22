@@ -1,0 +1,47 @@
+---
+
+title: Modular gridded tapered slot antenna
+abstract: A planar antenna comprising: a substrate, a resonant element generating an electromagnetic wave, a plurality of parallel, spaced apart conductive strips on the substrate, wherein conductive strips form collinear rows of at least two strips that are physically separated by a slot to guide the electromagnetic wave in a specific direction.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09337542&OS=09337542&RS=09337542
+owner: The United States of America as represented by the Secretary of the Army
+number: 09337542
+owner_city: Washington
+owner_country: US
+publication_date: 20121128
+---
+This application claims benefit of U.S. provisional patent application Ser. No. 61 610 499 filed Mar. 14 2012 which is herein incorporated by reference.
+
+Governmental Interest The invention described herein may be manufactured used and licensed by or for the U.S. Government
+
+Embodiments of the present invention generally relate to communication systems and more particularly to tapered slot antennas.
+
+Various structures have been developed in the field of antenna design to maximize signal strength and fidelity while minimizing cost and size. One antenna structure is the tapered slot antenna TSA . Much of antenna design literature also use tapered notch flared slot and tapered slot interchangeably with TSAs. TSAs consist of a tapered slot etched into a thin metal film either with or without a dielectric substrate on one side of the film.
+
+TSAs are travelling wave type antennas that offer simple lightweight topology capable of radiating over a wide bandwidth with superior radiation performance and impedance matching compared to other slot antennas. TSAs are frequency independent meaning the antenna pattern and impedance remain constant over a relatively wide frequency bandwidth. A TSA can be designed with a variety of taper profiles to optimize antenna pattern bandwidth and or gain.
+
+One profile has a gradual curve shape with an exponential taper that enables multiple operating frequencies and high gain is known as an exponential TSA. The exponential TSA is able to operate over wide bandwidths and produce a symmetrical end fire beam with appreciable gain and low sidelobes. The size of the guiding slot is constant in wavelength and TSAs have a broad operating frequency range with constant beam width over this range.
+
+The conventional ETSA faces challenges involving beam shaping and beam switching especially in the context of antenna arrays. Specifically the topology for wideband application is limited by the technique used to couple the feed line signal to the input slot. The feed line supplying the signal is typically soldered or otherwise electrically connected in a fashion that requires another layer and or is otherwise not easily removable. Furthermore to create an array of ETSAs requires multiple additional layers in the same plane or on different planes such as to require a large amount of additional materials.
+
+The fabrication of conventional TSA antennas carries a high cost of materials for forming a solid curved conductive structure used to radiate the beam. The solid conductive metal on the substrate also creates undesirable surface waves with energy detracting from the radiated signal. Furthermore the conventional TSA loses energy from the radiated signal to the conductive edges or through absorption into the substrate.
+
+Therefore a need exists for a compact cost effective robust antenna adaptable to operate at multiple frequencies.
+
+Embodiments of the present invention comprise a planar antenna comprising a substrate a resonant element generating an electromagnetic wave a plurality of parallel spaced apart conductive strips on the substrate wherein the conductive strips form collinear rows of at least two strips that are physically separated by a slot to guide the electromagnetic wave in a specific direction. Other and further embodiments of the present invention are described below.
+
+To facilitate understanding identical reference numerals have been used where possible to designate identical elements that are common to the figures. The figures are not drawn to scale and may be simplified for clarity. It is contemplated that elements and features of one embodiment may be beneficially incorporated in other embodiments without further recitation.
+
+An embodiment of the present invention comprises a planar gridded exponential tapered slot antenna GTSA with a reconfigurable radiating element. The term gridded in this disclosure is to mean a one dimensional grid of substantially parallel separated conductive strips . illustrates a GTSA comprising a director portion and a portion for a modular resonator controller . The director portion comprises a slot a plurality of parallel conductive strips directors disposed on a substrate a modular resonator controller a resonant element resonator a microstrip feed line disposed on a substrate an optional reflector and a connector . The optional reflector helps improve forward gain and reduce the backward gain thus giving a better front to back ratio F B . In some embodiments there may be more than one reflector or in other instances none at all.
+
+The GTSA comprises a plurality of conductive strips arranged in collinear rows of at least two strips . Each pair of strips defines a gap between the ends of the strips . Cumulatively the strips taken together are tapered to form an increasingly widened slot driven by a resonant element . In one embodiment the resonator element of the GTSA is a resonant dipole that propagates a signal through the slot using proximity excitation of the nearby conductive strips . The dipole of the embodiment thus does not need to be electrically connected to the rest of the structure for operation and forms an adaptable structure when using different resonant sources. While the included examples focus on exponential tapering of the slot other shapes such as linear tapering may be also realized within the scope of invention. In other embodiments each strip may be formed of strip segments i.e. a collinear row may have more than two strips . Further embodiments may include substrate materials of predominantly air with low dielectrics such as foam and cardboard or more conventional microwave substrates such as Duroid FR4 and G10.
+
+The strips are able to perform the same wave guidance of the signal arrow as a solid conductor since the spacing between successive conductive strips is much smaller than a wavelength of the propagating signal 10 for example the structure mimics a solid conductor. The strips form collinear rows such that the spacing between rows allows the GTSA to cumulatively mimic the electromagnetic wave propagation of a conventional solid conductor TSA. Compared to a solid conductor the reduction in conductive material using the strips reduces fabrication costs but also minimizes surface waves on the antenna and reduces transmission toss. The spacing of the strips may be uniform or different depending on the desired application requirements.
+
+In some embodiments the resonant dipole element may share the same substrate as the strips or may be mounted to a modular controller . The ability to proximity excite the waveguide conductive strips allows the resonant dipole element to be modular and easily replaceable in some embodiments. In a modular controller the resonant element may be reconfigured such that the dipole element may be moved with respect to the strips through a separable substrate demonstrated by the gap . Alternative embodiments may include a dipole element that is replaceable wherein different resonant elements may operate at different resonant frequencies. In one embodiment each modular controller comprises a substrate separate from the substrate of the conductive strips . The modular controller may also include a dipole element that is reconfigurable to radiate at different frequencies. The dipole may be adjusted with respect to the strips for example through at least one of switches microelectromechanical systems MEMS pneumatic structure telescopic structure hydraulic structure conducting liquids and or the like.
+
+The substrate of the resonant element further comprises a microstrip feed line to communicate signals to and from a connector . Embodiments of the modular controller may or may not include a reflector . The connector may be a surface mount sub miniature type A SMA connector used to transmit and receive signals from various electronics such as receivers transmitters transceivers and or components thereof not shown .
+
+Some embodiments of the present invention involve mounting the gridded antenna on windows composite and plastics of vehicles. The standing wave structure disclosed herein may be manufactured using copper tape wires or conductive ink printing. The reduced size of the GTSA beneficially may replace the trailing wire communication antennas on aircraft thereby reducing the possibility for damage. One of the benefits of the end fire antenna in this embodiment of the invention is providing improved direct point to point communications.
+
+While the foregoing is directed to embodiments of the present invention other and further embodiments of the invention may be devised without departing from the basic scope thereof.
+

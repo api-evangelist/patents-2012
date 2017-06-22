@@ -1,0 +1,143 @@
+---
+
+title: Robot-enabled case picking
+abstract: A robot-enabled method of picking cases in a warehouse is provided. A robotic vehicle includes a processor configured to access a memory, a user input device, an output device, and a load platform, and has access to an electronically stored representation of a warehouse. The representation includes a map that defines aisles for storing items arranged as pick faces within the warehouse. A pick list is generated from an order; the pick list provides identifications of items to be picked to fulfill the order. Determined from the pick list is a plurality of stops at pick faces associated with the items. A route within the map is generated that includes the plurality of stops. The robotic vehicle iteratively guides itself along the route and automatically stops at each of the plurality of stops to enable loading of the items from the pick list onto the load platform.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=08892241&OS=08892241&RS=08892241
+owner: Seegrid Corporation
+number: 08892241
+owner_city: Pittsburgh
+owner_country: US
+publication_date: 20120622
+---
+This application claims the benefit of priority under 35 U.S.C. 119 e from provisional application Ser. No. 61 501 026 entitled Robot Enabled Case Picking filed on Jun. 24 2011 which is incorporated herein by reference in its entirety.
+
+The present inventive concepts relate to the field of systems and methods in the field of storage facility management and more particularly to systems and methods involved in case picking or selection.
+
+A storage facility is a facility primarily used for storage of goods for commercial purposes such as a warehouse. The storage is generally intended to be temporary as such goods ultimately may be intended for a retailer consumer or customer distributor transporter or other subsequent receiver. A warehouse can be a standalone facility or can be part of a multi use facility. Thousands of types of items can be stored in a typical warehouse. The items can be small or large individual or bulk. It is common to load items on a pallet for transportation and the warehouse may use pallets as a manner of internally transporting and storing items.
+
+A well run warehouse is well organized and maintains an accurate inventory of goods. Goods can come and go frequently throughout the day in a warehouse. In fact some large and very busy warehouses work three shifts continually moving goods throughout the warehouse as they are received or needed to fulfill orders. Shipping and receiving areas which may be the same area are the location s in the warehouse where large trucks pick up and drop off goods. The warehouse can also include a staging area as an intermediate area between shipping and receiving and storage aisles within the warehouse where the goods are stored. The staging area for example can be used for confirming that all items on the shipping manifest were received in acceptable condition. The staging area can also be used to build orders and pallets to fulfill orders that are to be shipped.
+
+Goods in a warehouse tend to be moved in one of two ways either by pallet or by cart or trailer . A pallet requires a pallet transport for movement such as a pallet jack pallet truck forklift or stacker. A stacker is a piece of equipment that is similar to a fork lift but can raise the pallet to significantly greater heights e.g. for loading a pallet on a warehouse shelf. A cart requires a tugger or tow tractor which enables a user to pull the cart from place to place.
+
+A pallet transport can be manual or motorized. A traditional pallet jack is a manually operated piece of equipment as is a traditional stacker. When a pallet transport is motorized it can take the form of a powered pallet jack pallet truck or forklift or lift truck . A motorized stacker is referred to as a power stacker. A motorized pallet jack is referred to as a powered pallet jack which an operator cannot ride but walks beside. A pallet truck is similar to a powered pallet jack but includes a place for an operator to stand.
+
+As with motorized pallet transports a tugger can be in the form of a drivable vehicle or in the form of a powered vehicle along the side of which the operator walks. In either form a tugger includes a hitch that engages with a companion part on the cart such as a sturdy and rigid ring or loop.
+
+Automatic guided vehicle AGV forms of pallet trucks and powered tuggers exist. An AGV is a mobile robot that follows markers or wires in the floor or uses vision or lasers to make its way without direct or remote control by an operator. They are most often used in industrial applications to move materials around a manufacturing facility or a warehouse such as in the case of AGV forklifts and AGV tuggers.
+
+Warehouse includes a plurality of aisles and storage spaces collectively aisles where the goods are intended to be stored in an orderly manner. Additionally zones can be defined in a warehouse as a means for categorizing areas within a warehouse. A zone can be defined for an aisle group of aisles portion of an aisle or various combinations thereof. In several zones are defined including zones A E.
+
+When one or more orders is to be filled a pick list is generated which tells an order selector or picker which aisles to go to and which goods to pick. Pallet transports or tuggers and carts collectively pallet transport are sent through warehouse with the order selector to pick cases totes cartons or other forms of containers of goods collectively cases herein . A tote is a container that is used to fill an order on a piece by piece basis where the pieces are individual goods or groupings of relatively small goods. The goods are arranged in aisles and the same goods are arranged as a pick face. A pick face is a location usually a two dimensional facing or area in a warehouse or stock area that is designated for the storage of one or more products and is accessible by an order selector for order filling. The cases are loaded on pallet transport and brought to either the staging area or shipping receiving area .
+
+There are different approaches to arranging products in a warehouse which is referred to as slotting. Slotting is viewed by many to be the key to the efficiency of the warehouse operation where the highest possible pick rates are desired. Generally speaking pick rate means the number of cases or units picked per unit of time e.g. cases per hour.
+
+One common approach to slotting products is to use item velocity. Generally the more popular a product is the higher its item velocity the faster or more frequently it moves in and out of the warehouse. When slotting by item velocity it is typical to keep the products with the highest item velocities in zones closest to the shipping receiving area or staging area . Meanwhile items with the lowest item velocities tend to be in zones furthest away. Slotting by item velocity can reduce travel time within a warehouse when filling orders. Reducing travel time is an important factor in increasing pick rates so it is considered quite advantageous to slot by item velocity.
+
+Another way to slot products in a warehouse is by product categories grocery stores tend to use this approach. For example paper products may be a product category. One or more product categories may exist within a zone. To increase efficiency with this type of product slotting it may be advantageous to pick all products from a category that are needed to fill multiple orders and then put the orders together in the staging area .
+
+There are many different methods for filling the order. The method chosen will typically depend on the way the products are slotted and whether or not cases are being picked versus individual products e.g. a case of aspirin versus bottles of aspirin. Some of the most common order picking methods are 
+
+The appropriateness of a particular order filling method will also depend on its impact on pick rates. The higher the overall pick rate the more efficient and cost effective the warehouse.
+
+Referring again to a warehouse management system or WMS is a key part of the supply chain and primarily aims to control the movement and storage of goods within warehouse . The WMS can process transactions associated with the movement of goods into out of and within the warehouse including shipping receiving putaway and picking. Putaway generally refers to moving goods into the warehouse or storage area at their designated storage locations e.g. zones and pick faces.
+
+The WMS can provide a set of computerized procedures to handle the tracking and management of goods at a warehouse model and manage the logical representation of the physical storage facilities e.g. racking etc. and enable a seamless link to order processing and logistics management in order to pick pack and ship product out of the warehouse. Warehouse management systems can be standalone systems or modules of an enterprise resource management system or supply chain execution suite. Orders can be electronically received by a WMS or manually input. Pick lists can be automatically or manually generated from the order which can include route optimization performed by the WMS.
+
+When picking cases to fill orders it is typical to use pallet transports that are navigated through the warehouse to pick faces within zones to retrieve the necessary product cases. When doing so the pallet transport is navigated under the control of the order selector. That is the order selector looks at a first next item on a pick list which indicates the aisle pick face and optionally zone where the corresponding product is located. The order selector drives the pallet transport to the pick face and loads the appropriate number of cases on the pallet or cart . This is done for each product on the pick list until the order selector has worked completely through the pick list.
+
+If the order selector is only picking for a particular zone he can bring the pallet transport to the next zone and hand it off to the next order selector to continue working down the pick list. If the order selector is picking the complete pick list then he can drive the pallet transport to the shipping receiving area or staging area when the order is complete.
+
+In accordance with aspects of the present invention provided is a robot enabled method of picking cases in a storage facility. The method includes providing a robotic vehicle having a processor configured to access a memory and a load platform. The robotic vehicle has access to an electronically stored representation of the storage facility the representation includes locations within the storage facility for storing items arranged as pick faces. A pick list is generated from an order the pick list providing identifications of items to be picked to fulfill the order. From the pick list a plurality of pick faces associated with the items is determined. A route within the map is electronically generated that includes the plurality of pick faces. The robotic vehicle iteratively navigates itself along the route and automatically stops or slows down at each of the plurality of pick faces to enable loading of the items from the pick list onto the load platform.
+
+The method can further include manually entering the order to the robotic vehicle through a user input device.
+
+The method can further include electronically communicating the order to the robotic vehicle. In such a case the order can be electronically communicated to the robotic vehicle by a storage facility management system.
+
+The method can further include manually entering the pick list to the robotic vehicle through a user input device.
+
+The method can further include electronically communicating the pick list to the robotic vehicle. In such a case the pick list can be electronically communicated to the robotic vehicle by a storage facility management system.
+
+The method can further include automatically generating the pick list from an electronically stored order.
+
+The method can further include manually entering the route to the robotic vehicle through a user input device.
+
+The method can further include electronically communicating the route to the robotic vehicle. In such a case the route can be electronically communicated to the robotic vehicle by a storage facility management system.
+
+The method can further include automatically generating the route from an electronically stored pick list.
+
+The method can further include tracking the robotic vehicle using a wireless network. In such a case the wireless network can include wireless access points distributed throughout the storage facility. And the method can further include determining a location of the robotic vehicle from a strength of one or more wireless signals transmitted by the robotic vehicle and received by one or more of the access points.
+
+The method can further include the robotic vehicle initiating travel to a next pick face of the plurality of pick faces in response to a user input. In such a case the user input can be a voice command. In other cases the user input can be a gesture.
+
+In other cases the user input can be an actuation of a physical mechanism that provides an electronic signal to the robotic vehicle. The physical mechanism can be one or more of a button RF gun or touch screen.
+
+The method can further include providing an output device and the robot vehicle can communicate with a user via the output device.
+
+The method can further include at each pick face the robotic vehicle outputting a message that identifies a set of items to be picked from the pick face to fill the order.
+
+In such a case the message can further identify a quantity of each item in the set of items to be picked from the pick face to fill the order.
+
+The output device can be a wireless Bluetooth device. The wireless Bluetooth device can communicate with a wireless headset or handset.
+
+Pick faces can be associated with predetermined zones and the route can be determined on a zone by zone basis.
+
+The robotic vehicle can be one of a plurality of robotic vehicles and the method can include electronically optimizing routes of the plurality of vehicles to avoid congestion within the storage facility.
+
+The method can further include electronically optimizing the route of the robotic vehicle to minimize robotic vehicle travel distance within the storage facility.
+
+The method can further include electronically optimizing the route of the robotic vehicle to minimize order distance within the storage facility.
+
+The method can further include electronically optimizing the route of the robotic vehicle to maximize pick rate.
+
+The method can further include the robotic vehicle iteratively navigating itself along the route using an evidence grid populated with data indicating probabilities of locations of objects in the storage facility. The evidence grid can be a three dimensional 3 D evidence grid.
+
+The method can further include the robotic vehicle collecting sensor data used to update the evidence grid while the robotic vehicle iteratively navigates itself along the route.
+
+It will be understood that although the terms first second etc. may be used herein to describe various elements these elements should not be limited by these terms. These terms are used to distinguish one element from another but not to imply a required sequence of elements. For example a first element can be termed a second element and similarly a second element can be termed a first element without departing from the scope of the present invention. As used herein the term and or includes any and all combinations of one or more of the associated listed items.
+
+It will be understood that when an element is referred to as being on or connected or coupled to another element it can be directly on or connected or coupled to the other element or intervening elements may be present. In contrast when an element is referred to as being directly on or directly connected or directly coupled to another element there are no intervening elements present. Other words used to describe the relationship between elements should be interpreted in a like fashion e.g. between versus directly between adjacent versus directly adjacent etc. .
+
+The terminology used herein is for the purpose of describing particular embodiments only and is not intended to be limiting of the invention. As used herein the singular forms a an and the are intended to include the plural forms as well unless the context clearly indicates otherwise. It will be further understood that the terms comprises comprising includes and or including when used herein specify the presence of stated features steps operations elements and or components but do not preclude the presence or addition of one or more other features steps operations elements components and or groups thereof.
+
+A communication module enables communication between robotic vehicle and external systems such as a storage facility management system e.g. a warehouse management system WMS and user device . The communication between these different systems subsystems and or entities will be as described herein but could be different in other embodiments. Communication module can enable one or more known or hereafter developed types of communication whether wired or wireless and implement the necessary protocols and message formats associated therewith. Such types of communication can include but are not limited to Ethernet Bluetooth wireless modem router high speed wire radio frequency and so on.
+
+An order module can be used to receive and order from WMS or user device in this embodiment. That is WMS can receive an order from an external source e.g. over the Internet intranet extranet virtual private network VPN and so on and communicate the order to robotic vehicle modules via communication module . Otherwise order module could receive an order from a non transitory memory such as a Flash drive CD ROM or similar storage device.
+
+In some embodiments user device could be used to transmit an order to robotic vehicle modules via communication module . In various input and output mechanisms are shown for a user device . These include a keypad or keyboard input display e.g. touch screen and a voice input e.g. microphone in this embodiment. User device could be a cell phone personal digital assistance or similar network enabled handheld device as examples. The display can be any wireless type display e.g. radio frequency RF display.
+
+When an order is received or otherwise electronically stored at the robotic vehicle a pick list module can process the order to generate a pick list. A pick list therefore is a list of items to be picked in the warehouse to fill at least one order. In addition to the order the pick list module can generate the pick list using various types of information such as product inventory. The pick list could also be generated using information relating to pick zones associated with products and pick faces within pick zones where the products physically reside. Alternatively a user may specify a pick list manually e.g. via an interface on or off the robotic vehicle such as the user interactive screens shown in . This information can be stored in storage device or made available from WMS .
+
+With a pick list generated a route module can be used to generate a route through the warehouse to be followed by robotic vehicle as the robotic vehicle works its way through the warehouse to gather the products. In addition to the pick list route module can generate the route using various types of information such as an electronic map representing the warehouse including pick zones and pick faces within pick zones. As will be appreciated by those skilled in the art the route module may include functionality to optimize the route based on minimizing distance traveled minimizing congestion in view of routes of other robotic vehicles minimizing time and or order stacking considerations e.g. heaviest items on bottom as examples. The route can be stored in storage device or made available from WMS .
+
+While order module pick list module and route module are shown as part of robotic vehicle in other embodiments one or more of the foregoing could reside at the WMS or at one or more other systems that communicate with WMS and or robotic vehicle . In some embodiments one or more of these modules may reside at user device .
+
+Vehicle control system is that system that generally causes robotic vehicle to travel through the facility. It can receive instructions and automatically route itself to a destination within a facility e.g. a warehouse. Robotic vehicles can use electronic maps markers vision systems and so on for guidance. However typical robotic vehicles have no ability to iterate themselves through an environment e.g. a facility .
+
+Vehicle control module communicates with vehicle control system to achieve an iterative robotic navigation through an environment in this case warehouse . Vehicle control system can use the route created by route module which includes the pick zone and pick face information necessary to fill the initial order. As will be described in greater detail vehicle control module can cause vehicle control system to robotically navigate to a pick face within a pick zone.
+
+An input output I O manager communicates the picking information to an order selector e.g. that either rides or walks beside the robotic vehicle or may be stationed at a zone or pick face. Display in module and display out module could be the same device such as a touch screen. The output at the user device could take the form of screens and or audio output via audio out module . The output could also include the output of light patterns symbols or other graphical or visual effects.
+
+Once the items are picked the user by operating a user device such as user device can indicate such to the robotic vehicle via I O manager . For example a user could simply say Go or Next via audio in module and vehicle control module could cause the vehicle control system to navigate to the next stop in the route. Additionally or alternatively the user may be allowed to use a keypad or touch screen display in module entry to accomplish the same action.
+
+In the embodiments of an approach to manually creating a pick list by hand is shown. Here Up Down Left and Right keys are provided to enable a user to choose specific pick faces to be included in a pick list which can be displayed via display out module . Each pick face number represents a different pick face where selection of a pick face adds the pick face to the pick list.
+
+Pick lists can be created in others ways in other embodiments. For example an order could be entered and a pick list could be automatically generated. The present invention is not limited to the manual approach of nor is it limited to those screens or functionality.
+
+As shown in a pick list can be entered into the robotic vehicle in step and the order selector can initiate robotic vehicle travel to a first pick face in step . Robotic travel can be initiated by voice gesture button or other user interactive mechanism. In step the robotic vehicle navigates to the pick face. In step the order selector picks the products from the pick face. If the route is complete step the picked load is delivered in step . The load could be delivered to a shipping and receiving area a zone in the warehouse or some other designated location. If the route was not complete in step the method returns to step where the user initiates robotic travel to the next pick face.
+
+As shown in a robotic vehicle can be provided with a map representing the warehouse in step . In step a pick list is generated from an order. The pick list can be manually generated computer generated or some combination thereof. Pick faces are determined in step and a route can be determined from the pick faces in step . Step begins iterative guidance through the warehouse. In step navigation can be initiated by the user with a command input to the robotic vehicle. The robotic vehicle navigates to the next pick face based on the route and map.
+
+In step product is picked from the pick face and loaded on the robotic vehicle e.g. a pallet transport or tugger with cart. If in step the route is complete the load can be delivered as described above. But if the route is not complete the process returns to step for robotic navigation to the next pick face. After the load is delivered the robotic vehicle can navigate to a staging area in step .
+
+As shown in zones are defined within the warehouse in step and the zones are staffed with order selectors in step . In step an order pick list and or route are loaded into the robotic vehicle. In step the robotic vehicle navigates to a zone. An order selector logs into an order in step either directly at the robotic vehicle or through an electronic device that communicates with the robotic vehicle either directly or through the WMS . In step the robotic vehicle navigates to the first pick face in the zone. The order selector loads the items in step . If picking within the zone is not complete in step the robotic vehicle navigates to the next pick face within the same zone.
+
+If in step picking in the zone is complete a determination is made of whether or not there is a next zone in step . If so the robotic vehicle goes to a next zone in step . If not the robotic vehicle delivers the load in step . After the load is delivered the robotic vehicle could go to a staging area as in step . For example the robotic vehicle could go to a shipping and receiving area as an example if the order is complete.
+
+In various embodiments described herein the robotic vehicle has one or more of the order pick list and route locally stored. But in other embodiments one or more of the foregoing could be externally stored e.g. at the WMS and communicated to the robotic vehicle as needed perhaps just in time. For example when an order selector loads product from a pick face and is ready to initiate robot self navigation to a next location a voice or other input could cause the robotic vehicle to receive the next pick face location from the WMS or other external system.
+
+In accordance with aspects of the present invention a variety of case picking solutions are possible by including a robot control system in facility equipment such as pallet transports forklift highlifts and tuggers to form a robotic vehicle. The resulting flexibility can be enhanced by interfacing the robotic vehicle with a storage facility management system to maximize the utilization of robotic vehicles to support a combination of factors that are important in varying degrees to each customer facility. Balancing cases hour with the labor costs and orders hour may have different implications for efficiency and impact other areas like put away and shipping. There is great value in letting each facility balance its own people processes and robots to achieve its own goals.
+
+At the same time the robot control system is flexible enough to integrate with other technology in use at the warehouse. The robots take direction from the WMS order e.g. as orders are printed for the pickers can follow an optimal path and can display what to pick for the worker on a screen mounted on the robot. The robots can arrive at a zone and the worker can read the screen for what to pick. Additionally or alternatively the voice system can tell the worker what to pick. No matter the infrastructure and goals for that day and for that warehouse the robot control system can be tuned on the fly to support the needs in real time. For instance a warehouse can use label picking in perishables voice in dry goods and or RF display in bulk as examples. The robots can travel from location to location and the workers can be prompted via the method they are using.
+
+While the foregoing has described what are considered to be the best mode and or other preferred embodiments it is understood that various modifications may be made therein and that the invention or inventions may be implemented in various forms and embodiments and that they may be applied in numerous applications only some of which have been described herein. It is intended by the following claims to claim that which is literally described and all equivalents thereto including all modifications and variations that fall within the scope of each claim.
+

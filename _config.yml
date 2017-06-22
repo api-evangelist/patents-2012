@@ -1,0 +1,31 @@
+title:        API Patents
+url:          http://patents.apievangelist.com
+raw_url: http://patents.apievangelist.com/apis/
+
+tag: Patents
+
+logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-patents.png
+logo_width:   80
+logo_bottom_padding: 10
+
+version:      1.1.1
+author:
+  name:       'Kin Lane'
+  email:      'info@apievangelist.com'
+markdown:     kramdown
+
+permalink: /:categories/:year/:month/:day/:title/
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+
+paginate: 25
+paginate_path: "/blog/page:num"
+
+github_user: api-evangelist
+github_repo: patents
+github_branch: gh-pages
+
+# Footer
+footer_title: API Evangelist
+footer_link: http://apievangelist.com
+footer_image_source: https://s3.amazonaws.com/kinlane-productions/footer/empowered-by-you-banner.png
+footer_image_width: 60

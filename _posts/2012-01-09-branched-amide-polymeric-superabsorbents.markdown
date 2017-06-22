@@ -1,0 +1,43 @@
+---
+
+title: Branched amide polymeric superabsorbents
+abstract: A superabsorbent polymeric material for absorption of organic liquids which includes at least one cross-linked branched amide polymer for absorbing and retaining quantities of organic liquids equivalent to several times its dry weight.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=H0002276&OS=H0002276&RS=H0002276
+owner: The United States of America, as represented by the Secretary of the Navy
+number: H0002276
+owner_city: Washington
+owner_country: US
+publication_date: 20120109
+---
+The invention described was made in the performance of official duties by one or more employees of the Department of the Navy and thus the invention herein may be manufactured used or licensed by or for the Government of the United States of America for governmental purposes without the payment of any royalties thereon or therefor.
+
+Embodiments of this disclosure relate to superabsorbents also known as superabsorbent polymers or SAP for the absorption of a broad spectrum of organic liquids at low percentages of absorber 5 or less . Specifically the disclosure describes branched amide polymeric superabsorbents for the mitigation of hazardous organic solvents in the environment.
+
+Current commercially available sorbents may require 10 w w or more of material to immobilize organic liquids. They may also have a limited range of liquids for which they are highly effective. Generally sorbents fall into two classes i.e. adsorbents and absorbents. Adsorbents immobilize liquids through interaction of the liquid with the surface of the material and therefore have a capacity that can be limited by the material s surface area. Absorbents may also take liquid into the internal molecular structure of the material resulting in much higher capacity relative to adsorbents.
+
+The balance of the interstitial solvent material interactions and the absorption induced strain in the material determines the capacity of an absorbent material for a given solvent. The degree of swelling of a polymeric absorbent is solvent dependent and depends on the chemical structure of the polymer backbone in addition to other factors.
+
+Very few highly absorbent polymers for organic liquids and solvents have been identified in the literature nearly all of them are based on alkyl acrylates. The alkyl acrylates strongly absorb some non polar solvents but are unsuitable for solvents of higher polarity. A copolymer of alkyl acrylates with a hydrophobic trialkylammonium salt showed inverse behavior with a high absorption capacity for polar solvents and a low absorption capacity for nonpolar solvents. While the absorption capacity of the copolymer may be impressive over one hundred times its weight for some solvents the material suffers from a very high projected manufacturing cost. None of the known absorbents have high absorption capacities over a broad range of solvent polarities and types i.e. alkyl aromatic non polar polar aprotic polar protic etc.
+
+Accordingly the polymers of the present disclosure have been developed as highly absorbent polymeric materials that can be manufactured at low cost and cover a broader range of solvents.
+
+In accordance with an embodiment of the disclosure the superabsorbent polymeric material for absorption of organic liquids is at least one crosslinked branched amide polymer. In another embodiment of the disclosure a composition includes the superabsorbent polymeric material which may be in the form of a film a layer a sheet a pad a gel particles or fibers. Other embodiments of the superabsorbent polymeric material and co polymers for structural functionality are provided in the detailed description as provided.
+
+A more complete appreciation of the disclosure and many of the attendant advantages will be readily obtained as the same becomes better understood by reference to the following detailed description when considered in connection with the accompanying drawing. In describing and claiming the present invention the following terminology will be used in accordance with the definitions set out below.
+
+The term polymer is used to refer to a chemical compound that comprises linked monomers and that may or may not be linear crosslinked or thermosetting. The term monomer is used generically unless otherwise indicated to mean monomers comonomers termonomers and tetramonomers. Branched polymers are understood to include hyperbranched polymers containing two or more generations of branching which are obtained via a polymerization reaction. The branched polymers of the present disclosure are crosslinked and may include statistical gradient and alternating branched copolymers.
+
+The phrases organic solvents and organic liquids are interchangeable and understood to include a chemical class of compounds that are used routinely in commercial industries. They share a common structure at least one carbon atom and one hydrogen atom low molecular weight volatility and they exist in liquid form at room temperature. They may be grouped further into aliphatic chain compounds and as aromatic compounds. Examples of the organic solvents include but are not limited to alicyclic hydrocarbons such as cyclohexane and cyclopentane aliphatic hydrocarbons such as n pentane n hexane n heptane and ligroin and aromatic hydrocarbons such as benzene toluene and xylene.
+
+In an embodiment this disclosure provides a new class of superabsorbent polymers for use with non aqueous organic liquids and solvents. These superabsorbent polymers have a high absorption capacity for both polar solvents and nonpolar solvents. The superabsorbent polymers of the present disclosure are capable of absorbing and retaining quantities of organic liquids equivalent to many times their own weight. The superabsorbents are crosslinked branched amide polymers in which with each succeeding generation an additional branch point is introduced into the polymer s side chains. The additional branch point provides sites for solvent interaction with the backbone and a larger degree of sterically induced extension of the polymer backbone as solvent enters the interstitial sites along the polymer backbone.
+
+In an embodiment these polymeric materials absorb a broad spectrum of organic liquids with high efficiency and have absorption capacities as high as 500 times their dry weight. These polymeric materials may also be relatively inexpensive to manufacture as they can be prepared from readily available starting materials.
+
+In an embodiment the polymeric material is poly N N di 2 methoxyethyl acrylamide which absorbs organic liquids with dielectric constants between two and 40 at 15 times its weight or more. In another embodiment the superabsorbent polymeric materials of the present disclosure may be prepared by mixing the monomers in desired stoichiometric ratios in solution and then initiating free radical copolymerization. In addition branched polymers may be generally prepared via a step growth mechanism involving the poly condensation of a mixture of mono functional and multi functional monomers. The mono functional monomers polymer chains and where a multi functional monomer is introduced into the chain a branch point is formed.
+
+Crosslinking may be affected during polymerization by incorporation of suitable crosslinking monomers. Alternatively the polymers can be crosslinked after polymerization by reaction with a suitable reactive crosslinking agent. Reaction temperature pH amount of added initiator concentration and reaction time may control the extent of crosslinking and molecular weight increase after addition of the initiator. In another embodiment the superabsorbent polymeric materials may be in the form of a film a layer a sheet a pad a gel particles granules and fibers and may be combined in compositions with other materials for higher absorption capacity and long term effectiveness.
+
+In view of the above disclosure the polymeric materials demonstrate organic liquid absorbent capability that has several commercial applications including chemical waste treatment spill clean up and solvent entrainment. In addition these polymeric materials may significantly outperform any commercially available material at comparable cost.
+
+Obviously numerous modifications and variations of the disclosure are possible in light of the above disclosure. It is therefore understood that within the scope of the appended claims the disclosure may be practiced otherwise than as specifically described herein.
+

@@ -1,0 +1,93 @@
+---
+
+title: System and method for reducing the data packet loss employing adaptive transmit queue length
+abstract: The present invention provides a system and method for reduction of data packet loss for the multiple network interfaces. Particularly, the invention provides a cross layer system for reduction of data packet loss based on dynamic analysis of network conditions. Further, the invention provides a system and method of estimation of network condition and adapting the transmit queue of the multiple interfaces according to channel condition/available bandwidth of the associated network.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=09413676&OS=09413676&RS=09413676
+owner: Tata Consultancy Services Limited
+number: 09413676
+owner_city: Maharashtra
+owner_country: IN
+publication_date: 20120522
+---
+The present invention relates to the field of telecommunication. Particularly the invention relates to reduction of data packet loss by adapting transmit queue length based on the network estimation for a cross layer bandwidth aggregation system using multiple active physical interface.
+
+Communication networks may comprise a combination of group of a wide area network WAN personal area networks PANS local area networks LANs and campus area networks CANs .
+
+The WAN a geographically distributed telecommunication network enables users around the globe to effectively share and transmit data. It allows businesses to carry out information transaction and business operations. A robust WAN infrastructure is a prerequisite of companies to conduct their business without disruptions. Data transfer through WAN network is widely studied for improving the reduction of the packet loss. The packet loss in the network decreases the quality of services QoS and rate of downloading and uploading for applications. The packet loss may cause loss of information transaction through the network. Various researches have been done relating to the reduction of packet loss.
+
+The person skilled in the art knows about bandwidth aggregation estimation and reduction in packet loss based on proxy based network architecture client server architecture i.e. by using a counter component in the other side. The systems in the state of the art are not cross layer aware. The existing systems do not perform any transmit queue adaptation for enhancing the throughput based on the network estimation and either dependent on feedback mechanism. They also require both sender and receiver s participation or transport layer window size. The existing mechanisms for transmit queue management modifies transmission control protocol TCP window size and hence the transmit buffer size. It uses the ECN bit indication of congestion in network of IP header as a trigger of queue management. The transmit queue management happens in router.
+
+Some of the prior arts known to us will now be discussed to understand the available technical solutions and shortcomings in the state of the art.
+
+Vitalio et al. in On the impact of active queue management on VoIP quality of service discloses a router based congestion control scheme. Active queue management using explicit congestion notification is applied for betterment of QoS in case of VoIP. However the scheme is tested only for VoIP and also user intervention is desired in order to handle congestion when voice quality deteriorates.
+
+Jian et al. in Applying Active Queue Management to Link Layer Buffers for Real time Traffic over Third Generation Wireless Networks discloses active queue management which is applied to the radio link control layer in 3G wireless system. Input from Harq feedback mechanism is used for Active Queue management. The assessment of channel condition between the User equipment and the Base station is used for congestion control. However the scheme is applied for queue management of the Physical data units PDU s but not exactly for the queue of packets.
+
+Some of the lacunae that exists in the prior art discussed above are that hitherto the research necessitated existence of counterpart in the destination which leads to nonuse of multiple interfaces simultaneously to perform the transmit queue management based on the network estimation. These approaches also do not make use of any cross layer technique.
+
+Thus there exists a need to solve the long standing problem of reduction of packet loss based on the dynamic network condition without using any corresponding component at the final destination or at any node or particular network architecture or using any network proxy or management node and also without performing any modifications in the physical and data link.
+
+The primary objective of the present invention is to provide a cross layer system communicating over multiple interfaces which can perform reduction of packet loss by adapting transmit queue length of each active interface based on the network condition of that interface.
+
+Another significant objective of the invention is to adapt the system for simultaneously packet loss reduction along with bandwidth aggregation using active multiple physical interfaces.
+
+An objective of the invention is to provide a method and system for reducing the data packet loss mainly in wireless WAN interfaces.
+
+Another objective of the invention is to provide a method and system that can simultaneously adapt the transmit queue of the multiple interfaces according to the network estimation available bandwidth of the associated interfaces.
+
+Still another objective of the invention is to provide a method and system for modifying the transmission queue of the multiple interfaces from the use of network estimation.
+
+Before the present methods systems and hardware enablement are described it is to be understood that this invention in not limited to the particular systems and methodologies described as there can be multiple possible embodiments of the present invention which are not expressly illustrated in the present disclosure. It is also to be understood that the terminology used in the description is for the purpose of describing the particular versions or embodiments only and is not intended to limit the scope of the present invention which will be limited only by the appended claims.
+
+The present invention provides a cross layer system to reduce the packet loss in a poor network condition the said system adapts suitable transmission queue length for each active interface.
+
+In another aspect of the invention is to provide method and system to determine the current transmission queue length associated with each active interface. The ratio of the default transmission queue length and the current transmission queue length is proportional with the ratio of determined bandwidth of previous time interval configurable and the current determined bandwidth.
+
+Still another aspect of the invention is to provide a method and system which estimate the channel network condition and based on that modifies the transmit queue length associated with each active physical interfaces and hence reduces the packet loss.
+
+Some embodiments of this invention illustrating all its features will now be discussed in detail. The words comprising having containing and including and other forms thereof are intended to be equivalent in meaning and be open ended in that an item or items following any one of these words is not meant to be an exhaustive listing of such item or items or meant to be limited to only the listed item or items. It must also be noted that as used herein and in the appended claims the singular forms a an and the include plural references unless the context clearly dictates otherwise. Although any systems and methods similar or equivalent to those described herein can be used in the practice or testing of embodiments of the present invention the preferred systems and methods are now described. The disclosed embodiments are merely exemplary of the invention which may be embodied in various forms.
+
+A system for reducing data packet loss in a communication network having multiple interfaces the said system comprises 
+
+Each of the elements of the system of the present application are configured to implement a method for reducing data packet loss in a communication network having multiple interfaces the method comprises of 
+
+In one embodiment of the invention the network drive module creates a virtual physical interface which encapsulates all existing active physical interfaces present in the computing system. The said system thus does not perform any modifications in the physical and data link layer of existing physical interface.
+
+The ratio of the current transmission queue and the default transmission queue of the each active interface is kept proportional with the ratio of the bandwidth i.e. an effective network channel bandwidth ratio as determined by step of that interface. The proportionality constant commensurate with a predefined threshold value and has a fixed minimum value. The proportionality constant may be configured based on a maximum network bandwidth that has a fixed minimum value. At the step the transmission queue length for each active interface is configured by transmission queue adaptation module. The process ends at the step wherein data packets are distributed with adaptively altered data rate to the said active interfaces in accordance with estimated bandwidth without interception by a network routing components and without seeking routed data status and as well as packet loss notification from active interfaces associated with the destination thereof.
+
+The system in accordance with an embodiment may include at least one processor an input output I O interface and a memory. The at least one processor may be implemented as one or more microprocessors microcomputers microcontrollers digital signal processors central processing units state machines logic circuitries and or any devices that manipulate signals based on operational instructions. Among other capabilities the at least one processor is configured to fetch and execute computer readable instructions stored in the memory.
+
+The I O interface may include a variety of software and hardware interfaces for example a web interface a graphical user interface and the like. The I O interface may allow for system interactions directly or through the devices. Further the I O interface may enable the system to communicate with other computing devices such as web servers and external data servers. The I O interface can facilitate multiple communications within a wide variety of networks and protocol types including wired networks for example LAN cable etc. and wireless networks such as WLAN cellular or satellite. The I O interface may include one or more ports for connecting a number of devices to one another or to another server.
+
+The memory may include any computer readable medium known in the art including for example non transitory memory volatile memory such as static random access memory SRAM and dynamic random access memory DRAM and or non volatile memory such as read only memory ROM erasable programmable ROM flash memories hard disks optical disks and magnetic tapes. The memory may include modules. The modules include routines programs objects components data structures etc. which perform particular tasks or implement particular abstract data types.
+
+In one embodiment of the invention the system further comprises a user space not shown in figure and a kernel space not shown in the figure .
+
+According to one of the preferred embodiments of the invention the said user space exposes APIs application programming interfaces to gather the user defined inputs as well as system captured inputs. The said user defined inputs comprise 
+
+The user inputs are provided by the user through command line. The said system defined inputs comprise 
+
+In an embodiment of the invention the kernel space acts as a bridge between applications and the actual data processing. The user space and kernel space have a close bonding and both these components exchange control information by using ioctl function call with a raw socket such as 
+
+In an embodiment of the invention the said system acts as a gateway of all the data paths from Internet protocol IP internet protocol to the physical layer starting from applications upper layers and vice versa. It distributes the data packets while transmitting among the existing active physical interfaces based on the quality of services QoS requirement as specified by the application or by using the default configuration. It receives the data from the respective interfaces and passes to the respective applications.
+
+In an embodiment of the invention the network driver module creates a virtual interface and assigns an IP address and netmask to it and adds this interface as the default entry in the routing table. All the application data that comes from upper layer uses this IP address as the source address.
+
+In an embodiment of the invention the network driver module replaces its own IP address with the corresponding active physical interfaces IP addresses while distributing the data to those interfaces and performs the necessary checksum calculations for internet protocol IP and transport protocols headers as required. During reception it replaces the actual IP addresses of those interfaces with its own IP address and performs the necessary checksum calculations for internet protocol IP and transport protocols headers .
+
+In an embodiment of the invention the network driver module uses the active interfaces devices as its slave network interfaces. It distributes the data packets from application based on some predefined identifiers for example port number HTTP packet or FTP packet etc. and quality of services QoS requirement as specified by the application optional through its user space module . It sends the distributed data packets directly to the transmit queue of its slave interfaces i.e. the active physical interface . It uses packet filtering net filter mechanism and associates a hook function for this purpose in the receive path. The hook function is used to filter the packets just after their reception by the active interfaces. The associated hook function of the packet filter performs the necessary modifications in the data packets and assembles the data packet before sending to the application.
+
+In an embodiment of the invention the proposed system uses a predefined internet control message protocol ICMP echo packet for measuring the network channel condition. The internet control message protocol ICMP echo packet is sent to any public IP address for example www.google.com defined by user simultaneously through the existing multiple active interfaces. The destination with the public IP address sends back the echo reply to active physical interface . The Proposed system determines the time differences between the sent ICMP echo and received ICMP echo reply packets i.e. the round trip time RTT for the active interfaces and estimates the network condition. The time difference with a higher value signifies a poor network condition. The system maintains a timer which makes an echo packet to be sent at a fixed time interval configurable .
+
+In an embodiment of the invention the proposed system also analyses the transport header TCP statistics and takes the average RTTs obtained from both the transport header and ICMP probe packet.
+
+Another embodiment of the proposed system as presented here may enhance the bandwidth of a system significantly by adding up the available bandwidths of the existing active communication interfaces wired and wireless by the network driver module without performing any modifications in the physical layer and data link layer of the existing interfaces. At the same time it estimates the channel network condition associated with each active physical interfaces . The system does not need any counterpart or corresponding module in any node including the final destination or end system of the communication link. It can be used for any transport layer protocol like TCP and user datagram protocol UDP . Importantly it does not require any service level agreement and a proxy support. It can perform an adaptive bandwidth aggregation.
+
+In a specific embodiment of the invention the result of network estimation modifies the transmission queue length of the multiple interfaces. The proposed system reduces the packet loss in a poor network condition wherein the said system configured to adapt to a suitable transmission queue length for each active interface . If the network condition associated with an interface is poor based on the above stated network estimation method it reduces the transmission queue length tl of that interface. It maintains a proportional ratio of the default transmission queue length and the current transmission queue length with previous bandwidth bw determined in a predefined time interval one time interval before the current interval and the current determined bandwidth.
+
+The transmission queue length of the interface is varied according to the ratio of previous bandwidth and the current bandwidth values determined by the bandwidth estimation module at predefined time interval. Particularly the ratio R of previous bandwidth and the current bandwidth is considered to be proportional and multiplied by a constant factor K which is greater than 10 and less than a cutoff saturation value varying with system to system. The determined mathematical expression for an active physical interface is given below new queue length cell Default queue length where R cell current bandwidth previous bandwidth 10
+
+The network driver module estimates the effective network channel bandwidth ratio associated with each active interface involved in the communication by using a probe packet mechanism wherein the effective network channel bandwidth is a ratio of previous bandwidth and the current bandwidth based on a predefined time interval. The effective networks facilitate to dynamically adapt the transmission queue length to suit the available bandwidth of the communication channel of the corresponding interfaces
+
+The preceding description has been presented with reference to various embodiments of the invention. Persons skilled in the art and technology to which this invention pertains will appreciate that alterations and changes in the described structures and methods of operation can be practiced without meaningfully departing from the principle spirit and scope of this invention.
+

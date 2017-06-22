@@ -1,0 +1,49 @@
+---
+
+title: Ionic buoyancy engine
+abstract: A buoyancy engine is provided for use in a saltwater environment. The engine includes a gas filled housing and a buoyancy chamber in the housing. An elastomeric membrane is positioned between the buoyancy chamber interior and the housing interior. A semi-permeable membrane is provided between the buoyancy chamber interior and the saltwater environment. Two electrodes can be positioned with both electrodes in the buoyancy chamber or with one electrode being positioned in the buoyancy chamber and the other being positioned in the saltwater environment. A controller is joined to at least one of the electrodes for controlling an electrical potential between the two electrodes. A power source provides power to the controller.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=08839618&OS=08839618&RS=08839618
+owner: The United States of America as represented by the Secretary of the Navy
+number: 08839618
+owner_city: Washington
+owner_country: US
+publication_date: 20120921
+---
+The invention described herein may be manufactured and used by or for the Government of the United States of America for governmental purposes without the payment of any royalties thereon or therefor.
+
+Undersea distributed sensor systems require a miniaturization of platforms and a means of both spatial and temporal persistence. One aspect of this system is the necessity to modulate depth for optimal positioning station keeping and as a means of communicating data among and between deployed systems.
+
+In engineering applications most buoyancy control is performed using an air liquid chamber. In submarines air tanks are filled with sea water for sinking and refilled with the pressurized air to float. The density of the submarine changes as the mass is altered at constant volume. Buoyancy compensator devices used by divers inflate and deflate bags of air manipulating density by volume increase at constant mass. It is also known to use electrolysis to generate hydrogen and oxygen gas which replace the water in a gas chamber resulting in increased buoyancy.
+
+Each of these approaches has deficiencies when applied to miniaturized and low power systems. Gas displacement and air bag systems require gas storage and utilize an expendable resource. Electrolysis systems consume too much power.
+
+A first object of the invention is to provide a buoyancy engine that utilizes a low amount of electrical power.
+
+A second object of the invention is to provide a buoyancy engine that can be cycled from high buoyancy to low buoyancy without discharging a consumable.
+
+Accordingly there is provided a buoyancy engine for use in a saltwater environment. The engine includes a gas filled housing and a buoyancy chamber in the housing. An elastomeric membrane is positioned between the buoyancy chamber interior and the housing interior. A semi permeable membrane is provided between the buoyancy chamber interior and the saltwater environment. Two electrodes can be positioned with both electrodes in the buoyancy chamber or with one electrode being positioned in the buoyancy chamber and the other being positioned in the saltwater environment. A controller is joined to at least one of the electrodes for controlling an electrical potential between the two electrodes. A power source provides power to the controller.
+
+In other embodiments sensors can provide indications of buoyancy chamber volume depth and acceleration to the controller. A controllable valve can also be provided for equalizing pressure and ionic concentrations between the buoyancy chamber interior and the environment. Additional electrodes can be provided to further control ionic concentrations.
+
+Other objects and advantages of the present invention will become apparent from the following description drawings and claims.
+
+Buoyancy engine operates by electrical control of ionic transport across semi permeable membrane . For this purpose a first electrode is positioned within buoyancy chamber . A second electrode is positioned outside buoyancy chamber in communication with environmental fluid . First electrode and second electrode are joined to a controller . Controller is joined to a power supply . Controller is capable of controlling the electrical polarity charge and potential difference between first electrode and second electrode .
+
+An optional displacement sensor can also be in communication with controller . Displacement sensor can be any sensor capable of measuring the change in the volume of the buoyancy chamber in response to osmosis. In one embodiment a laser vibrometer is used as displacement sensor however strain gauges or other displacement measurement devices can be used for this purpose. By having displacement measurement controller can have feedback concerning the effectiveness of the electrodes in causing osmosis into and out of the buoyancy chamber.
+
+In operation controller can increase or decrease buoyancy by applying a positive or negative potential difference between first electrode and second electrode . The potential difference causes ions to gather at the first and second electrode and . Cations will also transport across the semi permeable membrane exposed to environmental fluid . Ions inside buoyancy chamber will gather near first electrode reducing concentration of ions on the interior side of membrane . This creates concentration gradient between the environmental fluid side of the membrane and the interior of buoyancy chamber . Environmental water passes through membrane from the less concentrated side of the membrane to the more concentrated side. This causes elastic membrane to expand in to the interior of buoyancy chamber for a positive applied potential reducing the volume of water inside buoyancy chamber . The reduced volume of water makes buoyancy engine more buoyant because it has a lower mass. Buoyancy can be maintained by eliminating the potential difference between first electrode and second electrode . Original buoyancy can be restored by reversing the polarity on the electrodes.
+
+In operation controller creates a potential difference between electrodes and . Negative ions within the buoyancy chamber gather around the anode and positive ions gather around the cathode. This reduces the number of ions at semi permeable membrane and reduces the concentration of the solution at the interior side of membrane . As above environmental water passes through membrane from the less concentrated side of the membrane to the more concentrated side. Elastic membrane expands into buoyancy chamber reducing the volume of water inside buoyancy chamber . The reduced volume of water makes buoyancy engine more buoyant because it has a lower mass. Original buoyancy can be restored by short circuiting the electrodes.
+
+The buoyancy engine presented herein is a device that has a constant volume and a controllable mass. The mass is varied by transferring water in and out of a chamber with constant volume. Water motion is regulated by the local changes in concentration of sodium and chloride ions. The concentration change is in turn controlled by an electric current.
+
+A buoyancy engine with both electrodes inside the chamber as in operates as follows. An electric potential of less than 1 volt is applied across the electrodes. Cations migrate toward the cathode while anions migrate toward the anode. A region of a large ionic concentration around the electrode and lower concentration near the semi permeable membrane is produced. As the environment in the region of the engine has constant salinity the difference between the concentration across the membrane results in osmotic pressure. The pressure leads to water migration from the chamber. The elastomeric bladder expands into the chamber to compensate for the water loss and the total volume remains constant. The engine becomes more buoyant as density decreases.
+
+The operating voltage of the proposed engine can be lower than the electrolysis potential of 1.1 V. Electrolysis is undesired as it uses significant power and introduces gasses into the buoyancy chamber. Operation at low voltages results in a highly efficient design. The engine is repeatable since water could be lost and recovered allowing the engine to sink and then float upon control.
+
+This buoyancy engine relies on local concentration changes around a semi permeable membrane. The local change leads to water flowing in and out of a constant volume chamber hence controlling the buoyancy of the device. The design is highly efficient miniaturization capable and does not contain any moving parts.
+
+Experimental results suggest that such an engine has an energy consumption of 1 Joule for a displaced volume of 1 mmof water. In the experiment electrodes were placed with both inside the chamber as in or on opposite sides of the semi permeable membrane as in . Having both electrodes inside the chamber resulted in a larger amount of water being transferred out of the engine. Having electrodes on opposite sides resulted in a flow of water in or out of the engine depending on the polarity of the applied potential. By testing electrodes having different configurations it was discovered that the amount of water transferred increased by increasing the surface area of the electrodes.
+
+The foregoing description of the preferred embodiments of the invention has been presented for purposes of illustration and description only. It is not intended to be exhaustive nor to limit the invention to the precise form disclosed and obviously many modifications and variations are possible in light of the above teaching. Such modifications and variations that may be apparent to a person skilled in the art are intended to be included within the scope of this invention as defined by the accompanying claims.
+

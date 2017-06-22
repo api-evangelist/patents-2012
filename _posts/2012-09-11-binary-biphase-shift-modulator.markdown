@@ -1,0 +1,51 @@
+---
+
+title: Binary bi-phase shift modulator
+abstract: A binary bi-phase shift modulator having an input piezoelectric transducer and an output piezoelectric transducer connected in series between a radio frequency input and a radio frequency output. A fixed DC pole voltage having a first polarity is connected to one of the transducers. A DC switched pole voltage is connected to the other transducer which switches between the pole voltage of the first polarity and a pole voltage of the opposite polarity in accordance with a binary data signal. The polarity of the radio frequency input relative to the radio frequency output varies as a function of the polarity of the DC switched pole voltage.
+url: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=08872595&OS=08872595&RS=08872595
+owner: The United States of America as represented by the Secretary of the Army
+number: 08872595
+owner_city: Washington
+owner_country: US
+publication_date: 20120911
+---
+The invention described herein may be manufactured used and licensed by or for the United States Government.
+
+The present invention relates generally to modulators and more particularly to a bi phase piezoelectric resonator modulator.
+
+There are many applications for low speed radio frequency modulators at relatively low frequencies i.e. less than 100 megahertz. For example such modulators can be used in conjunction with remote sensors to transmit the sensor data from the location of the sensor and to a central station. Such modulators are used in many types of sensors such as troop movement or tank movement sensors weather condition sensors and the like.
+
+In these types of sensor applications as well as other applications the speed of the modulator is not critical and relatively slow speed transmissions of data are sufficient for the application. Instead a much more critical requirement of such modulators is that the modulator consumes as little power as possible. This is particularly true since the sensor is often installed at locations lacking electric power. In these situations battery power or even solar panel power must be sufficient to power the modulator as well as the other associated equipment. To date the battery or solar panel requirements necessary to power the modulator and associated equipment are relatively large and or bulky.
+
+The present invention provides a bi phase resonator modulator which overcomes all of the above mentioned disadvantages of the previously known modulators.
+
+In brief the present invention provides a bi phase shift modulator having an input piezoelectric transducer and an output piezoelectric transducer which are connected in series between a radio frequency input and a radio frequency output. A source of radio frequency e.g. a sinusoidal rye is coupled to the input transducer. The frequency of the radio frequency signal is relatively low i.e. less than 100 megahertz and preferably less than 30 megahertz.
+
+A DC pole voltage having a first polarity is connected to one of the transducers. Blocking capacitors are also connected in series between each transducer and its associated input or output. Consequently the blocking capacitors minimize or even eliminate the current draw from the source of the bias or pole voltage.
+
+A DC switched bias or pole voltage is connected to the other transducer which switches between a pole voltage having the same polarity as the first transducer and a pole voltage of the opposite polarity in accordance with a binary data signal. Thus the DC switched pole voltage phase modulates the radio frequency signal between a first state in which the radio frequency input signal is in phase with the radio frequency output signal and a second state in which the phase of the radio frequency input is 180 degrees out of phase from the radio signal output. The actual phase of the DC switching pole voltage varies in unison with the binary data signal. Subsequent demodulation of the phase modulated signal at the base or central station extracts the data from the radio frequency signal.
+
+Preferably the piezoelectric transducers are both lead zirconate titanate PZT acoustic resonators. Furthermore the piezoelectric transducers are preferably dimensioned so that their resonant frequency coincides to the frequency of the radio frequency signal to minimize signal loss from the radio frequency input and to the radio frequency output. Furthermore the entire modulator is preferably implemented as an integrated circuit.
+
+With reference first to a preferred embodiment of a bi phase shift modulator according to the present invention is shown. The modulator includes an input piezoelectric transducer and an output piezoelectric transducer . The input and output transducers and respectively are connected in series between a radio frequency input and a radio frequency output . A blocking capacitor is also connected in series between the transducer and the radio frequency input signal and similarly a blocking capacitor is connected in series between the output of the output transducer and the Output for the modulator.
+
+The radio frequency signal is preferably a sinusoidal signal of a relatively low frequency i.e. less than 100 megahertz. Furthermore the value of the blocking capacitors and is selected to block DC but pass a signal at the frequency of the RE signal . For example assuming a frequency of 19 megahertz for the radio frequency signal a value of about 31 picofarads for each capacitor and is sufficient to pass the signal from the radio frequency input through the blocking capacitors and and transducers and and to the output .
+
+The input and output transducers and are preferably piezoelectric lead zirconate titanate PZT acoustic resonators. The transducers are also dimensioned to resonate at substantially the frequency of the radio frequency signal . By matching the resonant frequency of the transducers and to the frequency of the radio frequency signal signal loss from the radio frequency input and to the radio frequency output is minimized.
+
+A DC voltage source having a first polarity e.g. 8 volts is connected through a resistor to pole or bias the input transducer . Since the resistor is connected in between the input transducer and the blocking capacitor essentially zero current flows through the resistor . Consequently power consumption from the bias or pole voltage source is eliminated or at least minimized.
+
+A switched DC bias or pole voltage source is electrically connected through a resistor to the output of the output transducer and the blocking capacitor . Like the blocking capacitor the blocking capacitor eliminates or at least minimizes the current flow through the resistor and thus minimizes or eliminates the power consumption from the DC switched bias or pole source .
+
+The output from the DC switched voltage source is switched in accordance with data from a data stream between a first value equal to the poling voltage of the fixed DC voltage of the first polarity and a pole voltage of the same magnitude as the voltage source but of the opposite polarity. For example assuming that the voltage of the fixed DC pole source is 7 volts the DC switched voltage source will switch the pole voltage applied to the output transducer between 7 volts and 7 volts depending upon the digital or binary value of the data.
+
+With reference now to the net effect of changing the polarity of the pole voltage on the output transducer is illustrated. More specifically illustrates a radio frequency sinusoidal signal at the radio frequency input . Assuming that the pole voltage applied by the DC switching source to the output transducer has the same polarity as the fixed pole voltage source an output signal at the output is in phase with the input signal as shown in . Consequently the phase of the input signal is the same as the output signal as long as the polarity either positive or negative of the pole voltage applied to both the input transducer and output transducer is the same.
+
+Conversely as shown in when the polarity of the pole voltage applied by the DC switching voltage source to the output transducer is the opposite from the polarity of the fixed voltage pole source the output signal is shifted 180 degrees out of phase from the input signal . Consequently since the output from the DC switched voltage source switches between positive polarity and negative polarity in unison with a digital or binary data signal the output signal or is phase encoded with the binary or digital information. The data may be subsequently extracted by phase demodulation at the central station not shown .
+
+Although illustrates the fixed pole voltage source as connected to the input transistor and the DC switched pole voltage source connected to the output transistor the voltage sources and may be switched without affecting the operation of the modulator . Likewise although the fixed pole voltage source has been described as a positive voltage source it may alternatively have a negative polarity without affecting the operation of the modulator .
+
+With reference now to the entire modulator except for the radio frequency source and pole voltage sources and is preferably implemented as an integrated circuit. As shown in the piezoelectric transducers and together with their associated DC blocking capacitors and are connected in series between to terminals and . These terminals and are adapted for connection with the radio frequency signal source and an appropriate output such as an antenna. Similarly a terminal is adapted for connection with the fixed DC voltage pole source through the resistor to bias the first transducer . Similarly a terminal is adapted for connection with the DC binary switched pole voltage source to bias the output transistor through a resistor .
+
+From the foregoing it can be seen that the present invention provides a binary bi phase shift modulator to modulate a radio signal by phase modulation which consumes extremely little power. Having described our invention however many modifications thereto will become apparent to those skilled in the art to which it pertains without deviation from the spirit of the invention as defined by the scope of the appended claims.
+
