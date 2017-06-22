@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API Evangelist - Patents
+title: API Evangelist - Patents 2012
 ---
 
 <!-- Main -->
@@ -57,87 +57,45 @@ title: API Evangelist - Patents
 	</section>
 {% endfor %}
 
-<!-- News -->
-<a name="News"></a>
-{% assign news_content = site.data.news_content.index[0] %}
-{% assign news = site.data.curated.index | sort: 'item_date' | reverse %}
-{% assign news = news | sort: 'item_date' %}
-{% assign news = news | reverse %}
+{% assign patents_content = site.data.patent_content.index[0] %}
+
 <section>
-	<header>
-		<h2>{{ news_content.title }}</h2>
-	</header>
-	<p>{{ news_content.header }}</p>
-	<div class="table-wrapper" style="height: 500px; overflow: auto;">
-		<table class="alt">
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Source</th>
-					<th>Visit</th>
-				</tr>
-			</thead>
-			<tbody>
-				{% for curated in news %}
-				<tr>
-					<td><a href="{{ curated.url }}" title="{{ curated.title }}" style="color:#000; font-size: 12px;">{{ curated.title }}</a> <span style="color:#000; font-size: 12px;">(<i>{{ curated.item_date | date: "%Y-%m-%d" }}</i>)</span></td>
-					<td>{% if curated.domain != null %}<a href="http://{{ curated.domain }}" style="color:#000; font-size: 12px;">{{ curated.domain }}</i></a>{% endif %}</td>
-					<td><a href="{{ curated.url }}" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-forward.png" width="25" /></a></td>
-				</tr>
-				{% endfor %}
-			</tbody>
-		</table>
-	</div>
-	<p>{{ news_content.footer }}</p>
-	<center>
-		<ul class="actions" style="text-align: center;">
-			<li><a href="/news/" class="button big">Read The News</a></li>
-		</ul>
-	</center>
+
+  <header class="main">
+    <h2>{{ patents_content.title }}</h2>
+  </header>
+
+  <p>{{ patents_content.header }}</p>
+  {% for post in site.posts limit: 1000 %}
+
+      {% assign uspto_url = 'http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=' | append: post.number | append: '&OS=' | append: post.number | append: '&RS=' | append: post.number %}
+
+      {% if post.title contains 'api' or post.title contains 'application programming interface' or post.title contains 'hypermedia' or post.abstract contains 'api' or post.abstract contains 'application programming interface' or post.abstract contains 'hypermedia' or post.content contains 'api' or post.content contains 'application programming interface' or post.content contains 'hypermedia' %}
+        {% unless post.title == blank %}
+          <h3><a href="{{ uspto_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.abstract }}</p>
+          <ul style="padding-top: 10px;">
+            <li><strong>Pub Date:</strong> {{ post.date |  date: "%Y/%d/%m" }}</li>
+    				<li><strong>Number:</strong> {{ post.number }}</li>
+            {% if post.owner %}<li><strong>Owner:</strong> {{ post.owner }}</li>{% endif %}
+    				{% if post.owner %}<li><strong>Location:</strong> {{ post.owner_city }}, {{ post.owner_country }}</li>{% endif %}
+            <li><strong>Details:</strong> <a href="{{ uspto_url }}" target="_blank">Visit USPTO</a></li>
+          </ul>
+        	<center><hr style="width: 75%;" /></center>
+        {% endunless %}
+      {% endif %}
+  {% endfor %}
+
+	<ul class="pagination" style="text-align: center;">
+		<li style="text-align:left;"><a href="/patents/page{{ paginator.previous_page }}" class="button disabled"><< Prev</a></li>
+		<li style="width: 75%"><span></span></li>
+		<li style="text-align:right;"><a href="/patents/page{{ paginator.next_page }}" class="button">Next >></a></li>
+	</ul>
+
+	<p>{{ patents_content.footer }}</p>
+
 </section>
 
-<!-- Organizations -->
-<a name="Organizations"></a>
-{% assign organization_content = site.data.organization_content.index[0] %}
-<section>
-	<header>
-		<h2>{{ organization_content.title }}</h2>
-	</header>
-	<p>{{ organization_content.header }}</p>
-	<div class="features">
-		{% assign organizations = site.data.organizations.index %}
-    {% for organization in organizations %}
-			<article>
-				<p><a href="{{ organization.url }}" target="_blank"><img style="padding: 15px; vertical-align: top;" src="{{ organization.image }}" width="175" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="{{ organization.url }}" target="_blank">{{ organization.name }}</a></h3>
-					<p>{{ organization.description }}</p>
-					<ul class="icons">
-						<li><a href="{{ organization.url}}" class="icon fa-home"><span class="label">Home</span></a></li>
-						{% if organization.twitter != '' %}
-						<li><a href="{{ organization.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						{% endif %}
-						{% if organization.blog != '' %}
-						<li><a href="{{ organization.blog }}" class="icon fa-rss"><span class="label">Blog</span></a></li>
-						{% endif %}
-						{% if organization.blog_rss != '' %}
-						<li><a href="{{ organization.blog_rss }}" class="icon fa-rss-square"><span class="label">RSS</span></a></li>
-						{% endif %}
-						{% if organization.github != '' %}
-						<li><a href="{{ organization.github }}" class="icon fa-github"><span class="label">Github</span></a></li>
-						{% endif %}
-					</ul>
-				</div>
-			</article>
-    {% endfor %}
-		<center>
-			<ul class="actions" style="text-align: center;">
-				<li><a href="/organizations/" class="button big">See All Organizations</a></li>
-			</ul>
-		</center>
-		<p>{{ organization_content.footer }}</p>
-	</div>
-</section>
 
 <!-- About This Research -->
 {% assign about_content = site.data.home_content.index[1] %}
