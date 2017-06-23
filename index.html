@@ -46,7 +46,7 @@ title: API Evangelist - Patents 2012
     <h2>{{ patents_content.title }}</h2>
   </header>
   <p>{{ patents_content.header }}</p>
-  {% for post in site.posts limit: 1000 %}
+  {% for post in site.posts limit: 8000 %}
       {% assign uspto_url = 'http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=1&f=G&l=50&d=PALL&S1=' | append: post.number | append: '&OS=' | append: post.number | append: '&RS=' | append: post.number %}
       {% if post.title contains 'api' or post.title contains 'application programming interface' or post.title contains 'hypermedia' or post.abstract contains 'api' or post.abstract contains 'application programming interface' or post.abstract contains 'hypermedia' or post.content contains 'api' or post.content contains 'application programming interface' or post.content contains 'hypermedia' %}
 				{% assign this_year = post.date | date: "%Y" %}
