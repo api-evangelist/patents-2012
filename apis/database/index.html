@@ -1,0 +1,22 @@
+---
+layout: none
+---
+[{
+{% for post in site.posts %}
+  {% assign post_title = post.title | downcase %}
+  {% assign post_abstract = post.abstract | downcase %}
+  {% assign post_content = post.content | downcase %}
+  {% if post.title contains 'database api' or post.abstract contains 'database api' or post.content contains 'database api' %}
+    {% unless post_title == '' %}
+      "title": "{{ post.title }}",
+      "publication_date": "{{ post.date |  date: "%Y/%d/%m" }}",
+      "number": "{{ post.number }}",
+      "url": "{{ post.url }}",
+      "abstract": "{{ post.abstract }}",
+      "owner": "{{ post.owner }}",
+      "owner_city": "{{ post.owner_city }}",
+      "owner_country": "{{ post.owner_country }}"{% if forloop.last != true %},{% endif %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+}]
