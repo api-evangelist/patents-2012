@@ -1,13 +1,15 @@
 ---
 layout: none
 ---
-[{
-{% for post in site.posts %}
-  {% assign post_title = post.title | downcase %}
-  {% assign post_abstract = post.abstract | downcase %}
-  {% assign post_content = post.content | downcase %}
-  {% if post.title contains 'api definition' or post.abstract contains 'api definition' or post.content contains 'api definition' or post.title contains 'api specification' or post.abstract contains 'api specification' or post.content contains 'api specification' %}
+{% assign search_one = 'api definition' %}
+{% assign search_two = 'API definition' %}
+{% assign search_three = 'API Definition' %}
+[
+  {% assign count = 1 %}{% assign totalcount = 1 %}{% for post in site.posts %}{% if post.title contains search_one or post.title contains search_two or post.title contains search_three or post.abstract contains search_one or post.abstract contains search_two or post.abstract contains search_three or post.content contains search_one or post.content contains search_two or post.content contains search_three %}{% unless post_title == '' %}{% assign totalcount = totalcount | plus: 1 %}{% endunless %}{% endif %}{% endfor %}
+  {% for post in site.posts %}
+  {% if post.title contains search_one or post.title contains search_two or post.title contains search_three or post.abstract contains search_one or post.abstract contains search_two or post.abstract contains search_three or post.content contains search_one or post.content contains search_two or post.content contains search_three %}
     {% unless post_title == '' %}
+      {
       "title": "{{ post.title }}",
       "publication_date": "{{ post.date |  date: "%Y/%d/%m" }}",
       "number": "{{ post.number }}",
@@ -15,8 +17,9 @@ layout: none
       "abstract": "{{ post.abstract }}",
       "owner": "{{ post.owner }}",
       "owner_city": "{{ post.owner_city }}",
-      "owner_country": "{{ post.owner_country }}"{% if forloop.last != true %},{% endif %}
+      "owner_country": "{{ post.owner_country }}"
+      }{% assign count = count | plus: 1 %}{% if count < totalcount %},{% endif %}
     {% endunless %}
   {% endif %}
 {% endfor %}
-}]
+]
