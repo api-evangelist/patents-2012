@@ -1,0 +1,17 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+      {
+      "title": "{{ post.title }}",
+      "publication_date": "{{ post.date |  date: "%Y/%d/%m" }}",
+      "number": "{{ post.number }}",
+      "url": "{{ post.url }}",
+      "abstract": "{{ post.abstract }}",
+      "owner": "{{ post.owner }}",
+      "owner_city": "{{ post.owner_city }}",
+      "owner_country": "{{ post.owner_country }}"
+      }{% if forloop.last != true %},{% endif %}
+{% endfor %}
+]
