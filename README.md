@@ -1,20 +1,9 @@
-# API Evangelist Patent Research
+# API Evangelist
 
-Sifting through the API patents as I shake my head...
+This has been my domain where I studied the technology, business, and politics of APIs from 2010 until 2019. It was kind of a PHD into how much of the web, mobile, and connected device works, as APIs drive almost everything today. I worked with startups, small business, enterprise organizations, and government agencies to understand how they were putting APIs to work. Spending time in Silicon Valley, New York, Washington DC working for the White House, and in Europe working with banks, the European Commission, and others to understand the world of APIs.
 
-URL: http://patents.apievangelist.com
+In 2019, I've decided to step away, and put my skills to work at F5 Networks</a> as an API architect. While I thoroughly enjoyed doing API Evangelist, I was getting weary of the independent hustle, and I was in need of some change. At some point in the future I may come back to this work, but for now I've worked to clean up the site a little, and just leave up as a resource for others to learn from. I won't be publishing any new blog posts, or engaging with the community, but I'm happy to continue sharing my research and hard work, as it was my passion for some time.
 
-* https://github.com/api-evangelist/patents-2016
-* https://github.com/api-evangelist/patents-2015
-* https://github.com/api-evangelist/patents-2014
-* https://github.com/api-evangelist/patents-2013
-* https://github.com/api-evangelist/patents-2012
-* https://github.com/api-evangelist/patents-2011
-* https://github.com/api-evangelist/patents-2010
-* https://github.com/api-evangelist/patents-2009
-* https://github.com/api-evangelist/patents-2008
-* https://github.com/api-evangelist/patents-2007
-* https://github.com/api-evangelist/patents-2006
-* https://github.com/api-evangelist/patents-2005
+You can access everything I've written via the archives page, and I've recently added a Google Search page to make things easier to find my keyword and topics. You can also access my API lifecycle research spanning almost a hundred stops using the links below. Each area of the API lifecycle is its own repository with stories I've written in each area, curated links, and companies and tooling that I've discovered along the way. You may come across links that are broken, as things change often in the space, and startups come and go. I will work to clean up from time to time, but for now, it is what it is. I hope you find something of value here.
 
-All patents can be found under _posts folder as individual files.
+Visit http://apievangelist.com for more information.

@@ -1,134 +1,226 @@
-- slug: electronic-frontier-foundation
-  name: Electronic Frontier Foundation
+- slug: apache-avro
+  name: Apache Avro
   description: >-
-    The Electronic Frontier Foundation (EFF) is an international non-profit
-    digital rights group based in San Francisco in the United States. EFF
-    provides funds for legal defense in court, presents amicus curiae briefs,
-    defends individuals and new technologies from what it considers abusive
-    legal threats, works to expose government malfeasance, provides guidance to
-    the government and courts, organizes political action and mass mailings,
-    supports some new technologies which it believes preserve personal freedoms
-    and online civil liberties, maintains a database and web sites of related
-    news and information, monitors and challenges potential legislation that it
-    believes would infringe on personal liberties and fair use, and solicits a
-    list of what it considers patent abuses with intentions to defeat those that
-    it considers without merit.
-  url: 'https://www.eff.org/'
-  short_url: ''
-  twitter: 'https://twitter.com/eff'
-  blog: 'https://www.eff.org/deeplinks'
-  blog_rss: 'https://www.eff.org/rss/updates.xml'
-  github: 'https://github.com/EFForg'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/EFF.png
-  tags: 'Privacy,Surveillance,Transparency,Copyright,Patents'
-- slug: the-defensive-patent-license-dpl
-  name: The Defensive Patent License (DPL)
-  description: >-
-    The Defensive Patent License (DPL) is a new legal mechanism to protect
-    innovators by networking patents into powerful, mutually-beneficial legal
-    shields that are 100% committed to defending innovation &ndash; no bullies,
-    trolls, or other leeches allowed. It also helps prevent these actors from
-    patenting open technologies and pulling them out of public use. It's a way
-    for patents to be used for good, and support innovators instead of
-    threatening them.
-  url: 'http://defensivepatentlicense.org/'
+    Apache Avro is a data serialization system. Avro relies on schemas. When
+    Avro data is read, the schema used when writing it is always present. This
+    permits each datum to be written with no per-value overheads, making
+    serialization both fast and small. This also facilitates use with dynamic,
+    scripting languages, since data, together with its schema, is fully
+    self-describing.
+  url: 'https://avro.apache.org/docs/current/'
   short_url: ''
   twitter: ''
-  blog: 'http://defensivepatentlicense.org/blog/'
-  blog_rss: 'http://defensivepatentlicense.org/blog/feed'
-  github: 'https://github.com/defensivepatent'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/defensive-patent-license.jpeg
-  tags: 'Patents,Licensing'
-- slug: foss-patents
-  name: FOSS Patents
-  description: >-
-    Florian Mueller used to be an award-winning intellectual property activist.
-    His 30 years of software industry expertise span different market segments
-    (games, education, productivity and infrastructure software), diverse
-    business models, and technical and commercial areas of responsibility. In
-    recent years, Florian advised a diversity of clients on the patent wars
-    surrounding mobile devices, and on their economic and technical
-    implications. (In order to avoid conflicts of interest, Florian does not
-    hold or initiate transactions in any technology stocks or derivatives
-    thereof, except that he is long AAPL.) He is now developing games for
-    smartphones and tablet computers.
-  url: 'http://www.fosspatents.com'
-  short_url: ''
-  twitter: ''
-  blog: ''
-  blog_rss: 'http://www.fosspatents.com/feeds/posts/default?alt=rss'
-  github: ''
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/FOSS_Patents.png
-  tags: 'Patents,Blog'
-- slug: united-states-patent-and-trademark-office-uspto
-  name: United States Patent and Trademark Office (USPTO)
-  description: >-
-    The United States Patent and Trademark Office (PTO or USPTO) is an agency in
-    the U.S. Department of Commerce that issues patents to inventors and
-    businesses for their inventions, and trademark registration for product and
-    intellectual property identification. The USPTO is unique among federal
-    agencies because it operates solely on fees collected by its users, and not
-    on taxpayer dollars. Its operating structure is like a business in that it
-    receives requests for services&mdash;applications for patents and trademark
-    registrations&mdash;and charges fees projected to cover the cost of
-    performing the services it provides.
-  url: 'http://www.uspto.gov/'
-  short_url: ''
-  twitter: 'https://twitter.com/uspto'
-  blog: 'http://www.uspto.gov/blog/'
-  blog_rss: 'http://www.uspto.gov/blog/director/feed/entries/rss'
-  github: 'https://github.com/USPTO'
-  image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uspto.png
-  tags: 'Federal Government,Patents,Copyright,Trademark'
-- slug: department-of-commerce
-  name: Department of Commerce
-  description: ''
-  url: 'http://www.commerce.gov'
-  short_url: ''
-  twitter: 'https://twitter.com/fgbnms'
-  blog: ''
-  blog_rss: ''
-  github: 'https://github.com/us-bea'
-  image: ''
-  tags: >-
-    Federal Government,Coral,Coral Reef,Coral
-    Reefs,Fish,Manta,Conservation,National Marine Sanctuary,Gulf Of Mexico,Gulf
-    Coast,Jobs,Government Jobs,Economics,Missouri,Nws,Noaa,Weather,National
-    Weather Service,Weather Service,Kansas,Kansascity,Nebraska,South
-    Dakota,Minnesota,Sioux Falls,Kansas City,Central
-    Region,Innovation,Patents,Trademarks,Intellectual
-    Property,Ip,Inventor,Invention,Noaa Fisheries,Maritime,Nautical
-    Charts,Ecosystems,Stewardship,Ridge To Reef ,Climate
-    Change,Fishing,Reef,Charts,Hydrography,Ocean, Animals, Photography,
-    Videography, Tourism,Air Travel, Diving,Marine,Shipwreck,Whales,Whale
-    Watching,Seabirds,Volunteers,Marine Research,Atlantic Cod,Bluefin
-    Tuna,Humpback Whale,Shipwrecks,Sand
-    Lance,Acoustics,Science,Photography,Photos,Animals,Tourism,Travel,Environment,Environment,Noaa
-    Sanctuaries,Tumblr,Sanctuary,Research,Citizen
-    Science,Mbnms,Sanctuaries,Monterey,Monterey Bay,Hawaii,Climate,Climate
-    Adaptation,Climate Modeling,Data Visualization,Maps,Features,Global
-    Warming,News,Magazin
-- slug: cambridge-ip
-  name: Cambridge IP
-  description: >-
-    Boliven hosts a searchable online database of over 100 million scientific
-    documents. &nbsp;The site is targeted to both end users of science
-    literature and patents, and to information professionals. Boliven enables
-    professionals to rapidly identify novel technologies, clients, partners,
-    commercialisation opportunities and ideas. The company&rsquo;s BolivenPRO
-    service gives users the ability to search and systemise the Boliven
-    database, analyse results using powerful analytic tools, download and share
-    relevant work lists.
-  url: 'http://www.boliven.com/bws/patents_api'
-  short_url: ''
-  twitter: 'https://twitter.com/cambridgeip'
   blog: ''
   blog_rss: ''
   github: ''
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/709_logo.jpg
-  tags: 'Data,Patents,Patents,Sciene,USPTO,API United Kingdom'
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apache-avro.png
+  tags: Definitions
+- slug: api-blueprint
+  name: API Blueprint
+  description: >-
+    API Blueprint is a documentation-oriented API description language. A couple
+    of semantic assumptions over the plain Markdown. API Blueprint is perfect
+    for designing your Web API and its comprehensive documentation but also for
+    quick prototyping and collaboration. It is easy to learn and even easier to
+    read &ndash; after all it is just a form of plain text.
+  url: 'https://apiblueprint.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/apiblueprint'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/apiaryio/api-blueprint'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/apiblueprint-logo-2.png
+  tags: Definitions
+- slug: api-transformer
+  name: API Transformer
+  description: >-
+    Transform API Descriptions from/to various formats e.g., Swagger, API
+    Blueprint, RAML, WADL, Google Discovery, I/O Docs. Please contact us for
+    production and high volume usage.
+  url: 'https://apitransformer.com/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-transformer-screenshot.png
+  tags: 'Definitions,Conversion,My API Stack'
+- slug: elastic-path
+  name: Elastic Path
+  description: >-
+    Elastic Path builds commerce software that powers the next generation of
+    digital experiences, helping businesses generate more revenue from their
+    goods, services, and content. Our products, including Commerce Engine,
+    Cortex, and Subscriptions, enable companies to unite discovery, buying, and
+    consumption into outstanding customer experiences that drive more engagement
+    and conversion.
+  url: 'http://www.elasticpath.com'
+  short_url: ''
+  twitter: 'https://twitter.com/elasticpath'
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/elasticpath'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/elastic-path.jpeg
+  tags: 'Enterprise,Retail,Commerce,Hypermedia,API LIfeycle,Definitions'
+- slug: frictionless-data
+  name: Frictionless Data
+  description: >-
+    Data Packages are a lightweight containerization format for data. They
+    provide the foundation for frictionless data transport.&nbsp;Tools and
+    integrations to make it easy to integrate Data Packages into your data
+    processing and publishing workflows.&nbsp;Learn how to get started using and
+    developing with Data Packages through our guides, tutorials and
+    documentation.
+  url: 'http://specs.frictionlessdata.io/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: 'https://github.com/frictionlessdata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/frictionlessdata-logo.png
+  tags: 'Data,Schema,Definitions'
+- slug: postman
+  name: Postman
+  description: >-
+    Postman on Chrome is the most efficient way to test, develop and document
+    APIs. Create complex requests, go back in time and view results in a
+    beautiful way. Postman has more than 80 features to help you at every
+    step.&nbsp;Our user base is growing rapidly and with more tools in the
+    pipeline, Postman aims to provide the most comprehensive API development and
+    testing solution to developers.
+  url: 'http://www.getpostman.com/'
+  short_url: ''
+  twitter: 'https://twitter.com/postmanclient'
+  blog: 'http://blog.getpostman.com/'
+  blog_rss: 'http://blog.getpostman.com/index.php/feed/'
+  github: 'https://github.com/postmanlabs'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postman-rest-logo.png
+  tags: 'Clients, Testing, Definitions'
+- slug: google-api-discovery-service
+  name: Google API Discovery Service
+  description: >-
+    You can use the Google API Discovery Service to build client libraries, IDE
+    plugins, and other tools that interact with Google APIs. It provides a
+    lightweight, JSON-based API that exposes machine-readable metadata about
+    Google APIs.
+  url: 'https://developers.google.com/discovery/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
+    Shot 2017-03-16 at 9.06.47 PM.png
+  tags: 'Discovery,Google APIs,Definitions'
+- slug: odata.org
+  name: OData
+  description: >-
+    OData (Open Data Protocol) is an OASIS standard that defines the best
+    practice for building and consuming RESTful APIs. OData helps you focus on
+    your business logic while building RESTful APIs without having to worry
+    about the approaches to define request and response headers, status codes,
+    HTTP methods, URL conventions, media types, payload formats and query
+    options etc.
+  url: 'http://www.odata.org/'
+  short_url: 'http://apis.how/byirz5zgt7'
+  twitter: 'https://twitter.com/odataorg'
+  blog: 'http://www.odata.org/blog/'
+  blog_rss: ''
+  github: 'https://github.com/odata'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/odata-logo.png
+  tags: Definitions
+- slug: openapi-spec
+  name: OpenAPIs
+  description: >-
+    The Open API Initiative (OAI) was created by a consortium of forward-looking
+    industry experts who recognize the immense value of standardizing on how
+    REST APIs are described. As an open governance structure under the Linux
+    Foundation, the OAI is focused on creating, evolving and promoting a vendor
+    neutral description format. SmartBear Software is donating the Swagger
+    Specification directly to the OAI as the basis of this Open Specification.
+    &nbsp;
+  url: 'https://openapis.org/'
+  short_url: ''
+  twitter: 'https://twitter.com/openapispec'
+  blog: 'https://openapis.org/news-faq/blog'
+  blog_rss: 'https://www.openapis.org/feed'
+  github: 'https://github.com/OAI'
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oai-logo.png
+  tags: Definitions
+- slug: raml
+  name: RAML
+  description: >-
+    RESTful API Modeling Language (RAML) is a simple and succinct way of
+    describing practically-RESTful APIs. It encourages reuse, enables discovery
+    and pattern-sharing, and aims for merit-based emergence of best practices.
+    The goal is to help our current API ecosystem by solving immediate problems
+    and then encourage ever-better API patterns. RAML is built on broadly-used
+    standards such as YAML and JSON and is a non-proprietary, vendor-neutral
+    open spec.
+  url: 'http://raml.org/'
+  short_url: ''
+  twitter: ''
+  blog: 'http://open-raml.blogspot.com/'
+  blog_rss: 'http://open-raml.blogspot.com/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/raml-logo.jpg
+  tags: Definitions
+- slug: ''
+  name: RESTdesc
+  description: >-
+    Semantic descriptions for hypermedia APIs. RESTdesc allows you to capture
+    the functionality of hypermedia APIs, so automated agents can use them.
+    Despite their powerful capabilities, RESTdesc descriptions are easy to
+    master. Description is not a goal in itself: you want your API to be used.
+    See how RESTdesc opens up your API for discovery, based on its functional
+    characteristics.
+  url: 'http://restdesc.org/'
+  short_url: 'http://apis.how/vymksgxgfl'
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restdesc-logo.png
+  tags: Definitions
+- slug: schema.org
+  name: Schema.org
+  description: >-
+    Schema.org is a collaborative, community activity with a mission to create,
+    maintain, and promote schemas for structured data on the Internet, on web
+    pages, in email messages, and beyond. Schema.org vocabulary can be used with
+    many different encodings, including RDFa, Microdata and JSON-LD.&nbsp;
+  url: 'http://schema.org'
+  short_url: ''
+  twitter: ''
+  blog: 'http://blog.schema.org/'
+  blog_rss: 'http://blog.schema.org/feeds/posts/default?alt=rss'
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schema-org-logo.jpeg
+  tags: 'Definitions, Schema'
+- slug: u.s.-data-federation
+  name: U.S. Data Federation
+  description: >-
+    The U.S. Data Federation supports data interoperability and harmonization
+    across Federal, state, and local government agencies by highlighting common
+    data formats, API specifications, and metadata vocabularies.
+  url: 'http://federation.data.gov/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/usdf-logo.png
+  tags: 'Federal Government,Definitions'
